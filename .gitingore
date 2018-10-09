@@ -1,0 +1,6 @@
+.DS_Store
+*.log
+*.gz
+agujournaltemplate.tex
+*.bak
+si template 2018.tex
