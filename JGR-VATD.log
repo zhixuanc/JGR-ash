@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  26 DEC 2020 22:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  27 DEC 2020 14:26
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -752,21 +752,21 @@ sults with 3D mod-els for
  []
 
 
-Overfull \hbox (3.96008pt too wide) in paragraph at lines 198--199
-\OT1/cmr/m/n/10 plumes that are much in-flu-ence by wind, of-ten called weak pl
-umes, much greater vari- 
+Overfull \hbox (3.4046pt too wide) in paragraph at lines 198--199
+\OT1/cmr/m/n/10 plumes that are dom-i-nated by wind (of-ten called weak plumes)
+ much greater vari-abil- 
  []
 
 
-Overfull \hbox (3.37682pt too wide) in paragraph at lines 198--199
-\OT1/cmr/m/n/10 abil-ity is ob-served for strong plume sce-nar-ios (Costa et al
-.[], 2016). On the other hand, 
+Overfull \hbox (3.2379pt too wide) in paragraph at lines 198--199
+\OT1/cmr/m/n/10 ity is ob-served for strong plume sce-nar-ios (Costa et al.[], 
+2016). On the other hand, 3D 
  []
 
 
-Overfull \hbox (44.04355pt too wide) in paragraph at lines 198--199
-\OT1/cmr/m/n/10 3D nu-mer-i-cal mod-els for vol-canic plumes based on first pri
-n-ci-ples and hav-ing few parametrized 
+Overfull \hbox (28.0713pt too wide) in paragraph at lines 198--199
+\OT1/cmr/m/n/10 nu-mer-i-cal mod-els for vol-canic plumes based on first prin-c
+i-ples and hav-ing few parametrized 
  []
 
 
@@ -776,9 +776,9 @@ Overfull \hbox (4.04346pt too wide) in paragraph at lines 198--199
  []
 
 
-Overfull \hbox (15.0713pt too wide) in paragraph at lines 198--199
+Overfull \hbox (18.40466pt too wide) in paragraph at lines 198--199
 \OT1/cmr/m/n/10 nara, Es-posti On-garo, & Berselli, 2016; Cao et al.[], 2018) n
-a-turely cre-ate a 3D ash cloud, 
+at-u-rally cre-ate a 3D ash cloud, 
  []
 
 
@@ -1783,27 +1783,26 @@ con-di-tion might greatly com-pro-
 
 
 Package natbib Warning: Citation `whitaker2004reanalysis' on page 8 undefined o
-n input line 356.
+n input line 357.
 
 
 Package natbib Warning: Citation `compo2006feasibility' on page 8 undefined on 
-input line 356.
+input line 357.
 
 
 Package natbib Warning: Citation `compo2011twentieth' on page 8 undefined on in
-put line 356.
+put line 357.
 
 
-Overfull \hbox (9.37675pt too wide) in paragraph at lines 356--357
-[]\OT1/cmr/m/n/10 We do not carry out any in-ves-ti-ga-tion with re-spect to wi
-nd field even though it is 
+Overfull \hbox (15.79341pt too wide) in paragraph at lines 357--358
+[]\OT1/cmr/m/n/10 In this pa-per, we do not carry out any in-ves-ti-ga-tion wit
+h re-spect to wind field even 
  []
 
 
-Overfull \hbox (80.90317pt too wide) in paragraph at lines 356--357
-\OT1/cmr/m/n/10 an-other dom-i-nant fac-tor in VATD sim-u-la-tion. In the case 
-study, we use global $\OML/cmm/m/it/10 NOAA=OAR=ESRL\OT1/cmr/m/n/10 6 \OMS/cmsy
-/m/n/10 ^^@ 
+Overfull \hbox (24.48793pt too wide) in paragraph at lines 357--358
+\OT1/cmr/m/n/10 though it is an-other dom-i-nant fac-tor in VATD sim-u-la-tion.
+ In the case study, we use global 
  []
 
 
@@ -1812,91 +1811,91 @@ Underfull \vbox (badness 4819) has occurred while \output is active []
  [8 <./Figures/199106180441-ash-5hr-cut15000.jpg> <./Figures/199106180441-ash-9
 hr-cut15000.jpg> <./Figures/199106180441-ash-11hr-cut15000.jpg> <./Figures/1991
 06180441-ash-9hr-cut1500.jpg>]
-Overfull \hbox (13.04356pt too wide) in paragraph at lines 360--362
+Overfull \hbox (13.04356pt too wide) in paragraph at lines 361--363
 []\OT1/cmr/m/n/10 Transportation of vol-canic ash re-sulted from Pinatubo erup-
 tion on June 15th 1991 
  []
 
 
-Overfull \hbox (13.2657pt too wide) in paragraph at lines 360--362
+Overfull \hbox (13.2657pt too wide) in paragraph at lines 361--363
 \OT1/cmr/m/n/10 is sim-u-lated us-ing two dif-fer-ent ini-tial con-di-tions. Th
 e ini-tial con-di-tion is cre-ated in tra- 
  []
 
 
-Overfull \hbox (10.26572pt too wide) in paragraph at lines 360--362
+Overfull \hbox (10.26572pt too wide) in paragraph at lines 361--363
 \OT1/cmr/m/n/10 di-tional way ac-cord-ing to key global de-scrip-tors and semie
 m-pir-i-cal plume shape ex-pres- 
  []
 
 
-Overfull \hbox (11.04347pt too wide) in paragraph at lines 360--362
+Overfull \hbox (11.04347pt too wide) in paragraph at lines 361--363
 \OT1/cmr/m/n/10 sion. The sec-ond ini-tial con-di-tion is cre-ated by the new m
 ethod pro-posed in this pa-per. 
  []
 
 
-Overfull \hbox (17.98788pt too wide) in paragraph at lines 387--388
+Overfull \hbox (17.98788pt too wide) in paragraph at lines 388--389
 []\OT1/cmr/m/n/10 To cre-ate ini-tial con-di-tion us-ing the new method de-scri
 bed in this pa-per, the plume 
  []
 
 
-Overfull \hbox (6.54346pt too wide) in paragraph at lines 387--388
+Overfull \hbox (6.54346pt too wide) in paragraph at lines 388--389
 \OT1/cmr/m/n/10 rais-ing up pro-cess is sim-u-lated first by Plume-SPH. The eru
 p-tion pa-ram-e-ters, ma-te-rial 
  []
 
 
-Overfull \hbox (10.07127pt too wide) in paragraph at lines 387--388
+Overfull \hbox (10.07127pt too wide) in paragraph at lines 388--389
 \OT1/cmr/m/n/10 prop-er-ties and at-mo-sphere for the strong plume no wind case
  in a com-par-i-son study on 
  []
 
 
-Overfull \hbox (7.18245pt too wide) in paragraph at lines 387--388
+Overfull \hbox (7.18245pt too wide) in paragraph at lines 388--389
 \OT1/cmr/m/n/10 erup-tive col-umn mod-els (Costa et al.[], 2016) are adopted. E
 rup-tion con-di-tions and ma- 
  []
 
 
-Overfull \hbox (5.73787pt too wide) in paragraph at lines 387--388
+Overfull \hbox (5.73787pt too wide) in paragraph at lines 388--389
 \OT1/cmr/m/n/10 te-rial prop-er-ties are listed in Ta-ble 3[]. Note that the de
 n-sity of erupted ma-te-rial at the 
  []
 
 
-Overfull \hbox (6.48792pt too wide) in paragraph at lines 387--388
+Overfull \hbox (6.48792pt too wide) in paragraph at lines 388--389
 \OT1/cmr/m/n/10 vent and ra-dius of the vent can be com-puted from the given pa
 -ram-e-ters. The erup-tion 
  []
 
 
-Overfull \hbox (8.01553pt too wide) in paragraph at lines 387--388
+Overfull \hbox (8.01553pt too wide) in paragraph at lines 388--389
 \OT1/cmr/m/n/10 pres-sure is as-sumed to be the same as pres-sure of am-bi-ent 
 at the vent and hence is not 
  []
 
 
-Overfull \hbox (4.40453pt too wide) in paragraph at lines 387--388
+Overfull \hbox (4.40453pt too wide) in paragraph at lines 388--389
 \OT1/cmr/m/n/10 given in the ta-ble. The ver-ti-cal pro-files of at-mo-spheric 
 prop-er-ties were ob-tained based 
  []
 
 
-Overfull \hbox (22.7935pt too wide) in paragraph at lines 387--388
+Overfull \hbox (22.7935pt too wide) in paragraph at lines 388--389
 \OT1/cmr/m/n/10 on the re-anal-y-sis data from ECMWF (Eu-ro-pean Cen-tre for Me
 dium-Range Weather Fore- 
  []
 
 
-Overfull \hbox (15.90463pt too wide) in paragraph at lines 387--388
+Overfull \hbox (15.90463pt too wide) in paragraph at lines 388--389
 \OT1/cmr/m/n/10 casts) for the pe-riod cor-re-spond-ing to the cli-mac-tic phas
 e of the Pinatubo erup-tion. The 
  []
 
 
-Overfull \hbox (12.1824pt too wide) in paragraph at lines 387--388
+Overfull \hbox (12.1824pt too wide) in paragraph at lines 388--389
 \OT1/cmr/m/n/10 ini-tial ash cloud is ob-tained by pro-cess-ing the raw out-put
  of Plume-SPH fol-low-ing steps 
  []
@@ -1904,64 +1903,64 @@ Overfull \hbox (12.1824pt too wide) in paragraph at lines 387--388
 [9 <./Figures/trajplot_test3_10_30K_ok.pdf>]
 
 Package natbib Warning: Citation `bursik2012estimation' on page 10 undefined on
- input line 389.
+ input line 390.
 
 
-Overfull \hbox (17.06664pt too wide) in paragraph at lines 389--390
+Overfull \hbox (17.06664pt too wide) in paragraph at lines 390--391
 []\OT1/cmr/m/n/10 Another set of ini-tial con-di-tion is cre-ated based on ob-s
 erved top height ($40\OML/cmm/m/it/10 km$\OT1/cmr/m/n/10 ) and 
  []
 
 
-Overfull \hbox (2.25171pt too wide) in paragraph at lines 389--390
+Overfull \hbox (2.25171pt too wide) in paragraph at lines 390--391
 \OT1/cmr/m/n/10 sev-eral other pa-ram-e-ters as-signed semiem-pir-i-cally (\OT1
 /cmr/bx/n/10 ?\OT1/cmr/m/n/10 ). These pa-ram-e-ters, namely, the 
  []
 
 
-Overfull \hbox (11.87679pt too wide) in paragraph at lines 389--390
+Overfull \hbox (11.87679pt too wide) in paragraph at lines 390--391
 \OT1/cmr/m/n/10 global de-scrip-tors of vol-canic plume, are used as pa-ram-e-t
 ers of semiem-pir-i-cal ex-pres-sion 
  []
 
 
-Overfull \hbox (19.26567pt too wide) in paragraph at lines 389--390
+Overfull \hbox (19.26567pt too wide) in paragraph at lines 390--391
 \OT1/cmr/m/n/10 to get ash cloud in 3D space. See de-tails in Ta-ble 4[]. Ex-ce
 pt for ini-tial con-di-tion, the sim- 
  []
 
 
-Overfull \hbox (13.23795pt too wide) in paragraph at lines 389--390
+Overfull \hbox (13.23795pt too wide) in paragraph at lines 390--391
 \OT1/cmr/m/n/10 u-la-tion pa-ram-e-ters that con-trol VATD sim-u-la-tion are th
 e same for both sim-u-la-tions. As 
  []
 
 
-Overfull \hbox (4.1267pt too wide) in paragraph at lines 389--390
+Overfull \hbox (4.1267pt too wide) in paragraph at lines 390--391
 \OT1/cmr/m/n/10 has been shown in sen-si-tiv-ity anal-y-ses sec-tion, these pa-
 ram-e-ters have less in-flu-ence on 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--393
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
 []\OT1/cmr/bx/n/9 Table 4. \OT1/cmr/m/n/9 Pa-ram-e-ters used in VATD sim-u-la-t
 ion of the cli-mac-tic phase of Pinatubo erup-tion on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--393
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
 \OT1/cmr/m/n/9 June 15 1991. The first six pa-ram-e-ters are used by semiem-pir
 -i-cal ex-pres-sion to cre-ate ini-tial ash
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--393
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
 \OT1/cmr/m/n/9 cloud. When cre-ate ini-tial con-di-tion based on Plume-SPH mode
 l, these pa-ram-e-ters are ex-tracted
  []
 
 
-Overfull \hbox (8.68234pt too wide) in paragraph at lines 419--420
+Overfull \hbox (8.68234pt too wide) in paragraph at lines 420--421
 []\OT1/cmr/m/n/10 The sim-u-la-tion re-sults us-ing dif-fer-ent ini-tial con-di
 -tions are com-pared with TOMS 
  []
@@ -1970,14 +1969,14 @@ Overfull \hbox (8.68234pt too wide) in paragraph at lines 419--420
 File: Figures/bent-23hr-ash.jpg Graphic file (type jpg)
 
 <use Figures/bent-23hr-ash.jpg>
-Package pdftex.def Info: Figures/bent-23hr-ash.jpg used on input line 425.
+Package pdftex.def Info: Figures/bent-23hr-ash.jpg used on input line 426.
 (pdftex.def)             Requested size: 127.89029pt x 72.0777pt.
 
 <Figures/SPH-Plume-23hr-ash.jpg, id=367, 1766.6pt x 995.72pt>
 File: Figures/SPH-Plume-23hr-ash.jpg Graphic file (type jpg)
 
 <use Figures/SPH-Plume-23hr-ash.jpg>
-Package pdftex.def Info: Figures/SPH-Plume-23hr-ash.jpg used on input line 429.
+Package pdftex.def Info: Figures/SPH-Plume-23hr-ash.jpg used on input line 430.
 
 (pdftex.def)             Requested size: 127.89029pt x 72.0777pt.
 
@@ -1985,21 +1984,21 @@ Package pdftex.def Info: Figures/SPH-Plume-23hr-ash.jpg used on input line 429.
 File: Figures/OB-ash-23hr-ash.png Graphic file (type png)
 
 <use Figures/OB-ash-23hr-ash.png>
-Package pdftex.def Info: Figures/OB-ash-23hr-ash.png used on input line 433.
+Package pdftex.def Info: Figures/OB-ash-23hr-ash.png used on input line 434.
 (pdftex.def)             Requested size: 127.89029pt x 84.06094pt.
 
 <Figures/bent-31hr-ash.jpg, id=370, 1766.6pt x 995.72pt>
 File: Figures/bent-31hr-ash.jpg Graphic file (type jpg)
 
 <use Figures/bent-31hr-ash.jpg>
-Package pdftex.def Info: Figures/bent-31hr-ash.jpg used on input line 438.
+Package pdftex.def Info: Figures/bent-31hr-ash.jpg used on input line 439.
 (pdftex.def)             Requested size: 127.89029pt x 72.0777pt.
 
 <Figures/SPH-Plume-31hr-ash.jpg, id=371, 1766.6pt x 995.72pt>
 File: Figures/SPH-Plume-31hr-ash.jpg Graphic file (type jpg)
 
 <use Figures/SPH-Plume-31hr-ash.jpg>
-Package pdftex.def Info: Figures/SPH-Plume-31hr-ash.jpg used on input line 442.
+Package pdftex.def Info: Figures/SPH-Plume-31hr-ash.jpg used on input line 443.
 
 (pdftex.def)             Requested size: 127.89029pt x 72.0777pt.
 
@@ -2007,21 +2006,21 @@ Package pdftex.def Info: Figures/SPH-Plume-31hr-ash.jpg used on input line 442.
 File: Figures/OB-ash-31hr-ash.png Graphic file (type png)
 
 <use Figures/OB-ash-31hr-ash.png>
-Package pdftex.def Info: Figures/OB-ash-31hr-ash.png used on input line 446.
+Package pdftex.def Info: Figures/OB-ash-31hr-ash.png used on input line 447.
 (pdftex.def)             Requested size: 127.89029pt x 83.5344pt.
 
 <Figures/bent-55hr-ash.jpg, id=373, 1766.6pt x 995.72pt>
 File: Figures/bent-55hr-ash.jpg Graphic file (type jpg)
 
 <use Figures/bent-55hr-ash.jpg>
-Package pdftex.def Info: Figures/bent-55hr-ash.jpg used on input line 451.
+Package pdftex.def Info: Figures/bent-55hr-ash.jpg used on input line 452.
 (pdftex.def)             Requested size: 127.89029pt x 72.0777pt.
 
 <Figures/SPH-Plume-55hr-ash.jpg, id=374, 1766.6pt x 995.72pt>
 File: Figures/SPH-Plume-55hr-ash.jpg Graphic file (type jpg)
 
 <use Figures/SPH-Plume-55hr-ash.jpg>
-Package pdftex.def Info: Figures/SPH-Plume-55hr-ash.jpg used on input line 455.
+Package pdftex.def Info: Figures/SPH-Plume-55hr-ash.jpg used on input line 456.
 
 (pdftex.def)             Requested size: 127.89029pt x 72.0777pt.
 
@@ -2029,266 +2028,254 @@ Package pdftex.def Info: Figures/SPH-Plume-55hr-ash.jpg used on input line 455.
 File: Figures/OB-ash-55hr-ash.png Graphic file (type png)
 
 <use Figures/OB-ash-55hr-ash.png>
-Package pdftex.def Info: Figures/OB-ash-55hr-ash.png used on input line 459.
+Package pdftex.def Info: Figures/OB-ash-55hr-ash.png used on input line 460.
 (pdftex.def)             Requested size: 127.89029pt x 84.13324pt.
 
 
 Package natbib Warning: Citation `guo2004particles' on page 10 undefined on inp
-ut line 461.
+ut line 462.
 
 
 Package natbib Warning: Citation `guo2004particles' on page 10 undefined on inp
-ut line 461.
+ut line 462.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--461
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 []\OT1/cmr/bx/n/9 Figure  7. \OT1/cmr/m/n/9 Com-par-i-son be-tween ``Semiem-pir
 -i-cal ini-tial cloud + Puff" and ``Plume-SPH +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--461
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 \OT1/cmr/m/n/9 Puff". Pic-tures from left to right are: Puff sim-u-la-tion base
 d on ini-tial con-di-tion cre-ated ac-cord-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--461
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 \OT1/cmr/m/n/9 to semiem-pir-i-cal plume shape ex-pres-sion, Puff sim-u-la-tion
  based on ini-tial con-di-tion gen-er-ated by
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--461
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 \OT1/cmr/m/n/9 Plume-SPH, TOMS or AVHRR im-age of Pinatubo ash cloud. Ash cloud
 s at dif-fer-ent hours af-ter
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--461
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 \OT1/cmr/m/n/9 erup-tion are on dif-fer-ent rows. From top to bot-tom, the im-a
 ges are cor-re-spond-ing to around 23
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--461
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 \OT1/cmr/m/n/9 hours af-ter erup-tion (UT 199106160341), 31 hours af-ter erup-t
 ion (UT 199106161141), 55 hours
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--461
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 \OT1/cmr/m/n/9 af-ter erup-tion (UT 199106171141). The ob-ser-va-tion data on t
 he first row are TOMS ash and ice
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--461
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 \OT1/cmr/m/n/9 map. The ob-ser-va-tion data on the sec-ond and third row are AV
 HRR BTD ash cloud map with
  []
 
 
-Overfull \hbox (23.62682pt too wide) in paragraph at lines 465--467
+Overfull \hbox (23.62682pt too wide) in paragraph at lines 466--468
 []\OT1/cmr/m/n/10 The dif-fer-ences be-tween sim-u-lated ash trans-porta-tion b
 y ``Semiem-pir-i-cal ini-tial cloud 
  []
 
 
-Overfull \hbox (12.07135pt too wide) in paragraph at lines 465--467
+Overfull \hbox (12.07135pt too wide) in paragraph at lines 466--468
 \OT1/cmr/m/n/10 +Puff" and ``Plume-SPH+Puff" are ob-vi-ous. The sim-u-lated ash
  con-cen-tra-tion based on 
  []
 
 
-Overfull \hbox (11.84908pt too wide) in paragraph at lines 465--467
+Overfull \hbox (11.84908pt too wide) in paragraph at lines 466--468
 \OT1/cmr/m/n/10 ini-tial con-di-tion cre-ated from Plume-SPH is much closer to 
 ob-ser-va-tion than that based 
  []
 
 
-Overfull \hbox (5.07126pt too wide) in paragraph at lines 465--467
+Overfull \hbox (5.07126pt too wide) in paragraph at lines 466--468
 \OT1/cmr/m/n/10 on semiem-pir-i-cal plume shape ex-pres-sion. Around 23 hours a
 nd 31 hours af-ter the be- 
  []
 
 
-Overfull \hbox (0.57129pt too wide) in paragraph at lines 465--467
+Overfull \hbox (0.57129pt too wide) in paragraph at lines 466--468
 \OT1/cmr/m/n/10 gin-ning of the cli-mac-tic phase, ``Plume-SPH + Puff" sim-u-la
 -tion gen-er-ates ash im-ages 
  []
 
 
-Overfull \hbox (3.71014pt too wide) in paragraph at lines 465--467
+Overfull \hbox (3.71014pt too wide) in paragraph at lines 466--468
 \OT1/cmr/m/n/10 that gen-er-ally close to ob-ser-va-tional im-age, es-pe-cially
  the lo-ca-tion where high con-cen- 
  []
 
 
-Overfull \hbox (2.46007pt too wide) in paragraph at lines 465--467
+Overfull \hbox (2.46007pt too wide) in paragraph at lines 466--468
 \OT1/cmr/m/n/10 tra-tion ash presents. How-ever, these ash at near west to Pina
 tubo moun-tain ob-served 
  []
 
 
-Overfull \hbox (0.46013pt too wide) in paragraph at lines 465--467
+Overfull \hbox (0.46013pt too wide) in paragraph at lines 466--468
 \OT1/cmr/m/n/10 in satel-lite im-ages does not show up in ``Plume-SPH + Puff" s
 im-u-la-tion re-sults. This 
  []
 
 
-Overfull \hbox (6.40463pt too wide) in paragraph at lines 465--467
+Overfull \hbox (6.40463pt too wide) in paragraph at lines 466--468
 \OT1/cmr/m/n/10 dis-par-ity is very pos-si-ble due to the fact that the Moun-ta
 in Pinatubo con-tin-ued erupt- 
  []
 
 
-Overfull \hbox (3.51567pt too wide) in paragraph at lines 465--467
+Overfull \hbox (3.51567pt too wide) in paragraph at lines 466--468
 \OT1/cmr/m/n/10 ing af-ter cli-mac-tic phase while our sim-u-la-tion only sim-u
 -lates the cli-mac-tic phase. The 
  []
 
 
-Overfull \hbox (27.29343pt too wide) in paragraph at lines 465--467
+Overfull \hbox (27.29343pt too wide) in paragraph at lines 466--468
 \OT1/cmr/m/n/10 ash re-leased af-ter cli-mac-tic phase is not ac-counted in our
  sim-u-la-tion re-sults. The ``Semiem- 
  []
 
 
-Overfull \hbox (13.79355pt too wide) in paragraph at lines 465--467
+Overfull \hbox (13.79355pt too wide) in paragraph at lines 466--468
 \OT1/cmr/m/n/10 pir-i-cal ini-tial cloud + Puff" sim-u-la-tion, how-ever, fore-
 casts an ash dis-tri-bu-tion faster and 
  []
 
 
-Overfull \hbox (11.37677pt too wide) in paragraph at lines 465--467
+Overfull \hbox (11.37677pt too wide) in paragraph at lines 466--468
 \OT1/cmr/m/n/10 nar-rower than ob-ser-va-tion. The lo-ca-tion, where the high c
 on-cen-tra-tion ash presents, lo- 
  []
 
 
-Overfull \hbox (5.84901pt too wide) in paragraph at lines 465--467
+Overfull \hbox (5.84901pt too wide) in paragraph at lines 466--468
 \OT1/cmr/m/n/10 cates to the far north-west of ob-served ash. Around 55 hours a
 f-ter the be-gin-ning of the 
  []
 
 
-Overfull \hbox (4.65459pt too wide) in paragraph at lines 465--467
+Overfull \hbox (4.65459pt too wide) in paragraph at lines 466--468
 \OT1/cmr/m/n/10 cli-mac-tic phase, the dis-par-ity be-tween ob-ser-va-tion and 
 sim-u-la-tion be-comes more ob-vi- 
  []
 
 
-Overfull \hbox (13.46024pt too wide) in paragraph at lines 465--467
+Overfull \hbox (13.46024pt too wide) in paragraph at lines 466--468
 \OT1/cmr/m/n/10 ous. Ash dis-tri-bu-tion of ``Semiem-pir-i-cal ini-tial cloud +
  Puff" sim-u-la-tion lo-cates far west 
  []
 
 
-Overfull \hbox (2.46017pt too wide) in paragraph at lines 465--467
+Overfull \hbox (2.46017pt too wide) in paragraph at lines 466--468
 \OT1/cmr/m/n/10 to the ob-served ash. The high con-cen-tra-tion area of ``Plume
 -SPH + Puff" sim-u-la-tion, 
  []
 
 
-Overfull \hbox (1.6269pt too wide) in paragraph at lines 465--467
+Overfull \hbox (1.6269pt too wide) in paragraph at lines 466--468
 \OT1/cmr/m/n/10 even though closer to ob-ser-va-tion than that of ``Semiem-pir-
 i-cal ini-tial cloud +Puff", is 
  []
 
 [10]
-Overfull \hbox (14.71022pt too wide) in paragraph at lines 468--469
-[]\OT1/cmr/m/n/10 At the stage of ash trans-porta-tion sim-u-la-tion, ex-cept f
-or the ini-tial con-di-tion, both 
+Overfull \hbox (7.0713pt too wide) in paragraph at lines 469--470
+[]\OT1/cmr/m/n/10 Except for the ini-tial con-di-tion, both sim-u-la-tions adop
+t the same pa-ram-e-ters and 
  []
 
 
-Overfull \hbox (14.12685pt too wide) in paragraph at lines 468--469
-\OT1/cmr/m/n/10 sim-u-la-tions adopt the same pa-ram-e-ters and wind field data
-. That is to say, the only dif- 
+Overfull \hbox (9.37671pt too wide) in paragraph at lines 469--470
+\OT1/cmr/m/n/10 wind field data. That is to say, the only dif-fer-ence be-tween
+ these two sim-u-la-tions is the 
  []
 
 
-Overfull \hbox (2.73782pt too wide) in paragraph at lines 468--469
-\OT1/cmr/m/n/10 fer-ence be-tween these two sim-u-la-tions is the ini-tial con-
-di-tion. Re-call the ini-tial con-di- 
+Overfull \hbox (12.23798pt too wide) in paragraph at lines 469--470
+\OT1/cmr/m/n/10 ini-tial con-di-tion. Re-call the ini-tial con-di-tion has most
+ sig-nif-i-cant in-flu-ence on ash trans- 
  []
 
 
-Overfull \hbox (6.54353pt too wide) in paragraph at lines 468--469
-\OT1/cmr/m/n/10 tion has most sig-nif-i-cant in-flu-ence on ash trans-porta-tio
-n sim-u-la-tion. It is very pos-si-ble 
+Overfull \hbox (3.04344pt too wide) in paragraph at lines 469--470
+\OT1/cmr/m/n/10 porta-tion sim-u-la-tion. It is there-fore very pos-si-ble that
+ the big dif-fer-ence be-tween sim- 
  []
 
 
-Overfull \hbox (11.87685pt too wide) in paragraph at lines 468--469
-\OT1/cmr/m/n/10 that the big dif-fer-ence be-tween sim-u-la-tion re-sults by ``
-Plume-SPH+Puff" and ``Semiem- 
- []
-
-
-Overfull \hbox (6.9325pt too wide) in paragraph at lines 468--469
-\OT1/cmr/m/n/10 pir-i-cal ini-tial cloud +Puff" is at-tribute to the ini-tial c
-on-di-tion. The ash trans-porta-tion 
- []
-
-
-Overfull \hbox (14.62682pt too wide) in paragraph at lines 468--469
-\OT1/cmr/m/n/10 sim-u-la-tion based on 3D plume sim-u-la-tion re-sults is much 
-more ac-cu-rate than that based 
+Overfull \hbox (7.23808pt too wide) in paragraph at lines 469--470
+\OT1/cmr/m/n/10 u-la-tion re-sults by ``Plume-SPH+Puff" and ``Semiem-pir-i-cal 
+ini-tial cloud +Puff" may be 
  []
 
 
 Package natbib Warning: Citation `holasek1996satellite' on page 11 undefined on
- input line 473.
+ input line 474.
 
 
 Package natbib Warning: Citation `holasek1996experiments' on page 11 undefined 
-on input line 473.
+on input line 474.
 
 
 Package natbib Warning: Citation `self1993atmospheric' on page 11 undefined on 
-input line 473.
+input line 474.
 
 
 Package natbib Warning: Citation `defoor1992early' on page 11 undefined on inpu
-t line 473.
+t line 474.
 
 
 Package natbib Warning: Citation `deshler1992balloonborne' on page 11 undefined
- on input line 473.
+ on input line 474.
 
 
 Package natbib Warning: Citation `fero2008simulation' on page 11 undefined on i
-nput line 473.
+nput line 474.
 
 
-Overfull \hbox (2.71004pt too wide) in paragraph at lines 472--474
+Overfull \hbox (2.71004pt too wide) in paragraph at lines 473--475
 []\OT1/cmr/m/n/10 In this sec-tion, we mainly dis-cuss the ver-ti-cal dis-tri-b
 u-tion of ash par-ti-cles in ini- 
  []
 
 
-Overfull \hbox (3.849pt too wide) in paragraph at lines 472--474
+Overfull \hbox (3.849pt too wide) in paragraph at lines 473--475
 \OT1/cmr/m/n/10 tial ash cloud. The ma-jor-ity of vol-canic ash par-ti-cles usu
 -ally present a lower el-e-va-tion 
  []
 
 
-Overfull \hbox (10.57132pt too wide) in paragraph at lines 472--474
+Overfull \hbox (10.57132pt too wide) in paragraph at lines 473--475
 \OT1/cmr/m/n/10 than max-i-mum height. For in-stance, \OT1/cmr/bx/n/10 ?? \OT1/
 cmr/m/n/10 re-ported the max-i-mum Pinatubo plume height 
  []
 
 
-Overfull \hbox (16.3397pt too wide) in paragraph at lines 472--474
+Overfull \hbox (16.3397pt too wide) in paragraph at lines 473--475
 \OT1/cmr/m/n/10 port the max-i-mum plume height could be $\OML/cmm/m/it/10 > \O
 T1/cmr/m/n/10 35\OML/cmm/m/it/10 km$ \OT1/cmr/m/n/10 and the plume heights are 
 $23 \OMS/cmsy/m/n/10 ^^X \OT1/cmr/m/n/10 28\OML/cmm/m/it/10 km$ 
  []
 
 
-Overfull \hbox (5.1175pt too wide) in paragraph at lines 472--474
+Overfull \hbox (5.1175pt too wide) in paragraph at lines 473--475
 \OT1/cmr/m/n/10 17 \OMS/cmsy/m/n/10 ^^X \OT1/cmr/m/n/10 28\OML/cmm/m/it/10 km$ 
 \OT1/cmr/m/n/10 (li-dar) by J^^?ager (1992), and $17 \OMS/cmsy/m/n/10 ^^X \OT1/
 cmr/m/n/10 25\OML/cmm/m/it/10 km$ \OT1/cmr/m/n/10 (li-dar) by Avdyushin et al.[
@@ -2296,168 +2283,165 @@ cmr/m/n/10 25\OML/cmm/m/it/10 km$ \OT1/cmr/m/n/10 (li-dar) by Avdyushin et al.[
  []
 
 
-Overfull \hbox (43.01581pt too wide) in paragraph at lines 472--474
+Overfull \hbox (43.01581pt too wide) in paragraph at lines 473--475
 \OT1/cmr/m/n/10 Based on com-par-i-son be-tween sim-u-lated cloud with early in
 -frared satel-lite im-ages of Pinatubo, 
  []
 
 
-Overfull \hbox (5.96475pt too wide) in paragraph at lines 472--474
+Overfull \hbox (5.96475pt too wide) in paragraph at lines 473--475
 \OT1/cmr/bx/n/10 ? \OT1/cmr/m/n/10 re-ported that the ma-jor-ity of ash was tra
 ns-ported be-tween $16\OML/cmm/m/it/10 km$ \OT1/cmr/m/n/10 and $18\OML/cmm/m/it
 /10 km$\OT1/cmr/m/n/10 . This is 
  []
 
 
-Overfull \hbox (19.73798pt too wide) in paragraph at lines 472--474
+Overfull \hbox (19.73798pt too wide) in paragraph at lines 473--475
 \OT1/cmr/m/n/10 phys-i-cally un-der-stand-able as par-ti-cles are con-cen-trate
 d along in-tru-sion height of um-brella 
  []
 
 
-Overfull \hbox (15.3768pt too wide) in paragraph at lines 472--474
+Overfull \hbox (15.3768pt too wide) in paragraph at lines 473--475
 \OT1/cmr/m/n/10 cloud, not near top be-cause the plume top is due to mo-men-tum
  over-shoot. How-ever, the 
  []
 
 
-Overfull \hbox (11.01567pt too wide) in paragraph at lines 472--474
+Overfull \hbox (11.01567pt too wide) in paragraph at lines 473--475
 \OT1/cmr/m/n/10 em-pir-i-cal ex-pres-sions for the height-MER re-la-tion, which
  are com-monly adopted to cre- 
  []
 
 
-Overfull \hbox (17.09903pt too wide) in paragraph at lines 472--474
+Overfull \hbox (17.09903pt too wide) in paragraph at lines 473--475
 \OT1/cmr/m/n/10 ate ini-tial con-di-tions for VATD sim-u-la-tion, tends to plac
 e ma-jor-ity of ash par-ti-cles closer 
  []
 
 
-Overfull \hbox (19.0989pt too wide) in paragraph at lines 475--477
+Overfull \hbox (19.0989pt too wide) in paragraph at lines 476--478
 []\OT1/cmr/m/n/10 Here we check two com-monly used plume shapes, the Pois-son a
 nd Suzuki. For Pois- 
  []
 
 
-Overfull \hbox (18.68236pt too wide) in paragraph at lines 475--477
+Overfull \hbox (18.68236pt too wide) in paragraph at lines 476--478
 \OT1/cmr/m/n/10 son plume shape, the ver-ti-cal height of ash par-ti-cles are d
 e-ter-mined ac-cord-ing to Eq. (2[]).  
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11]
-Overfull \hbox (14.21707pt too wide) in paragraph at lines 480--483
+Overfull \hbox (14.21707pt too wide) in paragraph at lines 481--484
 \OT1/cmr/m/n/10 where $\OML/cmm/m/it/10 P$ \OT1/cmr/m/n/10 is an in-te-gral val
 ue drawn from a Pois-son dis-tri-bu-tion of unit mean, $\OML/cmm/m/it/10 R$ \OT
 1/cmr/m/n/10 is a uni- 
  []
 
 
-Overfull \hbox (21.79674pt too wide) in paragraph at lines 480--483
+Overfull \hbox (21.79674pt too wide) in paragraph at lines 481--484
 \OT1/cmr/m/n/10 formly dis-tributed ran-dom num-ber be-tween 0 and 1, $\OML/cmm
 /m/it/10 H[]$ \OT1/cmr/m/n/10 is the max-i-mum plume height, 
  []
 
 
-Overfull \hbox (9.19067pt too wide) in paragraph at lines 480--483
+Overfull \hbox (9.19067pt too wide) in paragraph at lines 481--484
 \OML/cmm/m/it/10 H[]$ \OT1/cmr/m/n/10 rep-re-sents an ap-prox-i-mate ver-ti-cal
  range over which the ash will be dis-tributed. 
  []
 
 
-Overfull \hbox (8.40466pt too wide) in paragraph at lines 480--483
+Overfull \hbox (8.40466pt too wide) in paragraph at lines 481--484
 \OT1/cmr/m/n/10 For Suzuki plume shape (T. Suzuki et al.[], 1983), vol-cano ash
  mass ver-ti-cal dis-tri-bu-tion 
  []
 
-
-Overfull \hbox (19.14925pt too wide) in paragraph at lines 486--488
+[11]
+Overfull \hbox (19.14925pt too wide) in paragraph at lines 487--489
 \OT1/cmr/m/n/10 Where $\OML/cmm/m/it/10 Q[]$ \OT1/cmr/m/n/10 is the to-tal mass
  of erupted ma-te-rial, $\OML/cmm/m/it/10 k$ \OT1/cmr/m/n/10 is shape fac-tor, 
 which is an ad-justable 
  []
 
 
-Overfull \hbox (16.84213pt too wide) in paragraph at lines 486--488
+Overfull \hbox (16.84213pt too wide) in paragraph at lines 487--489
 \OT1/cmr/m/n/10 con-stant that con-trols ash dis-tri-bu-tion with height. A low
  value of $\OML/cmm/m/it/10 k$ \OT1/cmr/m/n/10 gives a roughly uni- 
  []
 
 
-Overfull \hbox (3.5921pt too wide) in paragraph at lines 486--488
+Overfull \hbox (3.5921pt too wide) in paragraph at lines 487--489
 \OT1/cmr/m/n/10 form dis-tri-bu-tion of mass with el-e-va-tion, while high val-
 ues of $\OML/cmm/m/it/10 k$ \OT1/cmr/m/n/10 con-cen-trate mass near 
  []
 
 
 Package natbib Warning: Citation `fero2008simulation' on page 12 undefined on i
-nput line 489.
+nput line 490.
 
 
-Overfull \hbox (6.93228pt too wide) in paragraph at lines 489--490
+Overfull \hbox (6.93228pt too wide) in paragraph at lines 490--491
 []\OT1/cmr/m/n/10 Particle dis-tri-bu-tion (in terms of mass per-cent-age or pa
 r-ti-cle num-ber per-cent-age) 
  []
 
 
-Overfull \hbox (8.849pt too wide) in paragraph at lines 489--490
+Overfull \hbox (8.849pt too wide) in paragraph at lines 490--491
 \OT1/cmr/m/n/10 in ver-ti-cal di-rec-tion in the ini-tial ash cloud are shown i
 n Fig. 8[]. In that fig-ure, the ver- 
  []
 
 
-Overfull \hbox (0.1546pt too wide) in paragraph at lines 489--490
+Overfull \hbox (0.1546pt too wide) in paragraph at lines 490--491
 \OT1/cmr/m/n/10 ti-cal par-ti-cle dis-tri-bu-tion based on Plume-SPH out-put is
  com-pared with ver-ti-cal par- 
  []
 
 
-Overfull \hbox (27.6824pt too wide) in paragraph at lines 489--490
+Overfull \hbox (27.6824pt too wide) in paragraph at lines 490--491
 \OT1/cmr/m/n/10 ti-cle dis-tri-bu-tion cre-ated based on semiepir-i-cal shape e
 x-pres-sions. Both Pois-son and Suzuki 
  []
 
 
-Overfull \hbox (15.29356pt too wide) in paragraph at lines 489--490
+Overfull \hbox (15.29356pt too wide) in paragraph at lines 490--491
 \OT1/cmr/m/n/10 max-i-mum height. When adopt-ing Pois-son plume shape, the ma-j
 or-ity of the par-ti-cles are 
  []
 
 
-Overfull \hbox (2.06192pt too wide) in paragraph at lines 489--490
+Overfull \hbox (2.06192pt too wide) in paragraph at lines 490--491
 \OT1/cmr/m/n/10 be-tween $30\OML/cmm/m/it/10 km \OMS/cmsy/m/n/10 ^^X \OT1/cmr/m
 /n/10 40\OML/cmm/m/it/10 km$\OT1/cmr/m/n/10 . Ob-vi-ously, Pois-son dis-tribute
 s ma-jor-ity ash at a much higher 
  []
 
 
-Overfull \hbox (16.05737pt too wide) in paragraph at lines 489--490
+Overfull \hbox (16.05737pt too wide) in paragraph at lines 490--491
 \OT1/cmr/m/n/10 el-e-va-tion than ob-ser-va-tions (e.g. \OT1/cmr/bx/n/10 ?\OT1/
 cmr/m/n/10 ). As for Suzuki, the ma-jor-ity of ash par-ti-cles also dis- 
  []
 
 
-Overfull \hbox (11.70561pt too wide) in paragraph at lines 489--490
+Overfull \hbox (11.70561pt too wide) in paragraph at lines 490--491
 \OT1/cmr/m/n/10 tribute in a range that sig-nif-i-cantly higher than $25\OML/cm
 m/m/it/10 km$\OT1/cmr/m/n/10 . As for ini-tial ash cloud based on 
  []
 
 
-Overfull \hbox (17.51111pt too wide) in paragraph at lines 489--490
+Overfull \hbox (17.51111pt too wide) in paragraph at lines 490--491
 \OT1/cmr/m/n/10 Plume-SPH sim-u-la-tion, the ma-jor pop-u-la-tion of ash par-ti
 -cles dis-tribute be-tween $17\OML/cmm/m/it/10 km \OMS/cmsy/m/n/10 ^^X 
  []
 
 
-Overfull \hbox (13.39996pt too wide) in paragraph at lines 489--490
+Overfull \hbox (13.39996pt too wide) in paragraph at lines 490--491
 \OT1/cmr/m/n/10 28\OML/cmm/m/it/10 km$\OT1/cmr/m/n/10 , which match well with o
 b-ser-va-tions. The max-i-mum height is also con-sis-tent with 
  []
 
 
-Overfull \hbox (4.87679pt too wide) in paragraph at lines 489--490
+Overfull \hbox (4.87679pt too wide) in paragraph at lines 490--491
 \OT1/cmr/m/n/10 ob-ser-va-tion. To sum-ma-rize, us-ing semiem-pir-i-cal plume s
 hape ex-pres-sion gen-er-ates un- 
  []
@@ -2471,7 +2455,7 @@ File: Figures/Plume-SPH-ParticleDis-NoTrucation-z.png Graphic file (type png)
 
 <use Figures/Plume-SPH-ParticleDis-NoTrucation-z.png>
 Package pdftex.def Info: Figures/Plume-SPH-ParticleDis-NoTrucation-z.png used o
-n input line 495.
+n input line 496.
 (pdftex.def)             Requested size: 97.19518pt x 121.4924pt.
 
 <Figures/Plume-SPH-ParticleDis-z.png, id=391, 562.1pt x 702.625pt>
@@ -2479,7 +2463,7 @@ File: Figures/Plume-SPH-ParticleDis-z.png Graphic file (type png)
 
 <use Figures/Plume-SPH-ParticleDis-z.png>
 Package pdftex.def Info: Figures/Plume-SPH-ParticleDis-z.png used on input line
- 499.
+ 500.
 (pdftex.def)             Requested size: 97.19518pt x 121.4924pt.
 
 <Figures/Possion-Hmax40k-ParticleDis-z.png, id=392, 562.1pt x 702.625pt>
@@ -2487,7 +2471,7 @@ File: Figures/Possion-Hmax40k-ParticleDis-z.png Graphic file (type png)
 
 <use Figures/Possion-Hmax40k-ParticleDis-z.png>
 Package pdftex.def Info: Figures/Possion-Hmax40k-ParticleDis-z.png used on inpu
-t line 503.
+t line 504.
 (pdftex.def)             Requested size: 97.19518pt x 121.4924pt.
 
 <Figures/Suzuki-Hmax40k-ParticleDis-z.png, id=393, 562.1pt x 702.625pt>
@@ -2495,125 +2479,125 @@ File: Figures/Suzuki-Hmax40k-ParticleDis-z.png Graphic file (type png)
 
 <use Figures/Suzuki-Hmax40k-ParticleDis-z.png>
 Package pdftex.def Info: Figures/Suzuki-Hmax40k-ParticleDis-z.png used on input
- line 507.
+ line 508.
 (pdftex.def)             Requested size: 97.19518pt x 121.4924pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 509--509
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
 []\OT1/cmr/bx/n/9 Figure  8. \OT1/cmr/m/n/9 Par-ti-cle dis-tri-bu-tion of ini-t
 ial ash cloud in ver-ti-cal di-rec-tion. The pic-ture to the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 509--509
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
 \OT1/cmr/m/n/9 left is cor-re-spond-ing to ini-tial ash cloud ob-tained from Pl
 ume-SPH out-put. The sec-ond pic-ture
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 509--509
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
 \OT1/cmr/m/n/9 is cor-re-spond-ing to ash dis-tri-bu-tion trun-cated by a el-e-
 va-tion thresh-old of $15000\OML/cmm/m/it/9 m$\OT1/cmr/m/n/9 . The third
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 509--509
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
 \OT1/cmr/m/n/9 pic-ture is for ver-ti-cal ash dis-tri-bu-tion based on Pois-son
  dis-tri-bu-tion with max-i-mum height equals
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 509--509
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
 \OT1/cmr/m/n/9 to $40000\OML/cmm/m/it/9 m$\OT1/cmr/m/n/9 . An-other pa-ram-e-te
 r, the ver-ti-cal spread, in the ex-pres-sion of Pois-son plume shape is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 509--509
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
 \OT1/cmr/m/n/9 6662\OML/cmm/m/it/9 m$\OT1/cmr/m/n/9 . The pic-ture to the right
  is cor-re-spond-ing to Suzuki dis-tri-bu-tion with max-i-mum height
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 509--509
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
 \OT1/cmr/m/n/9 equals to $40000\OML/cmm/m/it/9 m$\OT1/cmr/m/n/9 . An-other pa-r
 am-e-ter in Suzuki dis-tri-bu-tion, the shape fac-tor, is $4$. The $\OML/cmm/m/
 it/9 x$ \OT1/cmr/m/n/9 axis is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 509--509
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
 \OT1/cmr/m/n/9 the per-cent-age of par-ti-cle num-ber for Plume-SPH and Pois-so
 n. For Suzuki the $\OML/cmm/m/it/9 x$ \OT1/cmr/m/n/9 axis is the mass
  []
 
 
-Overfull \hbox (12.07126pt too wide) in paragraph at lines 513--514
+Overfull \hbox (12.07126pt too wide) in paragraph at lines 514--515
 []\OT1/cmr/m/n/10 For Pois-son and Suzuki plume shape, ver-ti-cal dis-tri-bu-ti
 on of ash par-ti-cles can't be 
  []
 
 
-Overfull \hbox (4.15468pt too wide) in paragraph at lines 513--514
+Overfull \hbox (4.15468pt too wide) in paragraph at lines 514--515
 \OT1/cmr/m/n/10 lower down with-out chang-ing the max-i-mum height. To dis-trib
 ute ma-jor pop-u-la-tion of 
  []
 
 
-Overfull \hbox (20.18236pt too wide) in paragraph at lines 513--514
+Overfull \hbox (20.18236pt too wide) in paragraph at lines 514--515
 \OT1/cmr/m/n/10 ash par-ti-cles at lower el-e-va-tion, the max-i-mum height has
  to be re-duced to a value smaller 
  []
 
 
-Overfull \hbox (7.15466pt too wide) in paragraph at lines 513--514
+Overfull \hbox (7.15466pt too wide) in paragraph at lines 514--515
 \OT1/cmr/m/n/10 than ob-served max-i-mum height. Ad-just-ing pa-ram-e-ters such
  as max-i-mum height in the 
  []
 
 
-Overfull \hbox (2.79349pt too wide) in paragraph at lines 513--514
+Overfull \hbox (2.79349pt too wide) in paragraph at lines 514--515
 \OT1/cmr/m/n/10 em-per-i-cal ex-pres-sion is ac-tu-ally the tra-di-tional sourc
 e term cal-i-bra-tion method. A set 
  []
 
 
-Overfull \hbox (4.40462pt too wide) in paragraph at lines 513--514
+Overfull \hbox (4.40462pt too wide) in paragraph at lines 514--515
 \OT1/cmr/m/n/10 of ini-tial ash clouds us-ing dif-fer-ent max-i-mum heights bas
 ed on Pois-son plume shape is 
  []
 
 
-Overfull \hbox (11.76573pt too wide) in paragraph at lines 513--514
+Overfull \hbox (11.76573pt too wide) in paragraph at lines 514--515
 \OT1/cmr/m/n/10 shown in Fig. 9[]). The max-i-mum heights adopted in plume shap
 e ex-pres-sions are, by no 
  []
 
 
-Overfull \hbox (11.87697pt too wide) in paragraph at lines 513--514
+Overfull \hbox (11.87697pt too wide) in paragraph at lines 514--515
 \OT1/cmr/m/n/10 means, ob-tained from any plume model or ob-ser-va-tion. Ex-cep
 t for max-i-mum height, all 
  []
 
 
-Overfull \hbox (26.98785pt too wide) in paragraph at lines 513--514
+Overfull \hbox (26.98785pt too wide) in paragraph at lines 514--515
 \OT1/cmr/m/n/10 other pa-ram-e-ters for cre-at-ing ini-tial ash cloud are the s
 ame as these in Ta-ble 4[]. The range, 
  []
 
 
-Overfull \hbox (23.349pt too wide) in paragraph at lines 513--514
+Overfull \hbox (23.349pt too wide) in paragraph at lines 514--515
 \OT1/cmr/m/n/10 be-tween which ma-jor pop-u-la-tions of ash par-ti-cles lo-cate
 , is lower when us-ing smaller max- 
  []
 
 
-Overfull \hbox (15.18239pt too wide) in paragraph at lines 513--514
+Overfull \hbox (15.18239pt too wide) in paragraph at lines 514--515
 \OT1/cmr/m/n/10 i-mum heights. These ash clouds cre-ated by Pois-son dis-tri-bu
 -tion with dif-fer-ent max-i-mum 
  []
 
 
-Overfull \hbox (3.84898pt too wide) in paragraph at lines 513--514
+Overfull \hbox (3.84898pt too wide) in paragraph at lines 514--515
 \OT1/cmr/m/n/10 heights are then used as ini-tial con-di-tion in Puff sim-u-la-
 tion, whose re-sults are show in 
  []
@@ -2623,7 +2607,7 @@ File: Figures/Possion-Hmax10k-ParticleDis-z.png Graphic file (type png)
 
 <use Figures/Possion-Hmax10k-ParticleDis-z.png>
 Package pdftex.def Info: Figures/Possion-Hmax10k-ParticleDis-z.png used on inpu
-t line 519.
+t line 520.
 (pdftex.def)             Requested size: 97.19518pt x 121.4924pt.
 
 <Figures/Possion-Hmax20k-ParticleDis-z.png, id=395, 562.1pt x 702.625pt>
@@ -2631,7 +2615,7 @@ File: Figures/Possion-Hmax20k-ParticleDis-z.png Graphic file (type png)
 
 <use Figures/Possion-Hmax20k-ParticleDis-z.png>
 Package pdftex.def Info: Figures/Possion-Hmax20k-ParticleDis-z.png used on inpu
-t line 523.
+t line 524.
 (pdftex.def)             Requested size: 97.19518pt x 121.4924pt.
 
 <Figures/Possion-Hmax30k-ParticleDis-z.png, id=396, 562.1pt x 702.625pt>
@@ -2639,7 +2623,7 @@ File: Figures/Possion-Hmax30k-ParticleDis-z.png Graphic file (type png)
 
 <use Figures/Possion-Hmax30k-ParticleDis-z.png>
 Package pdftex.def Info: Figures/Possion-Hmax30k-ParticleDis-z.png used on inpu
-t line 527.
+t line 528.
 (pdftex.def)             Requested size: 97.19518pt x 121.4924pt.
 
 <Figures/Possion-Hmax35k-ParticleDis-z.png, id=397, 562.1pt x 702.625pt>
@@ -2647,22 +2631,22 @@ File: Figures/Possion-Hmax35k-ParticleDis-z.png Graphic file (type png)
 
 <use Figures/Possion-Hmax35k-ParticleDis-z.png>
 Package pdftex.def Info: Figures/Possion-Hmax35k-ParticleDis-z.png used on inpu
-t line 531.
+t line 532.
 (pdftex.def)             Requested size: 97.19518pt x 121.4924pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 533--533
+Underfull \hbox (badness 10000) in paragraph at lines 534--534
 []\OT1/cmr/bx/n/9 Figure  9. \OT1/cmr/m/n/9 Ini-tial par-ti-cle dis-tri-bu-tion
  in ver-ti-cal di-rec-tion based on Pois-son plume shape with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 533--533
+Underfull \hbox (badness 10000) in paragraph at lines 534--534
 \OT1/cmr/m/n/9 dif-fer-ent max-i-mum heights. Pic-tures from left to right are 
 cor-re-spond-ing to max-i-mum height of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 533--533
+Underfull \hbox (badness 10000) in paragraph at lines 534--534
 \OT1/cmr/m/n/9 10000\OML/cmm/m/it/9 m$\OT1/cmr/m/n/9 , $20000\OML/cmm/m/it/9 m$
 \OT1/cmr/m/n/9 , $30000\OML/cmm/m/it/9 m$\OT1/cmr/m/n/9 , $35000\OML/cmm/m/it/9
  m$\OT1/cmr/m/n/9 . An-other pa-ram-e-ter, the ver-ti-cal spread, in the ex-pre
@@ -2670,7 +2654,7 @@ s-sion of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 533--533
+Underfull \hbox (badness 10000) in paragraph at lines 534--534
 \OT1/cmr/m/n/9 Pois-son plume shape is $6662\OML/cmm/m/it/9 m$ \OT1/cmr/m/n/9 f
 or all cases. The $\OML/cmm/m/it/9 x$ \OT1/cmr/m/n/9 axis is the per-cent-age o
 f par-ti-cle num-ber. See
@@ -2681,7 +2665,7 @@ File: Figures/bent-55hr-ash-MaxH10000.jpg Graphic file (type jpg)
 
 <use Figures/bent-55hr-ash-MaxH10000.jpg>
 Package pdftex.def Info: Figures/bent-55hr-ash-MaxH10000.jpg used on input line
- 541.
+ 542.
 (pdftex.def)             Requested size: 96.40857pt x 49.16647pt.
 
 <Figures/bent-55hr-ash-MaxH20000.jpg, id=399, 1606.0pt x 819.06pt>
@@ -2689,7 +2673,7 @@ File: Figures/bent-55hr-ash-MaxH20000.jpg Graphic file (type jpg)
 
 <use Figures/bent-55hr-ash-MaxH20000.jpg>
 Package pdftex.def Info: Figures/bent-55hr-ash-MaxH20000.jpg used on input line
- 545.
+ 546.
 (pdftex.def)             Requested size: 96.40857pt x 49.16647pt.
 
 <Figures/bent-55hr-ash-MaxH30000.jpg, id=400, 1606.0pt x 819.06pt>
@@ -2697,7 +2681,7 @@ File: Figures/bent-55hr-ash-MaxH30000.jpg Graphic file (type jpg)
 
 <use Figures/bent-55hr-ash-MaxH30000.jpg>
 Package pdftex.def Info: Figures/bent-55hr-ash-MaxH30000.jpg used on input line
- 549.
+ 550.
 (pdftex.def)             Requested size: 96.40857pt x 49.16647pt.
 
 <Figures/bent-55hr-ash-MaxH35000.jpg, id=401, 1606.0pt x 819.06pt>
@@ -2705,22 +2689,22 @@ File: Figures/bent-55hr-ash-MaxH35000.jpg Graphic file (type jpg)
 
 <use Figures/bent-55hr-ash-MaxH35000.jpg>
 Package pdftex.def Info: Figures/bent-55hr-ash-MaxH35000.jpg used on input line
- 553.
+ 554.
 (pdftex.def)             Requested size: 96.40857pt x 49.16647pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 555--555
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 []\OT1/cmr/bx/n/9 Figure  10. \OT1/cmr/m/n/9 Ash trans-porta-tion sim-u-lated b
 y Puff us-ing dif-fer-ent ini-tial ash cloud cre-ated ac-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 555--555
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 \OT1/cmr/m/n/9 cord-ing to Pois-son dis-tri-bu-tion with dif-fer-ent max-i-mum 
 heights. Pic-tures from left to right are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 555--555
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 \OT1/cmr/m/n/9 cor-re-spond-ing to max-i-mum plume heights of $10000\OML/cmm/m/
 it/9 m$\OT1/cmr/m/n/9 , $20000\OML/cmm/m/it/9 m$\OT1/cmr/m/n/9 , $30000\OML/cmm
 /m/it/9 m$ \OT1/cmr/m/n/9 and $35000\OML/cmm/m/it/9 m$\OT1/cmr/m/n/9 . All im-a
@@ -2728,140 +2712,140 @@ ges
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 555--555
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 \OT1/cmr/m/n/9 are for sim-u-lated ash trans-porta-tion around 55 hours af-ter 
 erup-tion (UT 199106171141). See the
  []
 
 
-Overfull \hbox (4.37677pt too wide) in paragraph at lines 559--561
+Overfull \hbox (4.37677pt too wide) in paragraph at lines 560--562
 []\OT1/cmr/m/n/10 Figure 10[] shows that the max-i-mum height has sig-nif-i-can
 t in-flu-ence on ash trans- 
  []
 
 
-Overfull \hbox (14.1015pt too wide) in paragraph at lines 559--561
+Overfull \hbox (14.1015pt too wide) in paragraph at lines 560--562
 \OT1/cmr/m/n/10 porta-tion sim-u-la-tion. When the max-i-mum height is $10000\O
 ML/cmm/m/it/10 m$ \OT1/cmr/m/n/10 the high con-cen-tra-tion area 
  []
 
 
-Overfull \hbox (1.65701pt too wide) in paragraph at lines 559--561
+Overfull \hbox (1.65701pt too wide) in paragraph at lines 560--562
 \OT1/cmr/m/n/10 is lag be-hind ob-ser-va-tion. While the des-ig-nated max-i-mum
  height is $35000\OML/cmm/m/it/10 m$\OT1/cmr/m/n/10 , the high 
  []
 
 
-Overfull \hbox (6.37677pt too wide) in paragraph at lines 559--561
+Overfull \hbox (6.37677pt too wide) in paragraph at lines 560--562
 \OT1/cmr/m/n/10 con-cen-tra-tion area is a lit-tle bit faster and much nar-rowe
 r than ob-ser-va-tion. When us- 
  []
 
 
-Overfull \hbox (21.6848pt too wide) in paragraph at lines 559--561
+Overfull \hbox (21.6848pt too wide) in paragraph at lines 560--562
 \OT1/cmr/m/n/10 ing max-i-mum height of $41343\OML/cmm/m/it/10 :\OT1/cmr/m/n/10
  9\OML/cmm/m/it/10 m$\OT1/cmr/m/n/10 , the high con-cen-tra-tion area is faster
  and nar-rower than 
  []
 
 
-Overfull \hbox (11.07135pt too wide) in paragraph at lines 559--561
+Overfull \hbox (11.07135pt too wide) in paragraph at lines 560--562
 \OT1/cmr/m/n/10 both ob-ser-va-tion and ``Pume-SPH+Puff" sim-u-la-tion re-sults
  (see Fig. 7[]). The sim-u-lated 
  []
 
 
-Overfull \hbox (10.79347pt too wide) in paragraph at lines 559--561
+Overfull \hbox (10.79347pt too wide) in paragraph at lines 560--562
 \OT1/cmr/m/n/10 high con-cen-tra-tion area is clos-est to ``Pume-SPH+Puff" sim-
 u-la-tion re-sults when as-sign- 
  []
 
 
-Overfull \hbox (2.10143pt too wide) in paragraph at lines 559--561
+Overfull \hbox (2.10143pt too wide) in paragraph at lines 560--562
 \OT1/cmr/m/n/10 ing a max-i-mum height of $30000\OML/cmm/m/it/10 m$\OT1/cmr/m/n
 /10 . The front of vol-cano ash, with lower con-cen-tra-tion 
  []
 
 
-Overfull \hbox (8.84898pt too wide) in paragraph at lines 559--561
+Overfull \hbox (8.84898pt too wide) in paragraph at lines 560--562
 \OT1/cmr/m/n/10 is faster than ob-ser-va-tion lo-cat-ing far west to high con-c
 en-tra-tion area. A lower con-cen- 
  []
 
 
-Overfull \hbox (3.43233pt too wide) in paragraph at lines 559--561
+Overfull \hbox (3.43233pt too wide) in paragraph at lines 560--562
 \OT1/cmr/m/n/10 tra-tion tail-ing area also ap-pears in the sim-u-la-tion re-su
 lts while there is no such tail in 
  []
 
 
-Overfull \hbox (9.0737pt too wide) in paragraph at lines 559--561
+Overfull \hbox (9.0737pt too wide) in paragraph at lines 560--562
 \OT1/cmr/m/n/10 ob-served im-age. Puff sim-u-la-tion re-sult based on cal-i-bra
 ted max-i-mum height of $30000\OML/cmm/m/it/10 m$ 
  []
 
 
-Overfull \hbox (5.07124pt too wide) in paragraph at lines 559--561
+Overfull \hbox (5.07124pt too wide) in paragraph at lines 560--562
 \OT1/cmr/m/n/10 shows sim-i-lar foot-print to, even though smaller in terms of 
 cov-ered area than, those of 
  []
 
 
-Overfull \hbox (1.0157pt too wide) in paragraph at lines 559--561
+Overfull \hbox (1.0157pt too wide) in paragraph at lines 560--562
 \OT1/cmr/m/n/10 ``Pume-SPH+Puff" sim-u-la-tion. How-ever, the ini-tial ash clou
 d cre-ated by Pois-son dis- 
  []
 
 
-Overfull \hbox (4.24037pt too wide) in paragraph at lines 559--561
+Overfull \hbox (4.24037pt too wide) in paragraph at lines 560--562
 \OT1/cmr/m/n/10 tri-bu-tion with max-i-mum height around $20000\OML/cmm/m/it/10
  m$ \OT1/cmr/m/n/10 gen-er-ates best match ash dis-tri-bu-tion 
  []
 
 
-Overfull \hbox (0.65463pt too wide) in paragraph at lines 559--561
+Overfull \hbox (0.65463pt too wide) in paragraph at lines 560--562
 \OT1/cmr/m/n/10 with ob-ser-va-tion. That is to say, a max-i-mum height lower t
 han real max-i-mum height 
  []
 
 
-Overfull \hbox (5.04341pt too wide) in paragraph at lines 559--561
+Overfull \hbox (5.04341pt too wide) in paragraph at lines 560--562
 \OT1/cmr/m/n/10 is re-quired by Pois-son plume shape to dis-tribute ash par-ti-
 cles at the same el-e-va-tion as 
  []
 
 
-Overfull \hbox (8.18242pt too wide) in paragraph at lines 559--561
+Overfull \hbox (8.18242pt too wide) in paragraph at lines 560--562
 \OT1/cmr/m/n/10 real ash dis-tri-bu-tion. This is phys-i-cally un-der-stand-abl
 e as max-i-mum plume heights are 
  []
 
 
-Overfull \hbox (43.1546pt too wide) in paragraph at lines 559--561
+Overfull \hbox (43.1546pt too wide) in paragraph at lines 560--562
 \OT1/cmr/m/n/10 reached due to over-shoot. Our hy-poth-e-sis re-gard-ing the so
 urces of dis-par-ity be-tween "Semiem- 
  []
 
 
-Overfull \hbox (18.84915pt too wide) in paragraph at lines 559--561
+Overfull \hbox (18.84915pt too wide) in paragraph at lines 560--562
 \OT1/cmr/m/n/10 pir-i-cal ini-tial cloud +Puff" sim-u-la-tion and ob-ser-va-tio
 n is con-firmed. Since the ini-tial con- 
  []
 
 
-Overfull \hbox (3.65457pt too wide) in paragraph at lines 559--561
+Overfull \hbox (3.65457pt too wide) in paragraph at lines 560--562
 \OT1/cmr/m/n/10 di-tion has so dom-i-nant ef-fect on VATD sim-u-la-tion, it is 
 crit-i-cal the fore-cast ca-pa-bil-ity 
  []
 
 
-Overfull \hbox (15.04347pt too wide) in paragraph at lines 559--561
+Overfull \hbox (15.04347pt too wide) in paragraph at lines 560--562
 \OT1/cmr/m/n/10 of VATD sim-u-la-tion to ex-plore the more ac-cu-rate and adap-
 tive ways for es-tab-lish-ing the 
  []
 
 
-Overfull \hbox (3.2102pt too wide) in paragraph at lines 559--561
+Overfull \hbox (3.2102pt too wide) in paragraph at lines 560--562
 \OT1/cmr/m/n/10 ini-tial con-di-tions, es-pe-cially the method that does not re
 ly on "post event" pa-ram-e-ter 
  []
@@ -2869,95 +2853,99 @@ ly on "post event" pa-ram-e-ter
 [13 <./Figures/Plume-SPH-ParticleDis-NoTrucation-z.png (PNG copy)> <./Figures/P
 lume-SPH-ParticleDis-z.png (PNG copy)> <./Figures/Possion-Hmax40k-ParticleDis-z
 .png (PNG copy)> <./Figures/Suzuki-Hmax40k-ParticleDis-z.png (PNG copy)>]
-Overfull \hbox (8.43231pt too wide) in paragraph at lines 563--564
+Overfull \hbox (8.43231pt too wide) in paragraph at lines 564--565
 []\OT1/cmr/m/n/10 In pre-vi-ous sec-tion, the max-i-mum height is ad-justed to 
 change ver-ti-cal ash dis-tri- 
  []
 
 
-Overfull \hbox (9.48788pt too wide) in paragraph at lines 563--564
+Overfull \hbox (9.48788pt too wide) in paragraph at lines 564--565
 \OT1/cmr/m/n/10 bu-tion along the source line. This sec-tion in-ves-ti-gates an
 -other pa-ram-e-ter in semiem-pir- 
  []
 
 
-Overfull \hbox (0.5704pt too wide) in paragraph at lines 563--564
+Overfull \hbox (0.5704pt too wide) in paragraph at lines 564--565
 \OT1/cmr/m/n/10 i-cal pos-sion ex-pres-sion. We vary the ``ver-ti-cal spread" (
 $\OML/cmm/m/it/10 H[]$\OT1/cmr/m/n/10 ) in range $3\OML/cmm/m/it/10 km= []\OT1/
 cmr/m/n/10 10\OML/cmm/m/it/10 km$\OT1/cmr/m/n/10 . 
  []
 
 
-Overfull \hbox (19.90456pt too wide) in paragraph at lines 563--564
+Overfull \hbox (19.90456pt too wide) in paragraph at lines 564--565
 \OT1/cmr/m/n/10 A set of ini-tial ash clouds cre-ated ac-cord-ing to dif-fer-en
 t ``ver-ti-cal spread" is shown in Fig. 
  []
 
 
-Overfull \hbox (5.12682pt too wide) in paragraph at lines 563--564
+Overfull \hbox (5.12682pt too wide) in paragraph at lines 564--565
 \OT1/cmr/m/n/10 11[]. Ex-cept for ``ver-ti-cal spread", all other pa-ram-e-ters
  for cre-at-ing ini-tial ash cloud are 
  []
 
 
-Overfull \hbox (14.34903pt too wide) in paragraph at lines 563--564
+Overfull \hbox (14.34903pt too wide) in paragraph at lines 564--565
 \OT1/cmr/m/n/10 the same as these in Ta-ble 4[]. Width of the range within whic
 h ma-jor pop-u-la-tions of ash 
  []
 
 
-Overfull \hbox (4.09894pt too wide) in paragraph at lines 563--564
+Overfull \hbox (4.09894pt too wide) in paragraph at lines 564--565
 \OT1/cmr/m/n/10 par-ti-cles lo-cate be-come nar-rower when a smaller value for 
 ver-ti-cal spread is used. But 
  []
 
 
-Overfull \hbox (5.16296pt too wide) in paragraph at lines 563--564
+Overfull \hbox (5.16296pt too wide) in paragraph at lines 564--565
 \OT1/cmr/m/n/10 chang-ing $\OML/cmm/m/it/10 H[]$ \OT1/cmr/m/n/10 has no ob-vi-o
 us af-fect on the height at which ma-jor-ity of ash par-ti-cles 
  []
 
 
-Overfull \hbox (2.09894pt too wide) in paragraph at lines 563--564
+Overfull \hbox (2.09894pt too wide) in paragraph at lines 564--565
 \OT1/cmr/m/n/10 dis-tribute. These ash clouds based on dif-fer-ent ver-ti-cal s
 pread are then used as ini-tial 
  []
 
-[14 <./Figures/Possion-Hmax10k-ParticleDis-z.png (PNG copy)> <./Figures/Possion
--Hmax20k-ParticleDis-z.png (PNG copy)> <./Figures/Possion-Hmax30k-ParticleDis-z
-.png (PNG copy)> <./Figures/Possion-Hmax35k-ParticleDis-z.png (PNG copy)> <./Fi
-gures/bent-55hr-ash-MaxH10000.jpg> <./Figures/bent-55hr-ash-MaxH20000.jpg> <./F
-igures/bent-55hr-ash-MaxH30000.jpg> <./Figures/bent-55hr-ash-MaxH35000.jpg>]
-Overfull \hbox (6.40453pt too wide) in paragraph at lines 565--566
+
+Overfull \hbox (6.40453pt too wide) in paragraph at lines 566--567
 []\OT1/cmr/m/n/10 Adjusting of the ver-ti-cal spread can change par-ti-cle dis-
 tri-bu-tion in ver-ti-cal di-rec- 
  []
 
 
-Overfull \hbox (8.04343pt too wide) in paragraph at lines 565--566
+Overfull \hbox (8.04343pt too wide) in paragraph at lines 566--567
 \OT1/cmr/m/n/10 tion and not sur-prisely af-fect VATD sim-u-la-tion re-sults. U
 n-luck-ily, none of these VATD 
  []
 
 
-Overfull \hbox (21.47415pt too wide) in paragraph at lines 565--566
+Overfull \hbox (21.47415pt too wide) in paragraph at lines 566--567
 \OT1/cmr/m/n/10 sim-u-la-tions based on ini-tial ash cloud with ver-ti-cal spre
 ad equals to $3\OML/cmm/m/it/10 km$\OT1/cmr/m/n/10 , $5\OML/cmm/m/it/10 km$\OT1
 /cmr/m/n/10 , and $10\OML/cmm/m/it/10 km$ 
  []
 
 
-Overfull \hbox (22.37682pt too wide) in paragraph at lines 565--566
+Overfull \hbox (22.37682pt too wide) in paragraph at lines 566--567
 \OT1/cmr/m/n/10 get bet-ter re-sults than VATD sim-u-la-tion based on ini-tial 
 con-di-tion cre-ated by a 3D plume 
  []
 
+
+Underfull \vbox (badness 4132) has occurred while \output is active []
+
+ [14 <./Figures/Possion-Hmax10k-ParticleDis-z.png (PNG copy)> <./Figures/Possio
+n-Hmax20k-ParticleDis-z.png (PNG copy)> <./Figures/Possion-Hmax30k-ParticleDis-
+z.png (PNG copy)> <./Figures/Possion-Hmax35k-ParticleDis-z.png (PNG copy)> <./F
+igures/bent-55hr-ash-MaxH10000.jpg> <./Figures/bent-55hr-ash-MaxH20000.jpg> <./
+Figures/bent-55hr-ash-MaxH30000.jpg> <./Figures/bent-55hr-ash-MaxH35000.jpg>]
 <Figures/Possion-Hwidth3k-ParticleDis-z.png, id=409, 562.1pt x 702.625pt>
 File: Figures/Possion-Hwidth3k-ParticleDis-z.png Graphic file (type png)
 
 <use Figures/Possion-Hwidth3k-ParticleDis-z.png>
 Package pdftex.def Info: Figures/Possion-Hwidth3k-ParticleDis-z.png used on inp
-ut line 571.
+ut line 572.
 (pdftex.def)             Requested size: 127.89029pt x 159.86351pt.
 
 <Figures/Possion-Hwidth5k-ParticleDis-z.png, id=410, 562.1pt x 702.625pt>
@@ -2965,7 +2953,7 @@ File: Figures/Possion-Hwidth5k-ParticleDis-z.png Graphic file (type png)
 
 <use Figures/Possion-Hwidth5k-ParticleDis-z.png>
 Package pdftex.def Info: Figures/Possion-Hwidth5k-ParticleDis-z.png used on inp
-ut line 575.
+ut line 576.
 (pdftex.def)             Requested size: 127.89029pt x 159.86351pt.
 
 <Figures/Possion-Hwidth10k-ParticleDis-z.png, id=411, 562.1pt x 702.625pt>
@@ -2973,30 +2961,30 @@ File: Figures/Possion-Hwidth10k-ParticleDis-z.png Graphic file (type png)
 
 <use Figures/Possion-Hwidth10k-ParticleDis-z.png>
 Package pdftex.def Info: Figures/Possion-Hwidth10k-ParticleDis-z.png used on in
-put line 579.
+put line 580.
 (pdftex.def)             Requested size: 127.89029pt x 159.86351pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--581
+Underfull \hbox (badness 10000) in paragraph at lines 582--582
 []\OT1/cmr/bx/n/9 Figure  11. \OT1/cmr/m/n/9 Ver-ti-cal par-ti-cle dis-tri-bu-t
 ion based on Pois-son plume shape with dif-fer-ent ``ver-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--581
+Underfull \hbox (badness 10000) in paragraph at lines 582--582
 \OT1/cmr/m/n/9 ti-cal spread". Pic-tures from left to right are cor-re-spond-in
 g to ver-ti-cal spread of $3\OML/cmm/m/it/9 km$\OT1/cmr/m/n/9 , $5\OML/cmm/m/it
 /9 km$ \OT1/cmr/m/n/9 and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--581
+Underfull \hbox (badness 10000) in paragraph at lines 582--582
 \OT1/cmr/m/n/9 10\OML/cmm/m/it/9 km$\OT1/cmr/m/n/9 . The max-i-mum height in th
 e ex-pres-sion of Pois-son plume shape is $40000\OML/cmm/m/it/9 m$ \OT1/cmr/m/n
 /9 for all cases.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--581
+Underfull \hbox (badness 10000) in paragraph at lines 582--582
 \OT1/cmr/m/n/9 The $\OML/cmm/m/it/9 x$ \OT1/cmr/m/n/9 axis is the per-cent-age 
 of par-ti-cle num-ber. See Fig. 8[] for ver-ti-cal ash dis-tri-bu-tion of Plume
 -
@@ -3006,7 +2994,7 @@ of par-ti-cle num-ber. See Fig. 8[] for ver-ti-cal ash dis-tri-bu-tion of Plume
 File: Figures/bent-55hr-ash-VS3km.jpg Graphic file (type jpg)
 
 <use Figures/bent-55hr-ash-VS3km.jpg>
-Package pdftex.def Info: Figures/bent-55hr-ash-VS3km.jpg used on input line 589
+Package pdftex.def Info: Figures/bent-55hr-ash-VS3km.jpg used on input line 590
 .
 (pdftex.def)             Requested size: 127.89029pt x 65.21368pt.
 
@@ -3014,7 +3002,7 @@ Package pdftex.def Info: Figures/bent-55hr-ash-VS3km.jpg used on input line 589
 File: Figures/bent-55hr-ash-VS5km.jpg Graphic file (type jpg)
 
 <use Figures/bent-55hr-ash-VS5km.jpg>
-Package pdftex.def Info: Figures/bent-55hr-ash-VS5km.jpg used on input line 593
+Package pdftex.def Info: Figures/bent-55hr-ash-VS5km.jpg used on input line 594
 .
 (pdftex.def)             Requested size: 127.89029pt x 65.21368pt.
 
@@ -3023,89 +3011,89 @@ File: Figures/bent-55hr-ash-VS10km.jpg Graphic file (type jpg)
 
 <use Figures/bent-55hr-ash-VS10km.jpg>
 Package pdftex.def Info: Figures/bent-55hr-ash-VS10km.jpg used on input line 59
-7.
+8.
 (pdftex.def)             Requested size: 127.89029pt x 65.21368pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--599
+Underfull \hbox (badness 10000) in paragraph at lines 600--600
 []\OT1/cmr/bx/n/9 Figure  12. \OT1/cmr/m/n/9 Ash trans-porta-tion sim-u-lated b
 y Puff us-ing dif-fer-ent ini-tial ash cloud cre-ated with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--599
+Underfull \hbox (badness 10000) in paragraph at lines 600--600
 \OT1/cmr/m/n/9 dif-fer-ent ver-ti-cal spread. Pic-tures from left to right are:
  Puff sim-u-la-tion re-sults based on ini-tial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--599
+Underfull \hbox (badness 10000) in paragraph at lines 600--600
 \OT1/cmr/m/n/9 ash clouds with ver-ti-cal spread equals to $3000\OML/cmm/m/it/9
  mm$\OT1/cmr/m/n/9 , $5000\OML/cmm/m/it/9 mm$ \OT1/cmr/m/n/9 and $10000\OML/cmm
 /m/it/9 m$\OT1/cmr/m/n/9 . The im-ages are cor-re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--599
+Underfull \hbox (badness 10000) in paragraph at lines 600--600
 \OT1/cmr/m/n/9 spond-ing to around 55 hours af-ter erup-tion (UT 199106171141).
  See the ob-served cloud im-age in
  []
 
 
-Overfull \hbox (14.40456pt too wide) in paragraph at lines 603--604
+Overfull \hbox (14.40456pt too wide) in paragraph at lines 604--605
 []\OT1/cmr/m/n/10 The cal-i-bra-tions car-ried out here are def-i-nitely not ex
 -haus-tive. One might do more 
  []
 
 
-Overfull \hbox (9.54353pt too wide) in paragraph at lines 603--604
+Overfull \hbox (9.54353pt too wide) in paragraph at lines 604--605
 \OT1/cmr/m/n/10 com-pre-hen-sive cal-i-bra-tion through-out the multi-dimension
 al pa-ram-e-ter space (for Pois- 
  []
 
 
-Overfull \hbox (23.15457pt too wide) in paragraph at lines 603--604
+Overfull \hbox (23.15457pt too wide) in paragraph at lines 604--605
 \OT1/cmr/m/n/10 son dis-tri-bu-tion, the pa-ram-e-ter space is two di-men-sion)
  and get bet-ter matched ash trans- 
  []
 
 
-Overfull \hbox (11.65462pt too wide) in paragraph at lines 603--604
+Overfull \hbox (11.65462pt too wide) in paragraph at lines 604--605
 \OT1/cmr/m/n/10 porta-tion re-sults. With more com-pli-cated plume shape ex-pre
 s-sion, one could have more 
  []
 
 
-Overfull \hbox (9.21016pt too wide) in paragraph at lines 603--604
+Overfull \hbox (9.21016pt too wide) in paragraph at lines 604--605
 \OT1/cmr/m/n/10 con-trol over plume shape and might be able to get ini-tial con
 -di-tion that much closer to 
  []
 
 
-Overfull \hbox (8.62689pt too wide) in paragraph at lines 603--604
+Overfull \hbox (8.62689pt too wide) in paragraph at lines 604--605
 \OT1/cmr/m/n/10 ac-tual ini-tial ash cloud, hence ob-tain more ac-cu-rate ash t
 rans-porta-tion pre-dic-tion. But 
  []
 
 
-Overfull \hbox (1.6824pt too wide) in paragraph at lines 603--604
+Overfull \hbox (1.6824pt too wide) in paragraph at lines 604--605
 \OT1/cmr/m/n/10 more com-pli-cated plume shape ex-pres-sion usu-ally leads to h
 igher di-men-sional pa-ram- 
  []
 
 
-Overfull \hbox (11.71005pt too wide) in paragraph at lines 603--604
+Overfull \hbox (11.71005pt too wide) in paragraph at lines 604--605
 \OT1/cmr/m/n/10 e-ter space which re-quires more ef-fort to do cal-i-bra-tion. 
 Even though, the de-gree of free- 
  []
 
 
-Overfull \hbox (3.46017pt too wide) in paragraph at lines 603--604
+Overfull \hbox (3.46017pt too wide) in paragraph at lines 604--605
 \OT1/cmr/m/n/10 dom to ad-just plume shape is still lim-ited. The new method fo
 r cre-at-ing ini-tial con-di- 
  []
 
 
-Overfull \hbox (28.59906pt too wide) in paragraph at lines 603--604
+Overfull \hbox (28.59906pt too wide) in paragraph at lines 604--605
 \OT1/cmr/m/n/10 tions based on 3D plume sim-u-la-tion is more adap-tive to var-
 i-ous cases and ob-vi-ates semiem- 
  []
@@ -3114,116 +3102,116 @@ i-ous cases and ob-vi-ates semiem-
 n-Hwidth5k-ParticleDis-z.png (PNG copy)> <./Figures/Possion-Hwidth10k-ParticleD
 is-z.png (PNG copy)> <./Figures/bent-55hr-ash-VS3km.jpg> <./Figures/bent-55hr-a
 sh-VS5km.jpg> <./Figures/bent-55hr-ash-VS10km.jpg>]
-Overfull \hbox (3.12671pt too wide) in paragraph at lines 607--609
+Overfull \hbox (3.12671pt too wide) in paragraph at lines 608--610
 []\OT1/cmr/m/n/10 The dif-fer-ences be-tween as-sumed plume par-ti-cle dis-tri-
 bu-tion and ac-tual (or sim- 
  []
 
 
-Overfull \hbox (14.01575pt too wide) in paragraph at lines 607--609
+Overfull \hbox (14.01575pt too wide) in paragraph at lines 608--610
 \OT1/cmr/m/n/10 u-lated by 3D plume) model are not only in ver-ti-cal di-rec-ti
 on. How cloud hor-i-zon-tal par- 
  []
 
 
-Overfull \hbox (9.2102pt too wide) in paragraph at lines 607--609
+Overfull \hbox (9.2102pt too wide) in paragraph at lines 608--610
 \OT1/cmr/m/n/10 ti-cle dis-tri-bu-tion of the ini-tial ash cloud af-fect ash tr
 ans-porta-tion is in-ves-ti-gated in this 
  []
 
 
-Overfull \hbox (1.65459pt too wide) in paragraph at lines 607--609
+Overfull \hbox (1.65459pt too wide) in paragraph at lines 608--610
 \OT1/cmr/m/n/10 sec-tion. Puff uses a uni-formly dis-tributed ran-dom pro-cess 
 to de-ter-mine the ash par-ti- 
  []
 
 
-Overfull \hbox (22.87679pt too wide) in paragraph at lines 607--609
+Overfull \hbox (22.87679pt too wide) in paragraph at lines 608--610
 \OT1/cmr/m/n/10 cle lo-ca-tion in a cir-cle cen-tered on the vol-cano site. The
  max-i-mum ra-dius (at top) is given 
  []
 
 
-Overfull \hbox (17.65459pt too wide) in paragraph at lines 607--609
+Overfull \hbox (17.65459pt too wide) in paragraph at lines 608--610
 \OT1/cmr/m/n/10 as ``hor-i-zon-tal spread" in Ta-ble 4[]. The hor-i-zon-tal dis
 -place-ment from a ver-ti-cal line above 
  []
 
 
-Overfull \hbox (27.15462pt too wide) in paragraph at lines 607--609
+Overfull \hbox (27.15462pt too wide) in paragraph at lines 608--610
 \OT1/cmr/m/n/10 the vol-cano is a ran-dom value within a cir-cle of ra-dius, wh
 ich equals to ``hor-i-zon-tal spread" 
  []
 
 
-Overfull \hbox (0.53273pt too wide) in paragraph at lines 607--609
+Overfull \hbox (0.53273pt too wide) in paragraph at lines 608--610
 \OT1/cmr/m/n/10 mul-ti-plied by the ra-tio of the par-ti-cle height $\OML/cmm/m
 /it/10 H$ \OT1/cmr/m/n/10 to max-i-mum $\OML/cmm/m/it/10 H[]$\OT1/cmr/m/n/10 . 
 So the net shape 
  []
 
 
-Overfull \hbox (10.96005pt too wide) in paragraph at lines 607--609
+Overfull \hbox (10.96005pt too wide) in paragraph at lines 608--610
 \OT1/cmr/m/n/10 of the plume is an in-verted cone where par-ti-cles are lo-cate
 d di-rectly over the vol-cano at 
  []
 
 
-Overfull \hbox (0.12679pt too wide) in paragraph at lines 607--609
+Overfull \hbox (0.12679pt too wide) in paragraph at lines 608--610
 \OT1/cmr/m/n/10 the low-est level and ex-tend out fur-ther hor-i-zon-tally with
  in-creas-ing plume height. As 
  []
 
 
-Overfull \hbox (10.43237pt too wide) in paragraph at lines 607--609
+Overfull \hbox (10.43237pt too wide) in paragraph at lines 608--610
 \OT1/cmr/m/n/10 for out-put of Plume-SPH, an ef-fec-tive ra-dius is de-ter-mine
 d ac-cord-ing to a given thresh- 
  []
 
 
-Overfull \hbox (1.68243pt too wide) in paragraph at lines 607--609
+Overfull \hbox (1.68243pt too wide) in paragraph at lines 608--610
 \OT1/cmr/m/n/10 old of ash con-cen-tra-tion fol-low-ing Cer-mi-nara, Es-posti O
 n-garo, & Neri (2016). A time 
  []
 
 
-Overfull \hbox (10.76573pt too wide) in paragraph at lines 607--609
+Overfull \hbox (10.76573pt too wide) in paragraph at lines 608--610
 \OT1/cmr/m/n/10 av-er-ag-ing and spa-tial in-te-gra-tion of the dy-namic 3D flo
 w fields are con-ducted to get rid 
  []
 
 
-Overfull \hbox (18.76578pt too wide) in paragraph at lines 607--609
+Overfull \hbox (18.76578pt too wide) in paragraph at lines 608--610
 \OT1/cmr/m/n/10 of sig-nif-i-cant fluc-tu-a-tions in time and space. Fig. 13[] 
 com-pares ra-dius of ini-tial ash clouds 
  []
 
 
-Overfull \hbox (6.90463pt too wide) in paragraph at lines 607--609
+Overfull \hbox (6.90463pt too wide) in paragraph at lines 608--610
 \OT1/cmr/m/n/10 cre-ated by 3D plume sim-u-la-tion and as-sumed plume shape ex-
 pres-sion adopted in Puff. 
  []
 
 
-Overfull \hbox (4.48788pt too wide) in paragraph at lines 607--609
+Overfull \hbox (4.48788pt too wide) in paragraph at lines 608--610
 \OT1/cmr/m/n/10 Ob-vi-ously, there is no chance for these two ra-dius to be sim
 -i-lar. Ad-just-ing the pa-ram- 
  []
 
 
-Overfull \hbox (6.68236pt too wide) in paragraph at lines 607--609
+Overfull \hbox (6.68236pt too wide) in paragraph at lines 608--610
 \OT1/cmr/m/n/10 e-ter ``hor-i-zon-tal spread" could not make the as-sumed plume
  shape to be sim-i-lar to ash 
  []
 
 
-Overfull \hbox (15.1546pt too wide) in paragraph at lines 607--609
+Overfull \hbox (15.1546pt too wide) in paragraph at lines 608--610
 \OT1/cmr/m/n/10 cloud cre-ated by Plume-SPH. That is to say, merely pa-ram-e-te
 r cal-i-bra-tion is not enough 
  []
 
 
-Overfull \hbox (20.43234pt too wide) in paragraph at lines 607--609
+Overfull \hbox (20.43234pt too wide) in paragraph at lines 608--610
 \OT1/cmr/m/n/10 for such sit-u-a-tion. It would re-quire higher or-der semiem-p
 ir-i-cal ex-pres-sion that takes more 
  []
@@ -3233,28 +3221,28 @@ File: Figures/radius-Plume-SPH-And-Assumed.png Graphic file (type png)
 
 <use Figures/radius-Plume-SPH-And-Assumed.png>
 Package pdftex.def Info: Figures/radius-Plume-SPH-And-Assumed.png used on input
- line 612.
+ line 613.
 (pdftex.def)             Requested size: 198.7425pt x 160.78697pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 613--613
+Underfull \hbox (badness 10000) in paragraph at lines 614--614
 []\OT1/cmr/bx/n/9 Figure  13. \OT1/cmr/m/n/9 Com-par-i-son be-tween ra-dius of 
 ini-tial ash clouds cre-ated by 3D plume model
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 613--613
+Underfull \hbox (badness 10000) in paragraph at lines 614--614
 \OT1/cmr/m/n/9 (Plume-SPH) and as-sumed ini-tial ash cloud shape in Puff. The p
 lume shape ex-pres-sion used in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 613--613
+Underfull \hbox (badness 10000) in paragraph at lines 614--614
 \OT1/cmr/m/n/9 Puff de-fines an in-verted cone whose ac-tual shape changes when
  ``hor-i-zon-tal spread" takes dif-fer-
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 613--613
+Underfull \hbox (badness 1253) in paragraph at lines 614--614
 \OT1/cmr/m/n/9 ent val-ues. $\OML/cmm/m/it/9 R \OT1/cmr/m/n/9 = 25\OML/cmm/m/it
 /9 km$ \OT1/cmr/m/n/9 is cor-re-spond-ing to ``hor-i-zon-tal spread" equals to 
 $50\OML/cmm/m/it/9 km$\OT1/cmr/m/n/9 . $\OML/cmm/m/it/9 R \OT1/cmr/m/n/9 = 50\O
@@ -3262,31 +3250,31 @@ ML/cmm/m/it/9 km$ \OT1/cmr/m/n/9 is
  []
 
 
-Overfull \hbox (12.32114pt too wide) in paragraph at lines 617--618
+Overfull \hbox (12.32114pt too wide) in paragraph at lines 618--619
 []\OT1/cmr/m/n/10 Comparison be-tween cross-sectional veiws of the ini-tial ash
  clouds is shown in Fig. 
  []
 
 
-Overfull \hbox (3.34898pt too wide) in paragraph at lines 617--618
+Overfull \hbox (3.34898pt too wide) in paragraph at lines 618--619
 \OT1/cmr/m/n/10 14[]. The cross-sectional view of as-sumed plume shape (last fi
 g-ure in Fig. 14[]) is sim-i-lar 
  []
 
 
-Overfull \hbox (6.32115pt too wide) in paragraph at lines 617--618
+Overfull \hbox (6.32115pt too wide) in paragraph at lines 618--619
 \OT1/cmr/m/n/10 to cross-sectional view of sim-u-lated 3D plume in gen-eral sen
 se. How-ever, for sim-u-lated 
  []
 
 
-Overfull \hbox (2.15454pt too wide) in paragraph at lines 617--618
+Overfull \hbox (2.15454pt too wide) in paragraph at lines 618--619
 \OT1/cmr/m/n/10 3D plume, the ash par-ti-cle dis-tri-bu-tion on cross sec-tion 
 varies along with height. It is 
  []
 
 
-Overfull \hbox (1.34903pt too wide) in paragraph at lines 617--618
+Overfull \hbox (1.34903pt too wide) in paragraph at lines 618--619
 \OT1/cmr/m/n/10 hard for semiem-pir-i-cal ex-pres-sions have such fea-ture. In 
 Puff, par-ti-cle dis-tri-bu-tion on 
  []
@@ -3296,7 +3284,7 @@ File: Figures/Possion-H9km-ParticleDis-h.png Graphic file (type png)
 
 <use Figures/Possion-H9km-ParticleDis-h.png>
 Package pdftex.def Info: Figures/Possion-H9km-ParticleDis-h.png used on input l
-ine 623.
+ine 624.
 (pdftex.def)             Requested size: 127.89029pt x 111.44771pt.
 
 <Figures/Possion-H14km-ParticleDis-h.png, id=420, 562.1pt x 488.82625pt>
@@ -3304,7 +3292,7 @@ File: Figures/Possion-H14km-ParticleDis-h.png Graphic file (type png)
 
 <use Figures/Possion-H14km-ParticleDis-h.png>
 Package pdftex.def Info: Figures/Possion-H14km-ParticleDis-h.png used on input 
-line 627.
+line 628.
 (pdftex.def)             Requested size: 127.89029pt x 111.21933pt.
 
 <Figures/Possion-H19km-ParticleDis-h.png, id=421, 562.1pt x 488.82625pt>
@@ -3312,7 +3300,7 @@ File: Figures/Possion-H19km-ParticleDis-h.png Graphic file (type png)
 
 <use Figures/Possion-H19km-ParticleDis-h.png>
 Package pdftex.def Info: Figures/Possion-H19km-ParticleDis-h.png used on input 
-line 631.
+line 632.
 (pdftex.def)             Requested size: 127.89029pt x 111.21933pt.
 
 <Figures/Possion-H24km-ParticleDis-h.png, id=422, 562.1pt x 490.83376pt>
@@ -3320,7 +3308,7 @@ File: Figures/Possion-H24km-ParticleDis-h.png Graphic file (type png)
 
 <use Figures/Possion-H24km-ParticleDis-h.png>
 Package pdftex.def Info: Figures/Possion-H24km-ParticleDis-h.png used on input 
-line 636.
+line 637.
 (pdftex.def)             Requested size: 127.89029pt x 111.67609pt.
 
 <Figures/Possion-H29km-ParticleDis-h.png, id=423, 562.1pt x 489.83pt>
@@ -3328,7 +3316,7 @@ File: Figures/Possion-H29km-ParticleDis-h.png Graphic file (type png)
 
 <use Figures/Possion-H29km-ParticleDis-h.png>
 Package pdftex.def Info: Figures/Possion-H29km-ParticleDis-h.png used on input 
-line 640.
+line 641.
 (pdftex.def)             Requested size: 127.89029pt x 111.44771pt.
 
 <Figures/Possion-RDU-ParticleDis-h.png, id=424, 562.1pt x 507.8975pt>
@@ -3336,60 +3324,60 @@ File: Figures/Possion-RDU-ParticleDis-h.png Graphic file (type png)
 
 <use Figures/Possion-RDU-ParticleDis-h.png>
 Package pdftex.def Info: Figures/Possion-RDU-ParticleDis-h.png used on input li
-ne 644.
+ne 645.
 (pdftex.def)             Requested size: 127.89029pt x 115.55849pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 646--646
+Underfull \hbox (badness 10000) in paragraph at lines 647--647
 []\OT1/cmr/bx/n/9 Figure  14. \OT1/cmr/m/n/9 Hor-i-zon-tal dis-tri-bu-tion of a
 sh par-ti-cles (trac-ers) on a cross sec-tion of ini-tial ash
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 646--646
+Underfull \hbox (badness 10000) in paragraph at lines 647--647
 \OT1/cmr/m/n/9 cloud. Puff as-sumes ran-domly uni-form dis-tri-bu-tion of ash p
 ar-ti-cle within a cir-cle, as shown by
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 646--646
+Underfull \hbox (badness 10000) in paragraph at lines 647--647
 \OT1/cmr/m/n/9 blue dots in the last fig-ure. All other fig-ures show ash par-t
 i-cle dis-tri-bu-tion of ini-tial ash cloud
  []
 
 
-Overfull \hbox (17.21008pt too wide) in paragraph at lines 651--652
+Overfull \hbox (17.21008pt too wide) in paragraph at lines 652--653
 []\OT1/cmr/m/n/10 Assigning dif-fer-ent val-ues to ``hor-i-zon-tal spread" has 
 ig-nor-able ef-fect on VATD sim- 
  []
 
 
-Overfull \hbox (16.42308pt too wide) in paragraph at lines 651--652
+Overfull \hbox (16.42308pt too wide) in paragraph at lines 652--653
 \OT1/cmr/m/n/10 u-la-tion re-sults. We use num-bers be-tween $50\OML/cmm/m/it/1
 0 km$ \OT1/cmr/m/n/10 to $1600\OML/cmm/m/it/10 km$ \OT1/cmr/m/n/10 as ``hor-i-z
 on-tal spread" to cre- 
  []
 
 
-Overfull \hbox (17.57121pt too wide) in paragraph at lines 651--652
+Overfull \hbox (17.57121pt too wide) in paragraph at lines 652--653
 \OT1/cmr/m/n/10 ate ini-tial ash cloud for VATD, all of them gen-er-ate very si
 m-i-lar re-sults. Fig-ure 15[] shows 
  []
 
 
-Overfull \hbox (18.96016pt too wide) in paragraph at lines 651--652
+Overfull \hbox (18.96016pt too wide) in paragraph at lines 652--653
 \OT1/cmr/m/n/10 two dif-fer-ent sim-u-la-tion re-sults based on ini-tial ash cl
 oud with ``hor-i-zon-tal spread" equals 
  []
 
 
-Overfull \hbox (11.50644pt too wide) in paragraph at lines 651--652
+Overfull \hbox (11.50644pt too wide) in paragraph at lines 652--653
 \OT1/cmr/m/n/10 to $50\OML/cmm/m/it/10 km$ \OT1/cmr/m/n/10 and $600\OML/cmm/m/i
 t/10 km$ \OT1/cmr/m/n/10 re-spec-tively. No vis-i-ble dif-fer-ences can be told
  be-tween them. This 
  []
 
 
-Overfull \hbox (14.6268pt too wide) in paragraph at lines 651--652
+Overfull \hbox (14.6268pt too wide) in paragraph at lines 652--653
 \OT1/cmr/m/n/10 im-plies that hor-i-zon-tal dis-tri-bu-tion has less sig-nif-i-
 cant in-flu-ence on VATD sim-u-la-tion re- 
  []
@@ -3399,7 +3387,7 @@ cant in-flu-ence on VATD sim-u-la-tion re-
 File: Figures/bent-55hr-ash-R25km.jpg Graphic file (type jpg)
 
 <use Figures/bent-55hr-ash-R25km.jpg>
-Package pdftex.def Info: Figures/bent-55hr-ash-R25km.jpg used on input line 657
+Package pdftex.def Info: Figures/bent-55hr-ash-R25km.jpg used on input line 658
 .
 (pdftex.def)             Requested size: 127.89029pt x 65.21368pt.
 
@@ -3408,113 +3396,113 @@ File: Figures/bent-55hr-ash-R300km.jpg Graphic file (type jpg)
 
 <use Figures/bent-55hr-ash-R300km.jpg>
 Package pdftex.def Info: Figures/bent-55hr-ash-R300km.jpg used on input line 66
-1.
+2.
 (pdftex.def)             Requested size: 127.89029pt x 65.21368pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 663--663
+Underfull \hbox (badness 10000) in paragraph at lines 664--664
 []\OT1/cmr/bx/n/9 Figure  15. \OT1/cmr/m/n/9 Ash trans-porta-tion sim-u-lated b
 y Puff at around 55 hours af-ter erup-tion (UT
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 663--663
+Underfull \hbox (badness 10000) in paragraph at lines 664--664
 \OT1/cmr/m/n/9 199106171141). Dif-fer-ent val-ues for ``hor-i-zon-tal spread" a
 re used to cre-ate ini-tial ash cloud. Pic-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 663--663
+Underfull \hbox (badness 10000) in paragraph at lines 664--664
 \OT1/cmr/m/n/9 tures to the left is cor-re-spond-ing to ``hor-i-zon-tal spread"
  equals to $50\OML/cmm/m/it/9 kmm$\OT1/cmr/m/n/9 . Pic-tures to the right is
  []
 
 
-Overfull \hbox (8.09895pt too wide) in paragraph at lines 669--670
+Overfull \hbox (8.09895pt too wide) in paragraph at lines 670--671
 []\OT1/cmr/m/n/10 This pa-per pre-sented, for the first time, VATD sim-u-la-tio
 ns us-ing in-tial con-di-tions 
  []
 
 
-Overfull \hbox (9.32123pt too wide) in paragraph at lines 669--670
+Overfull \hbox (9.32123pt too wide) in paragraph at lines 670--671
 \OT1/cmr/m/n/10 cre-ated by a 3D plume model. Tra-di-tional VATD sim-u-la-tions
  use ini-tial con-di-tions cre- 
  []
 
 
-Overfull \hbox (41.238pt too wide) in paragraph at lines 669--670
+Overfull \hbox (41.238pt too wide) in paragraph at lines 670--671
 \OT1/cmr/m/n/10 ated ac-cord-ing to a semiem-per-i-cal plume shape ex-pres-sion
 . A case study of the 1991 Pinatubo 
  []
 
 
-Overfull \hbox (13.68237pt too wide) in paragraph at lines 669--670
+Overfull \hbox (13.68237pt too wide) in paragraph at lines 670--671
 \OT1/cmr/m/n/10 erup-tion demon-strates that a 3D plume model can cre-ate more 
 re-al-is-tic ini-tial ash cloud 
  []
 
 
-Overfull \hbox (10.18237pt too wide) in paragraph at lines 669--670
+Overfull \hbox (10.18237pt too wide) in paragraph at lines 670--671
 \OT1/cmr/m/n/10 and ash par-cel po-si-tions, and there-fore im-prove the ac-cu-
 racy of ash trans-port fore-casts. 
  []
 
 
-Overfull \hbox (2.73795pt too wide) in paragraph at lines 669--670
+Overfull \hbox (2.73795pt too wide) in paragraph at lines 670--671
 \OT1/cmr/m/n/10 In-for-mal sen-si-tiv-ity anal-y-ses sug-gest that ini-tial con
 -di-tions, as ex-pressed in the dis-po- 
  []
 
 
-Overfull \hbox (19.37682pt too wide) in paragraph at lines 669--670
+Overfull \hbox (19.37682pt too wide) in paragraph at lines 670--671
 \OT1/cmr/m/n/10 si-tion of ini-tial ash par-cel po-si-tions in the ver-ti-cal, 
 have a more sig-nif-i-cant ef-fect on a vol- 
  []
 
 
-Overfull \hbox (12.40463pt too wide) in paragraph at lines 669--670
+Overfull \hbox (12.40463pt too wide) in paragraph at lines 670--671
 \OT1/cmr/m/n/10 canic ash trans-port fore-cast than most other pa-ram-e-ters. C
 om-par-i-son of ini-tial ash par- 
  []
 
 
-Overfull \hbox (1.04349pt too wide) in paragraph at lines 669--670
+Overfull \hbox (1.04349pt too wide) in paragraph at lines 670--671
 \OT1/cmr/m/n/10 cel dis-tri-bu-tions among the 3D plume model, semiem-pir-i-cal
  ex-pres-sions, and ob-ser-va- 
  []
 
 
-Overfull \hbox (23.71016pt too wide) in paragraph at lines 669--670
+Overfull \hbox (23.71016pt too wide) in paragraph at lines 670--671
 \OT1/cmr/m/n/10 tions sug-gests that a ma-jor sub-pop-u-la-tion of ash parcels 
 should be placed at a much lower 
  []
 
 
-Overfull \hbox (19.07132pt too wide) in paragraph at lines 669--670
+Overfull \hbox (19.07132pt too wide) in paragraph at lines 670--671
 \OT1/cmr/m/n/10 el-e-va-tion than max-i-mum height to ob-tain a bet-ter VATD fo
 re-cast. For the Pinatubo case 
  []
 
 
-Overfull \hbox (10.54349pt too wide) in paragraph at lines 669--670
+Overfull \hbox (10.54349pt too wide) in paragraph at lines 670--671
 \OT1/cmr/m/n/10 study, ``well-matched'' sim-u-la-tion re-sults are ob-served wh
 en us-ing a max-i-mum height of 
  []
 
 
-Overfull \hbox (7.81204pt too wide) in paragraph at lines 669--670
+Overfull \hbox (7.81204pt too wide) in paragraph at lines 670--671
 \OT1/cmr/m/n/10 around $30\OML/cmm/m/it/10 km$\OT1/cmr/m/n/10 , which is much l
 ower than the ob-served max-i-mum height of $40\OML/cmm/m/it/10 km$\OT1/cmr/m/n
 /10 . Com- 
  []
 
 
-Overfull \hbox (4.43236pt too wide) in paragraph at lines 669--670
+Overfull \hbox (4.43236pt too wide) in paragraph at lines 670--671
 \OT1/cmr/m/n/10 par-ing the ef-fects of the max-i-mum height, ver-ti-cal spread
  and hor-i-zon-tal spread shows 
  []
 
 
-Overfull \hbox (9.01564pt too wide) in paragraph at lines 669--670
+Overfull \hbox (9.01564pt too wide) in paragraph at lines 670--671
 \OT1/cmr/m/n/10 that ash par-ti-cle dis-tri-bu-tion in the ver-ti-cal di-rec-ti
 on has the strongest ef-fect on VATD 
  []
@@ -3525,175 +3513,175 @@ NG copy)> <./Figures/Possion-H24km-ParticleDis-h.png (PNG copy)> <./Figures/Pos
 sion-H29km-ParticleDis-h.png (PNG copy)> <./Figures/Possion-RDU-ParticleDis-h.p
 ng (PNG copy)> <./Figures/bent-55hr-ash-R25km.jpg> <./Figures/bent-55hr-ash-R30
 0km.jpg>]
-Overfull \hbox (17.5954pt too wide) in paragraph at lines 671--672
+Overfull \hbox (17.5954pt too wide) in paragraph at lines 672--673
 []\OT1/cmr/m/n/10 We have pre-sented a novel method for cre-at-ing \OT1/cmr/m/i
 t/10 a pri-ori \OT1/cmr/m/n/10 ini-tial con-di-tions for VATD 
  []
 
 
-Overfull \hbox (5.29353pt too wide) in paragraph at lines 671--672
+Overfull \hbox (5.29353pt too wide) in paragraph at lines 672--673
 \OT1/cmr/m/n/10 sim-u-la-tions. We have shown that it might be pos-si-ble to ob
 -tain ini-tial po-si-tions of ash 
  []
 
 
-Overfull \hbox (3.40462pt too wide) in paragraph at lines 671--672
+Overfull \hbox (3.40462pt too wide) in paragraph at lines 672--673
 \OT1/cmr/m/n/10 parcels with de-ter-min-is-tic for-ward mod-el-ing of the vol-c
 anic plume, ob-vi-at-ing the need 
  []
 
 
-Overfull \hbox (8.62689pt too wide) in paragraph at lines 671--672
+Overfull \hbox (8.62689pt too wide) in paragraph at lines 672--673
 \OT1/cmr/m/n/10 to at-tempt to ob-tain ini-tial po-si-tions or a his-tory of re
 -lease heights via in-ver-sion (Stohl 
  []
 
 
-Overfull \hbox (6.57132pt too wide) in paragraph at lines 671--672
+Overfull \hbox (6.57132pt too wide) in paragraph at lines 672--673
 \OT1/cmr/m/n/10 et al.[], 2011). Al-though the method now suf-fers from the hig
 h com-pu-ta-tional cost as-so- 
  []
 
 
-Overfull \hbox (1.98796pt too wide) in paragraph at lines 671--672
+Overfull \hbox (1.98796pt too wide) in paragraph at lines 672--673
 \OT1/cmr/m/n/10 ci-ated with 3D for-ward mod-el-ing, it not only helps over-com
 e short-com-ings of ex-ist-ing 
  []
 
 
-Overfull \hbox (10.28987pt too wide) in paragraph at lines 671--672
+Overfull \hbox (10.28987pt too wide) in paragraph at lines 672--673
 \OT1/cmr/m/n/10 meth-ods used to gen-er-ate \OT1/cmr/m/it/10 a pri-ori \OT1/cmr
 /m/n/10 in-put pa-ram-e-ters, but also over-comes the need to do 
  []
 
 
-Overfull \hbox (13.34912pt too wide) in paragraph at lines 671--672
+Overfull \hbox (13.34912pt too wide) in paragraph at lines 672--673
 \OT1/cmr/m/n/10 the thou-sands of runs as-so-ci-ated with in-verse mod-el-ing. 
 In ad-di-tion, com-pu-ta-tional cost 
  []
 
 
-Overfull \hbox (6.43231pt too wide) in paragraph at lines 671--672
+Overfull \hbox (6.43231pt too wide) in paragraph at lines 672--673
 \OT1/cmr/m/n/10 will con-tinue to di-min-ish as com-put-ing speed in-creases. A
 s they are for-ward nu-mer-i-cal 
  []
 
 
-Overfull \hbox (2.04349pt too wide) in paragraph at lines 671--672
+Overfull \hbox (2.04349pt too wide) in paragraph at lines 672--673
 \OT1/cmr/m/n/10 mod-els based on first prin-ci-ples, 3D plume mod-els need lit-
 tle if any pa-ram-e-ter-i-za-tion, 
  []
 
 
-Overfull \hbox (7.82124pt too wide) in paragraph at lines 671--672
+Overfull \hbox (7.82124pt too wide) in paragraph at lines 672--673
 \OT1/cmr/m/n/10 and user in-ter-ven-tion should not be re-quired to im-prove fo
 re-cast power; no as-sump-tion 
  []
 
 
-Overfull \hbox (11.08519pt too wide) in paragraph at lines 671--672
+Overfull \hbox (11.08519pt too wide) in paragraph at lines 672--673
 \OT1/cmr/m/n/10 about the ini-tial po-si-tion of ash parcels is needed. Gen-er-
 a-tion of the ini-tial cloud of ash 
  []
 
 
-Overfull \hbox (0.79355pt too wide) in paragraph at lines 671--672
+Overfull \hbox (0.79355pt too wide) in paragraph at lines 672--673
 \OT1/cmr/m/n/10 parcels di-rectly by 3D sim-u-la-tion is po-ten-tially adapt-ab
 le to a va-ri-ety of vol-canic and 
  []
 
 
-Overfull \hbox (5.23787pt too wide) in paragraph at lines 671--672
+Overfull \hbox (5.23787pt too wide) in paragraph at lines 672--673
 \OT1/cmr/m/n/10 at-mo-spheric sce-nar-ios. In con-trast, semiem-pir-i-cal ex-pr
 es-sions used to de-ter-mine ini-tial 
  []
 
 
-Overfull \hbox (5.37679pt too wide) in paragraph at lines 671--672
+Overfull \hbox (5.37679pt too wide) in paragraph at lines 672--673
 \OT1/cmr/m/n/10 con-di-tions re-quire sev-eral pa-ram-e-ters to con-trol ash pa
 r-ti-cle dis-tri-bu-tion along a ver-ti- 
  []
 
 
-Overfull \hbox (22.1824pt too wide) in paragraph at lines 671--672
+Overfull \hbox (22.1824pt too wide) in paragraph at lines 672--673
 \OT1/cmr/m/n/10 cal line source or some sim-pli-fied shape of the ini-tial ash 
 cloud, mak-ing it dif-fi-cult in some 
  []
 
 
-Overfull \hbox (9.96002pt too wide) in paragraph at lines 673--674
+Overfull \hbox (9.96002pt too wide) in paragraph at lines 674--675
 []\OT1/cmr/m/n/10 The full range of re-search is-sues raised by nu-mer-i-cal fo
 re-cast-ing of vol-canic clouds 
  []
 
 
-Overfull \hbox (16.96008pt too wide) in paragraph at lines 673--674
+Overfull \hbox (16.96008pt too wide) in paragraph at lines 674--675
 \OT1/cmr/m/n/10 is di-verse. We de-scribed in this pa-per the ef-fect of ini-ti
 al con-di-tions cho-sen from the out- 
  []
 
 
-Overfull \hbox (0.93242pt too wide) in paragraph at lines 673--674
+Overfull \hbox (0.93242pt too wide) in paragraph at lines 674--675
 \OT1/cmr/m/n/10 put of a 3D plume model on nu-mer-i-cal fore-casts of vol-canic
  ash trans-port sim-u-la-tion. 
  []
 
 
-Overfull \hbox (16.0436pt too wide) in paragraph at lines 673--674
+Overfull \hbox (16.0436pt too wide) in paragraph at lines 674--675
 \OT1/cmr/m/n/10 The wind field, an-other im-por-tant fac-tor in vol-canic ash t
 rans-porta-tion sim-u-la-tion is not 
  []
 
 
-Overfull \hbox (18.51553pt too wide) in paragraph at lines 673--674
+Overfull \hbox (18.51553pt too wide) in paragraph at lines 674--675
 \OT1/cmr/m/n/10 dis-cussed in the present work. Some other as-pects, such as sm
 all scale phys-i-cal pro-cesses, 
  []
 
 
-Overfull \hbox (8.07115pt too wide) in paragraph at lines 673--674
+Overfull \hbox (8.07115pt too wide) in paragraph at lines 674--675
 \OT1/cmr/m/n/10 even though they play lesser roles, might need to be in-cluded 
 in VATDs to im-prove ac- 
  []
 
 
-Overfull \hbox (8.21019pt too wide) in paragraph at lines 673--674
+Overfull \hbox (8.21019pt too wide) in paragraph at lines 674--675
 \OT1/cmr/m/n/10 cu-racy for a par-tic-u-lar erup-tion. In ad-di-tion, erup-tion
  con-di-tions are sub-ject to change 
  []
 
 
-Overfull \hbox (15.82127pt too wide) in paragraph at lines 673--674
+Overfull \hbox (15.82127pt too wide) in paragraph at lines 674--675
 \OT1/cmr/m/n/10 with time, even dur-ing the cli-mac-tic phase of an erup-tion. 
 In the fu-ture, time-dependent 
  []
 
 
-Overfull \hbox (33.48796pt too wide) in paragraph at lines 673--674
+Overfull \hbox (33.48796pt too wide) in paragraph at lines 674--675
 \OT1/cmr/m/n/10 ini-tial con-di-tions for VATDs can be cre-ated from 3D plume s
 im-u-la-tions with time-dependent 
  []
 
 
-Overfull \hbox (5.21011pt too wide) in paragraph at lines 846--848
+Overfull \hbox (5.21011pt too wide) in paragraph at lines 847--849
 \OT1/cmr/m/n/10 Support for the Twen-ti-eth Cen-tury Re-anal-y-sis Project data
 set is pro-vided by the U.S. 
  []
 
 
-Overfull \hbox (0.18242pt too wide) in paragraph at lines 846--848
+Overfull \hbox (0.18242pt too wide) in paragraph at lines 847--849
 \OT1/cmr/m/n/10 De-part-ment of En-ergy, Of-fice of Sci-ence In-no-va-tive and 
 Novel Com-pu-ta-tional Im-pact 
  []
 
 
-Overfull \hbox (4.68245pt too wide) in paragraph at lines 846--848
+Overfull \hbox (4.68245pt too wide) in paragraph at lines 847--849
 \OT1/cmr/m/n/10 on The-ory and Ex-per-i-ment (DOE IN-CITE) pro-gram, and Of-fic
 e of Bi-o-log-i-cal and En- 
  []
 
 
-Overfull \hbox (6.21016pt too wide) in paragraph at lines 846--848
+Overfull \hbox (6.21016pt too wide) in paragraph at lines 847--849
 \OT1/cmr/m/n/10 vi-ron-men-tal Re-search (BER), and by the Na-tional Oceanic an
 d At-mo-spheric Ad-min-is- 
  []
@@ -3717,7 +3705,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--50
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4479) has occurred while \output is active []
 
  [18]
 Underfull \hbox (badness 10000) in paragraph at lines 116--133
@@ -3819,9 +3807,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 599--619
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19]
 Underfull \hbox (badness 1308) in paragraph at lines 657--671
 []\OT1/cmr/m/n/10 Suzuki, Y., & Koy-aguchi, T.  (2009).  A three-dimensional nu
 -mer-i-cal sim-u-la-tion of 
@@ -3834,6 +3819,9 @@ phys-i-cal Re-search: Solid Earth (1978--
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
 Underfull \hbox (badness 10000) in paragraph at lines 686--703
 \OT1/cmr/m/n/10 of tur-bu-lent mix-ing in erup-tion clouds us-ing a three-dimen
 sional fluid dy-nam-ics 
@@ -3900,6 +3888,9 @@ Package natbib Warning: There were undefined citations.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.45pt have occurred.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
  3616 strings out of 493089
@@ -3908,7 +3899,7 @@ Here is how much of TeX's memory you used:
  6999 multiletter control sequences out of 15000+600000
  11811 words of font info for 41 fonts, out of 8000000 for 9000
  1147 hyphenation exceptions out of 8191
- 38i,10n,37p,2091b,394s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,10n,37p,2091b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
@@ -3928,7 +3919,7 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/201
 5/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on JGR-VATD.pdf (20 pages, 8829927 bytes).
+Output written on JGR-VATD.pdf (20 pages, 8829981 bytes).
 PDF statistics:
  505 PDF objects out of 1000 (max. 8388607)
  172 compressed objects within 2 object streams
