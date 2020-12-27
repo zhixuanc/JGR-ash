@@ -4,3 +4,5 @@
 agujournaltemplate.tex
 *.bak
 si template 2018.tex
+./QGIS/*
+./QGIS
