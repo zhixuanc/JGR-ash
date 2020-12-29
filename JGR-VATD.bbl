@@ -1,6 +1,21 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+\APACciteatitle {stefanescu2014temporal}}{%
+\APACciteatitle {stefanescu2014temporal}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+stefanescu2014temporal}
+\APACinsertmetastar {%
+stefanescu2014temporal}%
+
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Avdyushin%
 \ \protect \BOthers {.}}{%
 Avdyushin%
@@ -81,39 +96,6 @@ Bursik, M.%
   {Effect of wind on the rise height of volcanic plumes}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Geophys. Res. Lett}{28}{18}{3621--3624}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Bursik%
-\ \protect \BOthers {.}}{%
-Bursik%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2012}}%
-}]{%
-bursik2012estimation}
-\APACinsertmetastar {%
-bursik2012estimation}%
-\begin{APACrefauthors}%
-Bursik, M.%
-, Jones, M.%
-, Carn, S.%
-, Dean, K.%
-, Patra, A.%
-, Pavolonis, M.%
-\BDBL {}others%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2012}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Estimation and propagation of volcanic source parameter
-  uncertainty in an ash transport and dispersal model: application to the
-  Eyjafjallajokull plume of 14--16 April 2010} {Estimation and propagation of
-  volcanic source parameter uncertainty in an ash transport and dispersal
-  model: application to the eyjafjallajokull plume of 14--16 april
-  2010}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Bulletin of volcanology}{74}{10}{2321--2338}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -211,65 +193,6 @@ Cerminara, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Compo%
-, Whitaker%
-\BCBL {}\ \BBA {} Sardeshmukh%
-}{%
-Compo%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2006}}%
-}]{%
-compo2006feasibility}
-\APACinsertmetastar {%
-compo2006feasibility}%
-\begin{APACrefauthors}%
-Compo, G\BPBI P.%
-, Whitaker, J\BPBI S.%
-\BCBL {}\ \BBA {} Sardeshmukh, P\BPBI D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2006}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Feasibility of a 100-year reanalysis using only surface
-  pressure data} {Feasibility of a 100-year reanalysis using only surface
-  pressure data}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Bulletin of the American Meteorological
-  Society}{87}{2}{175--190}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Compo%
-\ \protect \BOthers {.}}{%
-Compo%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2011}}%
-}]{%
-compo2011twentieth}
-\APACinsertmetastar {%
-compo2011twentieth}%
-\begin{APACrefauthors}%
-Compo, G\BPBI P.%
-, Whitaker, J\BPBI S.%
-, Sardeshmukh, P\BPBI D.%
-, Matsui, N.%
-, Allan, R\BPBI J.%
-, Yin, X.%
-\BDBL {}others%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2011}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {The twentieth century reanalysis project} {The twentieth
-  century reanalysis project}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Quarterly Journal of the Royal Meteorological
-  Society}{137}{654}{1--28}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Costa%
 \ \protect \BOthers {.}}{%
 Costa%
@@ -331,62 +254,6 @@ Daniele, P.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-DeFoor%
-, Robinson%
-\BCBL {}\ \BBA {} Ryan%
-}{%
-DeFoor%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1992}}%
-}]{%
-defoor1992early}
-\APACinsertmetastar {%
-defoor1992early}%
-\begin{APACrefauthors}%
-DeFoor, T\BPBI E.%
-, Robinson, E.%
-\BCBL {}\ \BBA {} Ryan, S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1992}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Early lidar observations of the June 1991 Pinatubo
-  eruption plume at Mauna Loa Observatory, Hawaii} {Early lidar observations of
-  the june 1991 pinatubo eruption plume at mauna loa observatory,
-  hawaii}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Geophysical research letters}{19}{2}{187--190}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Degruyter%
-\ \BBA {} Bonadonna%
-}{%
-Degruyter%
-\ \BBA {} Bonadonna%
-}{%
-{\protect \APACyear {2012}}%
-}]{%
-degruyter2012improving}
-\APACinsertmetastar {%
-degruyter2012improving}%
-\begin{APACrefauthors}%
-Degruyter, W.%
-\BCBT {}\ \BBA {} Bonadonna, C.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2012}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Improving on mass flow rate estimates of volcanic
-  eruptions} {Improving on mass flow rate estimates of volcanic
-  eruptions}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Geophysical Research Letters}{39}{16}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 de'Michieli Vitturi%
 , Neri%
 \BCBL {}\ \BBA {} Barsotti%
@@ -412,63 +279,6 @@ de'Michieli Vitturi, M.%
   volcanic plumes based on the method of moments}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Geoscientific Model Development}{8}{8}{2447--2463}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Deshler%
-, Hofmann%
-, Johnson%
-\BCBL {}\ \BBA {} Rozier%
-}{%
-Deshler%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1992}}%
-}]{%
-deshler1992balloonborne}
-\APACinsertmetastar {%
-deshler1992balloonborne}%
-\begin{APACrefauthors}%
-Deshler, T.%
-, Hofmann, D.%
-, Johnson, B.%
-\BCBL {}\ \BBA {} Rozier, W.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1992}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Balloonborne measurements of the Pinatubo aerosol size
-  distribution and volatility at Laramie, Wyoming during the summer of 1991}
-  {Balloonborne measurements of the pinatubo aerosol size distribution and
-  volatility at laramie, wyoming during the summer of 1991}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Geophysical research letters}{19}{2}{199--202}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Devenish%
-}{%
-Devenish%
-}{%
-{\protect \APACyear {2013}}%
-}]{%
-devenish2013using}
-\APACinsertmetastar {%
-devenish2013using}%
-\begin{APACrefauthors}%
-Devenish, B.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2013}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Using simple plume models to refine the source mass flux
-  of volcanic eruptions according to atmospheric conditions} {Using simple
-  plume models to refine the source mass flux of volcanic eruptions according
-  to atmospheric conditions}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Volcanology and Geothermal
-  Research}{256}{}{118--127}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -520,65 +330,6 @@ D’amours, R.%
   canadian emergency response model}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Atmospheric Environment}{32}{24}{4335--4341}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Fero%
-, Carey%
-\BCBL {}\ \BBA {} Merrill%
-}{%
-Fero%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2008}}%
-}]{%
-fero2008simulation}
-\APACinsertmetastar {%
-fero2008simulation}%
-\begin{APACrefauthors}%
-Fero, J.%
-, Carey, S\BPBI N.%
-\BCBL {}\ \BBA {} Merrill, J\BPBI T.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2008}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Simulation of the 1980 eruption of Mount St. Helens
-  using the ash-tracking model PUFF} {Simulation of the 1980 eruption of mount
-  st. helens using the ash-tracking model puff}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Volcanology and Geothermal
-  Research}{175}{3}{355--366}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Fero%
-, Carey%
-\BCBL {}\ \BBA {} Merrill%
-}{%
-Fero%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2009}}%
-}]{%
-fero2009simulating}
-\APACinsertmetastar {%
-fero2009simulating}%
-\begin{APACrefauthors}%
-Fero, J.%
-, Carey, S\BPBI N.%
-\BCBL {}\ \BBA {} Merrill, J\BPBI T.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2009}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Simulating the dispersal of tephra from the 1991
-  Pinatubo eruption: implications for the formation of widespread ash layers}
-  {Simulating the dispersal of tephra from the 1991 pinatubo eruption:
-  implications for the formation of widespread ash layers}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Volcanology and Geothermal
-  Research}{186}{1}{120--131}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -635,129 +386,6 @@ Folch, A.%
   for ash aggregation}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Geoscientific Model Development}{9}{1}{431}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Guo%
-, Bluth%
-, Rose%
-, Watson%
-\BCBL {}\ \BBA {} Prata%
-}{%
-Guo%
-, Bluth%
-\BCBL {}\ \protect \BOthers {.}}{%
-{\protect \APACyear {2004}}%
-}]{%
-guo2004re}
-\APACinsertmetastar {%
-guo2004re}%
-\begin{APACrefauthors}%
-Guo, S.%
-, Bluth, G\BPBI J.%
-, Rose, W\BPBI I.%
-, Watson, I\BPBI M.%
-\BCBL {}\ \BBA {} Prata, A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2004}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Re-evaluation of SO2 release of the 15 June 1991
-  Pinatubo eruption using ultraviolet and infrared satellite sensors}
-  {Re-evaluation of so2 release of the 15 june 1991 pinatubo eruption using
-  ultraviolet and infrared satellite sensors}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Geochemistry, Geophysics, Geosystems}{5}{4}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Guo%
-, Rose%
-, Bluth%
-\BCBL {}\ \BBA {} Watson%
-}{%
-Guo%
-, Rose%
-\BCBL {}\ \protect \BOthers {.}}{%
-{\protect \APACyear {2004}}%
-}]{%
-guo2004particles}
-\APACinsertmetastar {%
-guo2004particles}%
-\begin{APACrefauthors}%
-Guo, S.%
-, Rose, W\BPBI I.%
-, Bluth, G\BPBI J.%
-\BCBL {}\ \BBA {} Watson, I\BPBI M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2004}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Particles in the great Pinatubo volcanic cloud of June
-  1991: The role of ice} {Particles in the great pinatubo volcanic cloud of
-  june 1991: The role of ice}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Geochemistry, Geophysics, Geosystems}{5}{5}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-R.~Holasek%
-, Self%
-\BCBL {}\ \BBA {} Woods%
-}{%
-R.~Holasek%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1996}}%
-}]{%
-holasek1996satellite}
-\APACinsertmetastar {%
-holasek1996satellite}%
-\begin{APACrefauthors}%
-Holasek, R.%
-, Self, S.%
-\BCBL {}\ \BBA {} Woods, A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1996}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Satellite observations and interpretation of the 1991
-  Mount Pinatubo eruption plumes} {Satellite observations and interpretation of
-  the 1991 mount pinatubo eruption plumes}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Geophysical Research: Solid
-  Earth}{101}{B12}{27635--27655}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-R\BPBI E.~Holasek%
-, Woods%
-\BCBL {}\ \BBA {} Self%
-}{%
-R\BPBI E.~Holasek%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1996}}%
-}]{%
-holasek1996experiments}
-\APACinsertmetastar {%
-holasek1996experiments}%
-\begin{APACrefauthors}%
-Holasek, R\BPBI E.%
-, Woods, A\BPBI W.%
-\BCBL {}\ \BBA {} Self, S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1996}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Experiments on gas-ash separation processes in volcanic
-  umbrella plumes} {Experiments on gas-ash separation processes in volcanic
-  umbrella plumes}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of volcanology and geothermal
-  research}{70}{3-4}{169--181}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -870,35 +498,6 @@ Oberhuber, J\BPBI M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Paladio-Melosantos%
-\ \protect \BOthers {.}}{%
-Paladio-Melosantos%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1996}}%
-}]{%
-paladio1996tephra}
-\APACinsertmetastar {%
-paladio1996tephra}%
-\begin{APACrefauthors}%
-Paladio-Melosantos, M\BPBI L\BPBI O.%
-, Solidum, R\BPBI U.%
-, Scott, W\BPBI E.%
-, Quiambao, R\BPBI B.%
-, Umbal, J\BPBI V.%
-, Rodolfo, K\BPBI S.%
-\BDBL {}Ruelo, H\BPBI B.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1996}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Tephra falls of the 1991 eruptions of Mount Pinatubo}
-  {Tephra falls of the 1991 eruptions of mount pinatubo}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Fire and mud}{12000}{}{12030}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Pouget%
 , Bursik%
 , Singla%
@@ -959,36 +558,6 @@ Schwaiger, H\BPBI F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Scott%
-\ \protect \BOthers {.}}{%
-Scott%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1996}}%
-}]{%
-scott1996pyroclastic}
-\APACinsertmetastar {%
-scott1996pyroclastic}%
-\begin{APACrefauthors}%
-Scott, W\BPBI E.%
-, Hoblitt, R\BPBI P.%
-, Torres, R\BPBI C.%
-, Self, S.%
-, Martinez, M\BPBI M\BPBI L.%
-\BCBL {}\ \BBA {} Nillos, T.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1996}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Pyroclastic flows of the June 15, 1991, climactic
-  eruption of Mount Pinatubo} {Pyroclastic flows of the june 15, 1991,
-  climactic eruption of mount pinatubo}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Fire and Mud: eruptions and lahars of Mount Pinatubo,
-  Philippines}{}{}{545--570}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Searcy%
 , Dean%
 \BCBL {}\ \BBA {} Stringer%
@@ -1017,69 +586,35 @@ Searcy, C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Self%
-, Zhao%
-, Holasek%
-, Torres%
-\BCBL {}\ \BBA {} King%
-}{%
-Self%
+Stohl%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {1996}}%
+Stohl%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
 }]{%
-self1993atmospheric}
+stohl2011determination}
 \APACinsertmetastar {%
-self1993atmospheric}%
+stohl2011determination}%
 \begin{APACrefauthors}%
-Self, S.%
-, Zhao, J\BHBI X.%
-, Holasek, R\BPBI E.%
-, Torres, R\BPBI C.%
-\BCBL {}\ \BBA {} King, A\BPBI J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1996}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {The atmospheric impact of the 1991 Mount Pinatubo
-  eruption} {The atmospheric impact of the 1991 mount pinatubo
-  eruption}.{\BBCQ}
-\newblock
-
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Stefanescu%
-\ \protect \BOthers {.}}{%
-Stefanescu%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2014}}%
-}]{%
-stefanescu2014temporal}
-\APACinsertmetastar {%
-stefanescu2014temporal}%
-\begin{APACrefauthors}%
-Stefanescu, E.%
-, Patra, A.%
-, Bursik, M.%
-, Madankan, R.%
-, Pouget, S.%
-, Jones, M.%
+Stohl, A.%
+, Prata, A.%
+, Eckhardt, S.%
+, Clarisse, L.%
+, Durant, A.%
+, Henne, S.%
 \BDBL {}others%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2014}{}{}.
+\APACrefYearMonthDay{2011}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Temporal, probabilistic mapping of ash clouds using wind
-  field stochastic variability and uncertain eruption source parameters:
-  Example of the 14 April 2010 Eyjafjallaj{\"o}kull eruption} {Temporal,
-  probabilistic mapping of ash clouds using wind field stochastic variability
-  and uncertain eruption source parameters: Example of the 14 april 2010
-  eyjafjallaj{\"o}kull eruption}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Determination of time-and height-resolved volcanic ash
+  emissions and their use for quantitative ash dispersion modeling: the 2010
+  Eyjafjallaj{\"o}kull eruption} {Determination of time-and height-resolved
+  volcanic ash emissions and their use for quantitative ash dispersion
+  modeling: the 2010 eyjafjallaj{\"o}kull eruption}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Journal of Advances in Modeling Earth
-  Systems}{6}{4}{1173--1184}.
+\APACjournalVolNumPages{Atmospheric Chemistry and Physics}{11}{}{4333--4351}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1192,6 +727,36 @@ Tanaka, H.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Tupper%
+\ \protect \BOthers {.}}{%
+Tupper%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2007}}%
+}]{%
+tupper2007facing}
+\APACinsertmetastar {%
+tupper2007facing}%
+\begin{APACrefauthors}%
+Tupper, A.%
+, Itikarai, I.%
+, Richards, M.%
+, Prata, F.%
+, Carn, S.%
+\BCBL {}\ \BBA {} Rosenfeld, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Facing the challenges of the international airways
+  volcano watch: the 2004/05 eruptions of Manam, Papua New Guinea} {Facing the
+  challenges of the international airways volcano watch: the 2004/05 eruptions
+  of manam, papua new guinea}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Weather and Forecasting}{22}{1}{175--191}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Walko%
 , Tremback%
 \BCBL {}\ \BBA {} Bell%
@@ -1217,36 +782,6 @@ Walko, R.%
   model}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{User’s guide}{}{}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Whitaker%
-, Compo%
-, Wei%
-\BCBL {}\ \BBA {} Hamill%
-}{%
-Whitaker%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2004}}%
-}]{%
-whitaker2004reanalysis}
-\APACinsertmetastar {%
-whitaker2004reanalysis}%
-\begin{APACrefauthors}%
-Whitaker, J\BPBI S.%
-, Compo, G\BPBI P.%
-, Wei, X.%
-\BCBL {}\ \BBA {} Hamill, T\BPBI M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2004}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Reanalysis without radiosondes using ensemble data
-  assimilation} {Reanalysis without radiosondes using ensemble data
-  assimilation}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Monthly Weather Review}{132}{5}{1190--1200}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1276,38 +811,6 @@ Witham, C.%
   dispersion models using the 1 november 2004 grimsv{\"o}tn eruption}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Meteorological Applications}{14}{1}{27--38}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Woodhouse%
-, Hogg%
-, Phillips%
-\BCBL {}\ \BBA {} Sparks%
-}{%
-Woodhouse%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2013}}%
-}]{%
-woodhouse2013interaction}
-\APACinsertmetastar {%
-woodhouse2013interaction}%
-\begin{APACrefauthors}%
-Woodhouse, M.%
-, Hogg, A.%
-, Phillips, J.%
-\BCBL {}\ \BBA {} Sparks, R.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2013}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Interaction between volcanic plumes and wind during the
-  2010 Eyjafjallaj{\"o}kull eruption, Iceland} {Interaction between volcanic
-  plumes and wind during the 2010 eyjafjallaj{\"o}kull eruption,
-  iceland}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Geophysical Research: Solid
-  Earth}{118}{1}{92--109}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
