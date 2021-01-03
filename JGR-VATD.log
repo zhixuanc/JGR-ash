@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2020.12.22)  3 JAN 2021 08:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2020.12.22)  3 JAN 2021 08:17
 entering extended mode
 **./JGR-VATD.tex
 (JGR-VATD.tex
@@ -808,9 +808,33 @@ Package natbib Warning: Citation `rolph2017real' on page 3 undefined on input l
 ine 203.
 
 
-Overfull \hbox (11.65446pt too wide) in paragraph at lines 203--204
-[]\OT1/cmr/m/n/10 Another pop-u-lar VATD model hys-plit (\OT1/cmr/bx/n/10 ??\OT
-1/cmr/m/n/10 ) is also used in this study to bet-ter un- 
+Overfull \hbox (12.29341pt too wide) in paragraph at lines 203--204
+[]\OT1/cmr/m/n/10 We also adopt an-other one of the most widely used mod-els fo
+r at-mo-spheric tra-jec- 
+ []
+
+
+Overfull \hbox (8.8213pt too wide) in paragraph at lines 203--204
+\OT1/cmr/m/n/10 tory and dis-per-sion cal-cu-la-tions, the Hy-brid Single-Parti
+cle La-grangian In-te-grated Tra- 
+ []
+
+
+Overfull \hbox (13.51564pt too wide) in paragraph at lines 203--204
+\OT1/cmr/m/n/10 jec-tory model (HYS-PLIT) (\OT1/cmr/bx/n/10 ??\OT1/cmr/m/n/10 )
+, de-vel-oped by NOAA's Air Re-sources Lab-o-ra-tory. HYS- 
+ []
+
+
+Overfull \hbox (8.65457pt too wide) in paragraph at lines 203--204
+\OT1/cmr/m/n/10 PLIT is able to sim-u-late sim-ple back tra-jec-to-ries to very
+ so-phis-ti-cated com-pu-ta-tions of 
+ []
+
+
+Overfull \hbox (10.82146pt too wide) in paragraph at lines 203--204
+\OT1/cmr/m/n/10 trans-port, mix-ing, chem-i-cal trans-for-ma-tion, and de-po-si
+-tion of pol-lu-tants and haz-ardous 
  []
 
 
@@ -983,12 +1007,7 @@ Overfull \hbox (15.57117pt too wide) in paragraph at lines 220--223
 -re-sent erupted ma-te-rial. The ini- 
  []
 
-[4 <./Figures/Creat_initial_Ash.pdf
 
-pdfTeX warning: miktex-pdftex.exe (file ./Figures/Creat_initial_Ash.pdf): PDF i
-nclusion: invalid other resource which is no dict (key 'ProcSets', type <array>
-); ignored.
->]
 Overfull \hbox (4.4879pt too wide) in paragraph at lines 224--225
 []\OT1/cmr/m/n/10 After reach-ing the max-i-mum rise height and start-ing to sp
 read hor-i-zon-tally, par- 
@@ -1013,7 +1032,7 @@ where mean plume mo-tion is
  []
 
 
-Package natbib Warning: Citation `paladio1996tephra' on page 5 undefined on inp
+Package natbib Warning: Citation `paladio1996tephra' on page 4 undefined on inp
 ut line 226.
 
 
@@ -1102,7 +1121,12 @@ Overfull \hbox (2.01561pt too wide) in paragraph at lines 237--238
 part (above the ``cor-ner'' 
  []
 
+[4] [5 <./Figures/Creat_initial_Ash.pdf
 
+pdfTeX warning: miktex-pdftex.exe (file ./Figures/Creat_initial_Ash.pdf): PDF i
+nclusion: invalid other resource which is no dict (key 'ProcSets', type <array>
+); ignored.
+>]
 Overfull \hbox (15.84901pt too wide) in paragraph at lines 238--239
 []\OT1/cmr/m/n/10 switch SPH dis-cretiza-tion points to La-grangian tracer par-
 ti-cles, by as-sign-ing grain 
@@ -1132,19 +1156,19 @@ Overfull \hbox (18.54344pt too wide) in paragraph at lines 241--242
  con-ver-sion be-tween an Eu- 
  []
 
-<Figures/mssfrc_front-filter-by-phase.jpg, id=39, 1235.61626pt x 793.96625pt>
+<Figures/mssfrc_front-filter-by-phase.jpg, id=43, 1235.61626pt x 793.96625pt>
 File: Figures/mssfrc_front-filter-by-phase.jpg Graphic file (type jpg)
 <use Figures/mssfrc_front-filter-by-phase.jpg>
 Package pdftex.def Info: Figures/mssfrc_front-filter-by-phase.jpg  used on inpu
 t line 247.
 (pdftex.def)             Requested size: 127.89029pt x 82.17558pt.
-<Figures/mssfrc_top-with-axis.png, id=40, 1235.61626pt x 793.96625pt>
+<Figures/mssfrc_top-with-axis.png, id=44, 1235.61626pt x 793.96625pt>
 File: Figures/mssfrc_top-with-axis.png Graphic file (type png)
 <use Figures/mssfrc_top-with-axis.png>
 Package pdftex.def Info: Figures/mssfrc_top-with-axis.png  used on input line 2
 51.
 (pdftex.def)             Requested size: 127.89029pt x 82.17558pt.
-<Figures/mssfrc_front-z15000.jpg, id=41, 1235.61626pt x 793.96625pt>
+<Figures/mssfrc_front-z15000.jpg, id=45, 1235.61626pt x 793.96625pt>
 File: Figures/mssfrc_front-z15000.jpg Graphic file (type jpg)
 <use Figures/mssfrc_front-z15000.jpg>
 Package pdftex.def Info: Figures/mssfrc_front-z15000.jpg  used on input line 25
@@ -1254,7 +1278,7 @@ Overfull \hbox (2.21011pt too wide) in paragraph at lines 261--262
 -u-la-tion when cre-at-ing ini- 
  []
 
-[5]
+
 Underfull \hbox (badness 10000) in paragraph at lines 265--265
 []\OT1/cmr/bx/n/9 Table 1. \OT1/cmr/m/n/9 Three dif-fer-ent meth-ods for cre-at
 -ing ini-tial con-di-tions (ini-tial ash clouds) for Puff
@@ -1372,7 +1396,9 @@ Overfull \hbox (1.29353pt too wide) in paragraph at lines 283--285
 would be straight-for-ward in 
  []
 
-<Figures/Restart-Puff.pdf, id=46, 1643.13875pt x 689.57625pt>
+[6 <./Figures/mssfrc_front-filter-by-phase.jpg> <./Figures/mssfrc_top-with-axis
+.png (PNG copy)> <./Figures/mssfrc_front-z15000.jpg>]
+<Figures/Restart-Puff.pdf, id=50, 1643.13875pt x 689.57625pt>
 File: Figures/Restart-Puff.pdf Graphic file (type pdf)
 <use Figures/Restart-Puff.pdf>
 Package pdftex.def Info: Figures/Restart-Puff.pdf  used on input line 288.
@@ -1384,8 +1410,7 @@ n-ter-mit-tent pulsed re-leas-ing of ash par-ti-cles. $\OML/cmm/m/it/9 t[]$ \OT
 1/cmr/m/n/9 is
  []
 
-[6 <./Figures/mssfrc_front-filter-by-phase.jpg> <./Figures/mssfrc_top-with-axis
-.png (PNG copy)> <./Figures/mssfrc_front-z15000.jpg>]
+
 Overfull \hbox (13.26567pt too wide) in paragraph at lines 295--296
 []\OT1/cmr/m/n/10 Besides the po-si-tions of par-ti-cles in the ini-tial ash cl
 oud, other pa-ram-e-ters for Puff 
@@ -1551,12 +1576,18 @@ Overfull \hbox (9.2379pt too wide) in paragraph at lines 297--298
 a-ram-e-ters have ei-ther tiny or 
  []
 
+[7 <./Figures/Restart-Puff.pdf
 
-Package natbib Warning: Citation `holasek1996satellite' on page 7 undefined on 
+pdfTeX warning: miktex-pdftex.exe (file ./Figures/Restart-Puff.pdf): PDF inclus
+ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
+nored.
+>]
+
+Package natbib Warning: Citation `holasek1996satellite' on page 8 undefined on 
 input line 301.
 
 
-Package natbib Warning: Citation `holasek1996satellite' on page 7 undefined on 
+Package natbib Warning: Citation `holasek1996satellite' on page 8 undefined on 
 input line 301.
 
 
@@ -1571,19 +1602,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 301--301
 /9 ?\OT1/cmr/m/n/9 ) at dif-fer-ent time are also listed in the
  []
 
-<Figures/199106180441-ash-5hr-cut15000.jpg, id=51, 1766.6pt x 995.72pt>
+<Figures/199106180441-ash-5hr-cut15000.jpg, id=349, 1766.6pt x 995.72pt>
 File: Figures/199106180441-ash-5hr-cut15000.jpg Graphic file (type jpg)
 <use Figures/199106180441-ash-5hr-cut15000.jpg>
 Package pdftex.def Info: Figures/199106180441-ash-5hr-cut15000.jpg  used on inp
 ut line 320.
 (pdftex.def)             Requested size: 127.89029pt x 72.0777pt.
-<Figures/199106180441-ash-9hr-cut15000.jpg, id=52, 1766.6pt x 995.72pt>
+<Figures/199106180441-ash-9hr-cut15000.jpg, id=350, 1766.6pt x 995.72pt>
 File: Figures/199106180441-ash-9hr-cut15000.jpg Graphic file (type jpg)
 <use Figures/199106180441-ash-9hr-cut15000.jpg>
 Package pdftex.def Info: Figures/199106180441-ash-9hr-cut15000.jpg  used on inp
 ut line 324.
 (pdftex.def)             Requested size: 127.89029pt x 72.0777pt.
-<Figures/199106180441-ash-11hr-cut15000.jpg, id=53, 1766.6pt x 995.72pt>
+<Figures/199106180441-ash-11hr-cut15000.jpg, id=351, 1766.6pt x 995.72pt>
 File: Figures/199106180441-ash-11hr-cut15000.jpg Graphic file (type jpg)
 <use Figures/199106180441-ash-11hr-cut15000.jpg>
 Package pdftex.def Info: Figures/199106180441-ash-11hr-cut15000.jpg  used on in
@@ -1602,11 +1633,11 @@ ing and end-ing time for each case is in
  []
 
 
-Package natbib Warning: Citation `stein2015noaa' on page 7 undefined on input l
+Package natbib Warning: Citation `stein2015noaa' on page 8 undefined on input l
 ine 334.
 
 
-Package natbib Warning: Citation `rolph2017real' on page 7 undefined on input l
+Package natbib Warning: Citation `rolph2017real' on page 8 undefined on input l
 ine 334.
 
 
@@ -1679,15 +1710,15 @@ ions are dif-fer-ent, these trac-ers at
  []
 
 
-Overfull \hbox (11.68224pt too wide) in paragraph at lines 334--335
+Overfull \hbox (14.1267pt too wide) in paragraph at lines 334--335
 \OT1/cmr/m/n/10 lower el-e-va-tion would trans-pose to dif-fer-ent di-rec-tions
-. The hys-plit (\OT1/cmr/bx/n/10 ??\OT1/cmr/m/n/10 ) for-ward tra-jec- 
+. The HYS-PLIT (\OT1/cmr/bx/n/10 ??\OT1/cmr/m/n/10 ) for-ward tra- 
  []
 
 
-Overfull \hbox (2.73787pt too wide) in paragraph at lines 334--335
-\OT1/cmr/m/n/10 to-ries track-ing, which start-ing at June 15 1624 UTC, in-di-c
-ates that the wind be-tween 
+Overfull \hbox (14.68233pt too wide) in paragraph at lines 334--335
+\OT1/cmr/m/n/10 jec-to-ries track-ing, which start-ing at June 15 1624 UTC, in-
+di-cates that the wind be-tween 
  []
 
 
@@ -1696,13 +1727,9 @@ Overfull \hbox (17.09909pt too wide) in paragraph at lines 334--335
 -west while wind of higher 
  []
 
-[7 <./Figures/Restart-Puff.pdf
-
-pdfTeX warning: miktex-pdftex.exe (file ./Figures/Restart-Puff.pdf): PDF inclus
-ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
-nored.
->]
-<Figures/199106180441-ash-9hr-cut1500.jpg, id=353, 1766.6pt x 995.72pt>
+[8 <./Figures/199106180441-ash-5hr-cut15000.jpg> <./Figures/199106180441-ash-9h
+r-cut15000.jpg> <./Figures/199106180441-ash-11hr-cut15000.jpg>]
+<Figures/199106180441-ash-9hr-cut1500.jpg, id=356, 1766.6pt x 995.72pt>
 File: Figures/199106180441-ash-9hr-cut1500.jpg Graphic file (type jpg)
 <use Figures/199106180441-ash-9hr-cut1500.jpg>
 Package pdftex.def Info: Figures/199106180441-ash-9hr-cut1500.jpg  used on inpu
@@ -1731,7 +1758,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 346--346
  and end-ing time are cor-re-spond-ing to
  []
 
-<Figures/trajplot_test3_10_30K_ok.pdf, id=354, 614.295pt x 794.97pt>
+<Figures/trajplot_test3_10_30K_ok.pdf, id=357, 614.295pt x 794.97pt>
 File: Figures/trajplot_test3_10_30K_ok.pdf Graphic file (type pdf)
 <use Figures/trajplot_test3_10_30K_ok.pdf>
 Package pdftex.def Info: Figures/trajplot_test3_10_30K_ok.pdf  used on input li
@@ -1774,16 +1801,21 @@ l con-di-tions might greatly com-
  []
 
 
-Package natbib Warning: Citation `whitaker2004reanalysis' on page 8 undefined o
-n input line 363.
+Underfull \vbox (badness 5970) has occurred while \output is active []
+
+ [9 <./Figures/199106180441-ash-9hr-cut1500.jpg> <./Figures/trajplot_test3_10_3
+0K_ok.pdf>]
+
+Package natbib Warning: Citation `whitaker2004reanalysis' on page 10 undefined 
+on input line 363.
 
 
-Package natbib Warning: Citation `compo2006feasibility' on page 8 undefined on 
-input line 363.
+Package natbib Warning: Citation `compo2006feasibility' on page 10 undefined on
+ input line 363.
 
 
-Package natbib Warning: Citation `compo2011twentieth' on page 8 undefined on in
-put line 363.
+Package natbib Warning: Citation `compo2011twentieth' on page 10 undefined on i
+nput line 363.
 
 
 Overfull \hbox (15.79341pt too wide) in paragraph at lines 363--364
@@ -1798,11 +1830,6 @@ Overfull \hbox (24.48793pt too wide) in paragraph at lines 363--364
  []
 
 
-Underfull \vbox (badness 1365) has occurred while \output is active []
-
- [8 <./Figures/199106180441-ash-5hr-cut15000.jpg> <./Figures/199106180441-ash-9
-hr-cut15000.jpg> <./Figures/199106180441-ash-11hr-cut15000.jpg> <./Figures/1991
-06180441-ash-9hr-cut1500.jpg>]
 Overfull \hbox (10.26578pt too wide) in paragraph at lines 367--369
 []\OT1/cmr/m/n/10 Transportation of vol-canic ash re-sult-ing from the Pinatubo
  erup-tion on June 15th 
@@ -1898,7 +1925,6 @@ Overfull \hbox (1.07126pt too wide) in paragraph at lines 394--395
 Plume-SPH fol-low-ing steps 
  []
 
-[9 <./Figures/trajplot_test3_10_30K_ok.pdf>]
 
 Package natbib Warning: Citation `bursik2012estimation' on page 10 undefined on
  input line 396.
@@ -1957,66 +1983,66 @@ Overfull \hbox (16.73782pt too wide) in paragraph at lines 396--422
 c-tion, these pa-ram-e-ters have less 
  []
 
-
+[10]
 Overfull \hbox (8.68234pt too wide) in paragraph at lines 425--426
 []\OT1/cmr/m/n/10 The sim-u-la-tion re-sults us-ing dif-fer-ent ini-tial con-di
 -tions are com-pared with TOMS 
  []
 
-<Figures/bent-23hr-ash.jpg, id=365, 1766.6pt x 995.72pt>
+<Figures/bent-23hr-ash.jpg, id=368, 1766.6pt x 995.72pt>
 File: Figures/bent-23hr-ash.jpg Graphic file (type jpg)
 <use Figures/bent-23hr-ash.jpg>
 Package pdftex.def Info: Figures/bent-23hr-ash.jpg  used on input line 431.
 (pdftex.def)             Requested size: 127.89029pt x 72.0777pt.
-<Figures/SPH-Plume-23hr-ash.jpg, id=366, 1766.6pt x 995.72pt>
+<Figures/SPH-Plume-23hr-ash.jpg, id=369, 1766.6pt x 995.72pt>
 File: Figures/SPH-Plume-23hr-ash.jpg Graphic file (type jpg)
 <use Figures/SPH-Plume-23hr-ash.jpg>
 Package pdftex.def Info: Figures/SPH-Plume-23hr-ash.jpg  used on input line 435
 .
 (pdftex.def)             Requested size: 127.89029pt x 72.0777pt.
-<Figures/OB-ash-23hr-ash.png, id=367, 571.13374pt x 375.4025pt>
+<Figures/OB-ash-23hr-ash.png, id=370, 571.13374pt x 375.4025pt>
 File: Figures/OB-ash-23hr-ash.png Graphic file (type png)
 <use Figures/OB-ash-23hr-ash.png>
 Package pdftex.def Info: Figures/OB-ash-23hr-ash.png  used on input line 439.
 (pdftex.def)             Requested size: 127.89029pt x 84.06094pt.
-<Figures/bent-31hr-ash.jpg, id=369, 1766.6pt x 995.72pt>
+<Figures/bent-31hr-ash.jpg, id=372, 1766.6pt x 995.72pt>
 File: Figures/bent-31hr-ash.jpg Graphic file (type jpg)
 <use Figures/bent-31hr-ash.jpg>
 Package pdftex.def Info: Figures/bent-31hr-ash.jpg  used on input line 444.
 (pdftex.def)             Requested size: 127.89029pt x 72.0777pt.
-<Figures/SPH-Plume-31hr-ash.jpg, id=370, 1766.6pt x 995.72pt>
+<Figures/SPH-Plume-31hr-ash.jpg, id=373, 1766.6pt x 995.72pt>
 File: Figures/SPH-Plume-31hr-ash.jpg Graphic file (type jpg)
 <use Figures/SPH-Plume-31hr-ash.jpg>
 Package pdftex.def Info: Figures/SPH-Plume-31hr-ash.jpg  used on input line 448
 .
 (pdftex.def)             Requested size: 127.89029pt x 72.0777pt.
-<Figures/OB-ash-31hr-ash.png, id=371, 570.13pt x 372.39125pt>
+<Figures/OB-ash-31hr-ash.png, id=374, 570.13pt x 372.39125pt>
 File: Figures/OB-ash-31hr-ash.png Graphic file (type png)
 <use Figures/OB-ash-31hr-ash.png>
 Package pdftex.def Info: Figures/OB-ash-31hr-ash.png  used on input line 452.
 (pdftex.def)             Requested size: 127.89029pt x 83.5344pt.
-<Figures/bent-55hr-ash.jpg, id=372, 1766.6pt x 995.72pt>
+<Figures/bent-55hr-ash.jpg, id=375, 1766.6pt x 995.72pt>
 File: Figures/bent-55hr-ash.jpg Graphic file (type jpg)
 <use Figures/bent-55hr-ash.jpg>
 Package pdftex.def Info: Figures/bent-55hr-ash.jpg  used on input line 457.
 (pdftex.def)             Requested size: 127.89029pt x 72.0777pt.
-<Figures/SPH-Plume-55hr-ash.jpg, id=373, 1766.6pt x 995.72pt>
+<Figures/SPH-Plume-55hr-ash.jpg, id=376, 1766.6pt x 995.72pt>
 File: Figures/SPH-Plume-55hr-ash.jpg Graphic file (type jpg)
 <use Figures/SPH-Plume-55hr-ash.jpg>
 Package pdftex.def Info: Figures/SPH-Plume-55hr-ash.jpg  used on input line 461
 .
 (pdftex.def)             Requested size: 127.89029pt x 72.0777pt.
-<Figures/OB-ash-55hr-ash.png, id=374, 569.12625pt x 374.39874pt>
+<Figures/OB-ash-55hr-ash.png, id=377, 569.12625pt x 374.39874pt>
 File: Figures/OB-ash-55hr-ash.png Graphic file (type png)
 <use Figures/OB-ash-55hr-ash.png>
 Package pdftex.def Info: Figures/OB-ash-55hr-ash.png  used on input line 465.
 (pdftex.def)             Requested size: 127.89029pt x 84.13324pt.
 
-Package natbib Warning: Citation `guo2004particles' on page 10 undefined on inp
+Package natbib Warning: Citation `guo2004particles' on page 11 undefined on inp
 ut line 467.
 
 
-Package natbib Warning: Citation `guo2004particles' on page 10 undefined on inp
+Package natbib Warning: Citation `guo2004particles' on page 11 undefined on inp
 ut line 467.
 
 
@@ -2175,7 +2201,7 @@ Overfull \hbox (5.93248pt too wide) in paragraph at lines 471--473
 f ``Semiem-pir-i-cal ini-tial cloud 
  []
 
-[10]
+
 Overfull \hbox (7.0713pt too wide) in paragraph at lines 474--475
 []\OT1/cmr/m/n/10 Except for the ini-tial con-di-tion, both sim-u-la-tions adop
 t the same pa-ram-e-ters and 
@@ -2205,28 +2231,29 @@ Overfull \hbox (8.40475pt too wide) in paragraph at lines 474--475
 cal ini-tial cloud +Puff" may 
  []
 
+[11]
 
-Package natbib Warning: Citation `holasek1996satellite' on page 11 undefined on
+Package natbib Warning: Citation `holasek1996satellite' on page 12 undefined on
  input line 479.
 
 
-Package natbib Warning: Citation `holasek1996experiments' on page 11 undefined 
+Package natbib Warning: Citation `holasek1996experiments' on page 12 undefined 
 on input line 479.
 
 
-Package natbib Warning: Citation `self1993atmospheric' on page 11 undefined on 
+Package natbib Warning: Citation `self1993atmospheric' on page 12 undefined on 
 input line 479.
 
 
-Package natbib Warning: Citation `defoor1992early' on page 11 undefined on inpu
+Package natbib Warning: Citation `defoor1992early' on page 12 undefined on inpu
 t line 479.
 
 
-Package natbib Warning: Citation `deshler1992balloonborne' on page 11 undefined
+Package natbib Warning: Citation `deshler1992balloonborne' on page 12 undefined
  on input line 479.
 
 
-Package natbib Warning: Citation `fero2008simulation' on page 11 undefined on i
+Package natbib Warning: Citation `fero2008simulation' on page 12 undefined on i
 nput line 479.
 
 
@@ -2304,6 +2331,12 @@ Overfull \hbox (7.46011pt too wide) in paragraph at lines 478--480
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <./Figures/bent-23hr-ash.jpg> <./Figures/SPH-Plume-23hr-ash.jpg> <./Figure
+s/OB-ash-23hr-ash.png> <./Figures/bent-31hr-ash.jpg> <./Figures/SPH-Plume-31hr-
+ash.jpg> <./Figures/OB-ash-31hr-ash.png> <./Figures/bent-55hr-ash.jpg> <./Figur
+es/SPH-Plume-55hr-ash.jpg> <./Figures/OB-ash-55hr-ash.png>]
 Overfull \hbox (19.0989pt too wide) in paragraph at lines 481--483
 []\OT1/cmr/m/n/10 Here we check two com-monly used plume shapes, the Pois-son a
 nd Suzuki. For Pois- 
@@ -2316,9 +2349,6 @@ e-ter-mined ac-cord-ing to Eq. (2[]).
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11]
 Overfull \hbox (14.21707pt too wide) in paragraph at lines 486--489
 \OT1/cmr/m/n/10 where $\OML/cmm/m/it/10 P$ \OT1/cmr/m/n/10 is an in-te-gral val
 ue drawn from a Pois-son dis-tri-bu-tion of unit mean, $\OML/cmm/m/it/10 R$ \OT
@@ -2363,7 +2393,7 @@ ues of $\OML/cmm/m/it/10 k$ \OT1/cmr/m/n/10 con-cen-trate mass near
  []
 
 
-Package natbib Warning: Citation `fero2008simulation' on page 12 undefined on i
+Package natbib Warning: Citation `fero2008simulation' on page 13 undefined on i
 nput line 495.
 
 
@@ -2426,10 +2456,6 @@ Overfull \hbox (11.46007pt too wide) in paragraph at lines 495--496
 even if we use ob-served plume max- 
  []
 
-[12 <./Figures/bent-23hr-ash.jpg> <./Figures/SPH-Plume-23hr-ash.jpg> <./Figures
-/OB-ash-23hr-ash.png> <./Figures/bent-31hr-ash.jpg> <./Figures/SPH-Plume-31hr-a
-sh.jpg> <./Figures/OB-ash-31hr-ash.png> <./Figures/bent-55hr-ash.jpg> <./Figure
-s/SPH-Plume-55hr-ash.jpg> <./Figures/OB-ash-55hr-ash.png>]
 <Figures/Plume-SPH-ParticleDis-NoTrucation-z.png, id=389, 562.1pt x 702.625pt>
 File: Figures/Plume-SPH-ParticleDis-NoTrucation-z.png Graphic file (type png)
 <use Figures/Plume-SPH-ParticleDis-NoTrucation-z.png>
@@ -2809,9 +2835,14 @@ Overfull \hbox (27.1547pt too wide) in paragraph at lines 565--567
 hod that does not rely on "post event" 
  []
 
-[13 <./Figures/Plume-SPH-ParticleDis-NoTrucation-z.png (PNG copy)> <./Figures/P
-lume-SPH-ParticleDis-z.png (PNG copy)> <./Figures/Possion-Hmax40k-ParticleDis-z
-.png (PNG copy)> <./Figures/Suzuki-Hmax40k-ParticleDis-z.png (PNG copy)>]
+[13] [14 <./Figures/Plume-SPH-ParticleDis-NoTrucation-z.png (PNG copy)> <./Figu
+res/Plume-SPH-ParticleDis-z.png (PNG copy)> <./Figures/Possion-Hmax40k-Particle
+Dis-z.png (PNG copy)> <./Figures/Suzuki-Hmax40k-ParticleDis-z.png (PNG copy)> <
+./Figures/Possion-Hmax10k-ParticleDis-z.png (PNG copy)> <./Figures/Possion-Hmax
+20k-ParticleDis-z.png (PNG copy)> <./Figures/Possion-Hmax30k-ParticleDis-z.png 
+(PNG copy)> <./Figures/Possion-Hmax35k-ParticleDis-z.png (PNG copy)> <./Figures
+/bent-55hr-ash-MaxH10000.jpg> <./Figures/bent-55hr-ash-MaxH20000.jpg> <./Figure
+s/bent-55hr-ash-MaxH30000.jpg> <./Figures/bent-55hr-ash-MaxH35000.jpg>]
 Overfull \hbox (15.0712pt too wide) in paragraph at lines 569--570
 []\OT1/cmr/m/n/10 In the pre-vi-ous sec-tion, the max-i-mum height is ad-justed
  to change ver-ti-cal ash dis- 
@@ -2866,11 +2897,7 @@ Overfull \hbox (1.01558pt too wide) in paragraph at lines 569--570
 ver-ti-cal spread are then used 
  []
 
-[14 <./Figures/Possion-Hmax10k-ParticleDis-z.png (PNG copy)> <./Figures/Possion
--Hmax20k-ParticleDis-z.png (PNG copy)> <./Figures/Possion-Hmax30k-ParticleDis-z
-.png (PNG copy)> <./Figures/Possion-Hmax35k-ParticleDis-z.png (PNG copy)> <./Fi
-gures/bent-55hr-ash-MaxH10000.jpg> <./Figures/bent-55hr-ash-MaxH20000.jpg> <./F
-igures/bent-55hr-ash-MaxH30000.jpg> <./Figures/bent-55hr-ash-MaxH35000.jpg>]
+
 Overfull \hbox (6.40453pt too wide) in paragraph at lines 571--572
 []\OT1/cmr/m/n/10 Adjusting of the ver-ti-cal spread can change par-ti-cle dis-
 tri-bu-tion in ver-ti-cal di-rec- 
@@ -3042,10 +3069,12 @@ Overfull \hbox (2.9324pt too wide) in paragraph at lines 609--610
 dap-tive to var-i-ous cases and 
  []
 
-[15 <./Figures/Possion-Hwidth3k-ParticleDis-z.png (PNG copy)> <./Figures/Possio
-n-Hwidth5k-ParticleDis-z.png (PNG copy)> <./Figures/Possion-Hwidth10k-ParticleD
-is-z.png (PNG copy)> <./Figures/bent-55hr-ash-VS3km.jpg> <./Figures/bent-55hr-a
-sh-VS5km.jpg> <./Figures/bent-55hr-ash-VS10km.jpg>]
+
+Underfull \vbox (badness 3536) has occurred while \output is active []
+
+ [15 <./Figures/Possion-Hwidth3k-ParticleDis-z.png (PNG copy)> <./Figures/Possi
+on-Hwidth5k-ParticleDis-z.png (PNG copy)> <./Figures/Possion-Hwidth10k-Particle
+Dis-z.png (PNG copy)>]
 Overfull \hbox (3.12671pt too wide) in paragraph at lines 613--614
 []\OT1/cmr/m/n/10 The dif-fer-ences be-tween as-sumed plume par-ti-cle dis-tri-
 bu-tion and ac-tual (or sim- 
@@ -3308,7 +3337,11 @@ Overfull \hbox (0.76564pt too wide) in paragraph at lines 659--660
 if-i-cant in-flu-ence on VATD sim-u- 
  []
 
-[16 <./Figures/radius-Plume-SPH-And-Assumed.png (PNG copy)>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16 <./Figures/bent-55hr-ash-VS3km.jpg> <./Figures/bent-55hr-ash-VS5km.jpg> <.
+/Figures/bent-55hr-ash-VS10km.jpg>]
 <Figures/bent-55hr-ash-R25km.jpg, id=427, 1606.0pt x 819.06pt>
 File: Figures/bent-55hr-ash-R25km.jpg Graphic file (type jpg)
 <use Figures/bent-55hr-ash-R25km.jpg>
@@ -3345,7 +3378,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 671--671
 \OML/cmm/m/it/9 kmm$\OT1/cmr/m/n/9 . The ob-served cloud im-age is in
  []
 
-
+[17 <./Figures/radius-Plume-SPH-And-Assumed.png (PNG copy)> <./Figures/Possion-
+H9km-ParticleDis-h.png (PNG copy)> <./Figures/Possion-H14km-ParticleDis-h.png (
+PNG copy)> <./Figures/Possion-H19km-ParticleDis-h.png (PNG copy)> <./Figures/Po
+ssion-H24km-ParticleDis-h.png (PNG copy)> <./Figures/Possion-H29km-ParticleDis-
+h.png (PNG copy)> <./Figures/Possion-RDU-ParticleDis-h.png (PNG copy)>]
 Overfull \hbox (15.6267pt too wide) in paragraph at lines 677--678
 []\OT1/cmr/m/n/10 This pa-per pre-sented, for the first time, VATD sim-u-la-tio
 ns us-ing ini-tial source con- 
@@ -3435,12 +3472,7 @@ Overfull \hbox (12.12675pt too wide) in paragraph at lines 677--678
 cal di-rec-tion has the strongest ef- 
  []
 
-[17 <./Figures/Possion-H9km-ParticleDis-h.png (PNG copy)> <./Figures/Possion-H1
-4km-ParticleDis-h.png (PNG copy)> <./Figures/Possion-H19km-ParticleDis-h.png (P
-NG copy)> <./Figures/Possion-H24km-ParticleDis-h.png (PNG copy)> <./Figures/Pos
-sion-H29km-ParticleDis-h.png (PNG copy)> <./Figures/Possion-RDU-ParticleDis-h.p
-ng (PNG copy)> <./Figures/bent-55hr-ash-R25km.jpg> <./Figures/bent-55hr-ash-R30
-0km.jpg>]
+
 Overfull \hbox (18.9287pt too wide) in paragraph at lines 679--680
 []\OT1/cmr/m/n/10 To sum-ma-rize, we have pre-sented a novel method for cre-at-
 ing \OT1/cmr/m/it/10 a pri-ori \OT1/cmr/m/n/10 ini-tial source 
@@ -3596,7 +3628,7 @@ Overfull \hbox (33.48796pt too wide) in paragraph at lines 681--682
 im-u-la-tions with time-dependent 
  []
 
-
+[18 <./Figures/bent-55hr-ash-R25km.jpg> <./Figures/bent-55hr-ash-R300km.jpg>]
 Overfull \hbox (5.21011pt too wide) in paragraph at lines 854--856
 \OT1/cmr/m/n/10 Support for the Twen-ti-eth Cen-tury Re-anal-y-sis Project data
 set is pro-vided by the U.S. 
@@ -3639,9 +3671,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--50
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18]
 Underfull \hbox (badness 10000) in paragraph at lines 116--133
 \OT1/cmr/m/n/10 a three-dimensional, dusty-gas vol-canic plume model based on s
 moothed par-ti-cle 
@@ -3702,6 +3731,9 @@ y li-dar at garmisch-
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
 Underfull \hbox (badness 10000) in paragraph at lines 426--438
 []\OT1/cmr/m/n/10 Mastin, L. G.  (2007).  A user-friendly one-dimensional model
  for wet vol-canic 
@@ -3738,9 +3770,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 599--619
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19]
 Underfull \hbox (badness 1308) in paragraph at lines 657--671
 []\OT1/cmr/m/n/10 Suzuki, Y., & Koy-aguchi, T.  (2009).  A three-dimensional nu
 -mer-i-cal sim-u-la-tion of 
@@ -3816,9 +3845,6 @@ Package natbib Warning: There were undefined citations.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.45pt have occurred.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  3705 strings out of 492453
@@ -3827,7 +3853,7 @@ Here is how much of TeX's memory you used:
  7962 multiletter control sequences out of 15000+200000
  11811 words of font info for 41 fonts, out of 3000000 for 9000
  1147 hyphenation exceptions out of 8191
- 46i,11n,41p,2098b,371s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,11n,41p,2098b,357s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTe
@@ -3846,7 +3872,7 @@ lic/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mti9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
 
-Output written on JGR-VATD.pdf (20 pages, 8866124 bytes).
+Output written on JGR-VATD.pdf (20 pages, 8865913 bytes).
 PDF statistics:
  502 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
