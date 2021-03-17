@@ -99,14 +99,6 @@ The 1991 eruption of Pinatubo volcano is used as a case study. Pinatubo erupted 
 \section{Setting up Simulations} \label{sec:Methodology}
 
 \subsection{Creation of Initial Ash Cloud} \label{sec:create-initial-condition}
-
-\begin{figure}
-\center
-\includegraphics[width=0.43\textwidth]{Figures/Creat_initial_Ash}
-\caption{Workflow to create initial condition for Puff based on raw output of Plume-SPH \citep{cao2018plume}. Top: raw output of Plume-SPH. Blue particles are phase 1 (ambient air), red particles are phase 2 (erupted material). Second row: plume after removing SPH particles of phase 1. Left: colored according to mass fraction of erupted material. Third row: volcanic plume above the ``corner'' region after cutting off the lower portion.}
-\label{fig:create-initial-ash-plume-sph}
-\end{figure}
-
 The steps to create an initial ash cloud based on the raw output of Plume-SPH are shown in Fig. \ref{fig:create-initial-ash-plume-sph}.
 The method proposed consists in generating the initial ash cloud directly from Plume-SPH, foregoing assumptions and estimates or inverse modeling regarding ash injection height and timing thereof.
 We use Plume-SPH as an example, noting that for other 3D plume models, the steps would be similar. Plume-SPH is a two-phase model based on the Lagrangian smoothed-particle hydrodynamics (SPH) method, in which the computational domain is discretized by SPH particles. The current version, Plume-SPH 1.0 \citep{cao2018plume}, uses two types of SPH particles: 1) particles of phase 1 to represent ambient air, and 2) particles of phase 2 to represent erupted material. The initial ash cloud is created from SPH particles of phase 2.
@@ -129,24 +121,6 @@ To summarize, there are four steps to create an initial ash cloud from the raw o
 \item convert coordinates of the SPH Lagrangian tracers into the VATDs' geographic coordinate system
 \end{enumerate}
 The features of the volcanic plume and resulting initial ash cloud used in the case study are shown in Fig. \ref{fig:Plume-SPH-Pinatubo-ash-cloud}. It is important to point out that since both Plume-SPH and Puff are based on the Lagrangian method, there is no extra step of conversion between an Eulerian grid and Lagrangian particles.
-
-\begin{figure}[!htb]
-\centering
-\begin{minipage}{.325\textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/mssfrc_front-filter-by-phase}
-\end{minipage}%
-\begin{minipage}{.325 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/mssfrc_top-with-axis}
-\end{minipage}%
-\begin{minipage}{.325 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/mssfrc_front-z15000}
-\end{minipage}%
-\caption{All particles in the pictures are of type phase 2 (phase 1 has been removed in step 1) at $600s$ after eruption, at which time, the plume has already reached the maximum height and started spreading radially. Pictures from left to right are: front view of the whole plume, top view of the plume and front view of the initial ash cloud, which is essentially a portion of the whole plume with elevation higher than a given threshold (in this picture is $15000 m$). Particles are colored according to mass fraction of erupted material. Red represents high mass fraction while blue represents low mass fraction.}
-\label{fig:Plume-SPH-Pinatubo-ash-cloud}
-\end{figure}
 
 Table \ref{tab:VATDs-source-term-determination} compares three different methods for creating initial conditions for VATD simulation: 1) creating initial condition based on parameter calibration without any plume model (method 1), 2) creating initial condition based on output of 1D plume model (method 2), 3) extracting initial ash cloud from 3D plume simulation (method 3). The first method determines all global descriptors of volcanic plumes based on calibration. Then create an initial line source or ash cloud according to semiempirical plume shape expression. Both other two methods depend on plume models. However 3D plume models can generate initial ash clouds in 3D space while 1D plume models only obtain global descriptors of plume so still need semiempirical expression to create 3D initial ash clouds. In addition, the number of Lagrangian tracers is a free parameter when using semiempirical plume shape expressions while it purely depends on simulation when creating initial conditions from 3D plume simulation results.
 
@@ -173,13 +147,6 @@ Table \ref{tab:VATDs-source-term-determination} compares three different methods
 The plume and ash transport models are run at different time scales and length scales. The spatial and temporal resolutions of the plume simulations are much finer than those of the ash transport model. It takes tens of minutes ($600 s$ in this case) for the Pinatubo plume to reach a steady height. However the eruption persisted for a few hours (9 hours for the climactic phase of Pinatubo eruption), and it may be necessary to track ash transport for days following an eruption. At present, it is too expensive computationally to do 3D plume simulations of several hours in real time. In order to handle the difference in time scale, we mimic a continuing eruption with intermittent pulsed releasing of ash particles. Particularly, we restart Puff at an interval of $600 s$, i.e., the physical time of the plume simulation to reach steady height. At every Puff restart, we integrate the output of the last Puff simulation and Plume-SPH into a new ash cloud. This new ash cloud serves as a new initial condition with which to restart a Puff simulation. The interval of the pulsed releases is the simulation time of Plume-SPH, i.e., $600 s$ in our case study. A sketch demonstrating the overall restart process is shown in Fig. (\ref{fig:Restart-Puff}). The total number of Lagrangian tracer particles used in Puff thus equals the summed number of particles in all releases. So the total number of tracer particles is no longer a user-selected parameter.
 \citet{fero2008simulation} proposed using more realistic time-dependent plume heights. We do not adopt that strategy here for simplicity, although the idea would be straightforward in execution, given time-dependent eruption conditions.
 
-\begin{figure}
-\center
-\includegraphics[width=0.90 \textwidth]{Figures/Restart-Puff.pdf}
-\caption{Mimic successive eruption with intermittent pulsed releasing of ash particles. $t_I$ is the period of pulsing release. $t_I$ equals the physical time of 3D plume simulation.}
-\label{fig:Restart-Puff}
-\end{figure}
-
 \subsection{Sensitivity Analysis of Other Parameters}
 
 Besides the positions of particles in the initial ash cloud, other parameters for Puff simulations are: horizontal diffusivity, vertical diffusivity, mean grain size, grain size standard deviation and total number of tracers. We present in this subsection systematic sensitivity studies on these parameters. We also investigate the influence of eruption duration. The sensitivity analyses will serve as the basis for identifying possible sources of disparities between simulation and observation.
@@ -203,49 +170,7 @@ Eruption duration & 4.9 hours & 9 hours & 10 hours & 11.1 hours \\
 	 \label{tab:Pinatubo-eruption-duration}
 \end{table}
 
-\begin{figure}[!htb]
-\centering
-\begin{minipage}{.325\textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/199106180441-ash-5hr-cut15000}
-\end{minipage}%
-\begin{minipage}{.325 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/199106180441-ash-9hr-cut15000}
-\end{minipage}%
-\begin{minipage}{.325 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/199106180441-ash-11hr-cut15000}
-\end{minipage}%
-\caption{Simulated ash cloud distribution corresponding to eruption duration of 4.9 hours, 9 hours and 11.1 hours (from left to right) respectively. Starting and ending time for each case is in Table \ref{tab:VATDs-source-term-determination}. The contours are for ash distribution at 72 hours after eruption.}
-\label{fig:Puff-sensitivity-duration}
-\end{figure}
-
 The new methodology for generating initial ash clouds introduces another new parameter: elevation threshold. We also carry out sensitivity analysis on this parameter by varying the elevation threshold from $1500 m$ (the height of the vent) to $25000 m$. The simulated ash distributions show obviously visible differences. Such influence is especially obvious when the elevation threshold is either very large or very small. However, varying the elevation threshold in the range of $[12000, 18000] m$ generates relatively small differences in ash transportation simulation results. Figure \ref{fig:Puff-sensitivity-elevation-threshold} compares the simulated ash distribution corresponding to elevation thresholds of $1500 m$ and $15000 m$. Compared with ash distribution for threshold of $15000 m$, an extra long tail appears when using elevation threshold of $1500 m$. Adopting smaller elevation thresholds essentially adds more tracers at lower elevation. As the wind at different elevations are different, these tracers at lower elevation would transpose to different directions. The HYSPLIT \citep{stein2015noaa, rolph2017real} forward trajectories tracking, which starting at June 15 1624 UTC, indicates that the wind between evaluation 10000 m to 15000 m blows from north-east to south-west while wind of higher evaluation blows from east to west (see Fig. \ref{fig:hysplit-1624-utc}).
-
-\begin{figure}[!htb]
-\centering
-\begin{minipage}{.325\textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/199106180441-ash-9hr-cut1500}
-\end{minipage}%
-\begin{minipage}{.325 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/199106180441-ash-9hr-cut15000}
-\end{minipage}%
-\caption{Simulated ash distribution taking initial ash clouds obtained using different elevation thresholds ($1500 m$ and $15000$ m) from output of Plume-SPH. The contours correspond to ash concentration at 72 hours after eruption. The starting and ending time are corresponding to 9 hours duration case in Table \ref{tab:Pinatubo-eruption-duration}}
-\label{fig:Puff-sensitivity-elevation-threshold}
-\end{figure}
-
-\begin{figure}[!htb]
-\centering
-\begin{minipage}{.75 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/trajplot_test3_10_30K_ok}
-\end{minipage}%
-\caption{Trajectories of particles starting from different heights indicating the wind directions of different evaluations.}
-\label{fig:hysplit-1624-utc}
-\end{figure}
 
 The sensitivity analyses demonstrate that the initial condition for VATD simulation has the most significant effect on simulated ash distribution while all other input parameters have either tiny or ignorable influence. The initial ash cloud generated based on semiempirical expression, which is a function of several parameters, might be significantly disparate from a realistic ash cloud. Such initial conditions might greatly compromise the accuracy of VATDs simulation.
 
@@ -314,6 +239,166 @@ Another set of initial conditions is created based on observed top height ($40 k
 
 The simulation results using different initial conditions are compared with TOMS images and AVHRR BTD ash cloud map in Fig. \ref{fig:Plume-SPH-Puff-ash-cloud}.
 
+The differences between simulated ash transportation by ``Semiempirical initial cloud +Puff" and ``Plume-SPH+Puff" are obvious. The simulated ash concentration based on initial condition created from Plume-SPH is much closer to observation than that based on semiempirical plume shape expression. Around 23 hours and 31 hours after the beginning of the climactic phase, ``Plume-SPH + Puff" simulation generates ash images that are generally close to observational images, especially the location where high concentration ash presents. However, these ash at near west to Pinatubo mountain observed in satellite images does not show up in ``Plume-SPH + Puff" simulation results. This disparity is very possible due to the fact that the Mountain Pinatubo continued erupting after the climactic phase while our simulation only simulates the climactic phase. The ash released after the climatic phase is not accounted for in our simulation results. The ``Semiempirical initial cloud + Puff" simulation, however, forecasts an ash distribution faster and narrower than observation. The location, where the high concentration ash presents, is located to the far northwest of observed ash.
+Around 55 hours after the beginning of the climactic phase, the disparity between observation and simulation becomes more obvious. Ash distribution of ``Semiempirical initial cloud + Puff" simulation locates far west to the observed ash. The high concentration area of ``Plume-SPH + Puff" simulation, even though closer to observation than that of ``Semiempirical initial cloud +Puff", is still faster than observation.
+
+Except for the initial condition, both simulations adopt the same parameters and wind field data. That is to say, the only difference between these two simulations is the initial condition. Recall that the initial condition has the most significant influence on ash transportation simulation. It is therefore very likely that the big difference between simulation results by ``Plume-SPH+Puff" and ``Semiempirical initial cloud +Puff" may be attributed to the initial condition and thereby be credited with its added skill.% The ash transportation simulation based on 3D plume simulation results is much more accurate than that based on semiempirical initial cloud.
+
+\subsection{Discussion Regarding Maximum Height ($H_{max}$)}
+
+In this section, we mainly discuss the vertical distribution of ash particles in the initial ash cloud.
+The majority of volcanic ash particles usually present a lower elevation than maximum height. For instance, \citet{holasek1996satellite, holasek1996experiments} reported the maximum Pinatubo plume height as high as around $39 km$ while the cloud heights were estimated at $20 \sim 25 km $, \citet{self1993atmospheric} report the maximum plume height could be $>35 km$ and the plume heights are $23 \sim 28 km$ after $15 \sim 16$ hours. The neutral buoyant regions of the Pinatubo aerosol estimated by different measurements are: $17 \sim 26 km$ (lidar) by \citet{defoor1992early}, $20 \sim 23 km$ (balloon) by \citet{deshler1992balloonborne}, $17 \sim 28 km$ (lidar) by \citet{jager1992pinatubo}, and $17 \sim 25 km$ (lidar) by \citet{avdyushin19931}. Based on comparison between simulated clouds with early infrared satellite images of Pinatubo, \citet{fero2008simulation} reported that the majority of ash was transported between $16 km$ and $18 km$. This is physically understandable as particles are concentrated along the intrusion height of the umbrella cloud, not near the top because the plume top is due to momentum overshoot. However, the empirical expressions for the height-MER relation, which are commonly adopted to create initial conditions for VATD simulation, tend to place the majority of ash particles closer to top if use observed maximum height in the empirical expressions.
+
+Here we check two commonly used plume shapes, the Poisson and Suzuki.
+For Poisson plume shape, the vertical height of ash particles are determined according to Eq. (\ref{eq:Poisson-plume-shape}).
+\begin{equation}
+H=H_{max} - 0.5 H_{width}*P+H_{width}R
+\label{eq:Poisson-plume-shape}
+\end{equation}
+where $P$ is an integral value drawn from a Poisson distribution of unit mean, $R$ is a uniformly distributed random number between 0 and 1, $H_{max}$ is the maximum plume height, $H_{width}$ represents an approximate vertical range over which the ash will be distributed.
+For Suzuki plume shape \citep{suzuki1983theoretical}, volcano ash mass vertical distribution is assumed to follow the Suzuki equation (Eq. (\ref{eq:Suzuki-plume-shape})).
+\begin{equation}
+Q(z)=Q_m* \frac{k^2(1-z/H_{max})exp\left(k(z/H_{max} -1 )\right)}{H_{max}\left[1-(1+k)exp(-k)\right]}
+\label{eq:Suzuki-plume-shape}
+\end{equation}
+Where $Q_m$ is the total mass of erupted material, $k$ is shape factor, which is an adjustable constant that controls ash distribution with height. A low value of $k$ gives a roughly uniform distribution of mass with elevation, while high values of $k$ concentrate mass near the plume top.
+
+Particle distribution (in terms of mass percentage or particle number percentage) in vertical direction in the initial ash cloud are shown in Fig. \ref{fig:Particle-distribution-Plume-SPH-vs-semiempirical}. In that figure, the vertical particle distribution based on Plume-SPH output is compared with vertical particle distribution created based on semiempirical shape expressions. Both Poisson and Suzuki distribution in Fig. \ref{fig:Particle-distribution-Plume-SPH-vs-semiempirical} take $H_{max} = 40000m$, which is close to reported observation of maximum height. When adopting Poisson plume shape, the majority of the particles are between $30 km \sim 40 km$. Obviously, Poisson distributes majority ash at a much higher elevation than observations \citep[e.g.][]{fero2008simulation}. As for Suzuki, the majority of ash particles also distribute in a range that is significantly higher than $25 km$. As for initial ash clouds based on Plume-SPH simulation, the major population of ash particles distribute between $17 km \sim 28 km$, which match well with observations. The maximum height is also consistent with observation. To summarize, using semiempirical plume shape expression generates an unrealistic initial ash cloud even if we use observed plume maximum height.
+
+For Poisson and Suzuki plume shape, vertical distribution of ash particles can't be lower down without changing the maximum height. To distribute a major population of ash particles at lower elevation, the maximum height has to be reduced to a value smaller than observed maximum height. Adjusting parameters such as maximum height in the empirical expression is actually the traditional source term calibration method. A set of initial ash clouds using different maximum heights based on Poisson plume shape is shown in Fig. \ref{fig:Particle-distribution-Plume-calibrate-semiempirical}). The maximum heights adopted in plume shape expressions are, by no means, obtained from any plume model or observation. Except for maximum height, all other parameters for creating an initial ash cloud are the same as these in Table \ref{tab:input_parameter_Puff_simulation}. The range, between which major populations of ash particles locate, is lower when using smaller maximum heights. These ash clouds created by Poisson distribution with different maximum heights are then used as initial conditions in Puff simulation, whose results are shown in Fig. \ref{fig:Various-Maximum-height-Pinatubo-ash-cloud}.
+
+Figure \ref{fig:Various-Maximum-height-Pinatubo-ash-cloud} shows that the maximum height has significant influence on ash transportation simulation. When the maximum height is $10000 m$ the high concentration area is lag behind observation. While the designated maximum height is $35000 m$, the high concentration area is a little bit faster and much narrower than observation. When using a maximum height of $41343.9 m$, the high concentration area is faster and narrower than both observation and ``Pume-SPH+Puff" simulation results (see Fig. \ref{fig:Plume-SPH-Puff-ash-cloud}). The simulated high concentration area is closest to ``Pume-SPH+Puff" simulation results when assigning a maximum height of $30000 m$. The front of volcano ash, with lower concentration is faster than observation located far west to high concentration areas. A lower concentration tailing area also appears in the simulation results while there is no such tail in the observed image. Puff simulation result based on calibrated maximum height of $30000 m$ shows similar footprint to, even though smaller in terms of covered area than, those of ``Pume-SPH+Puff" simulation. However, the initial ash cloud created by Poisson distribution with maximum height around $20000 m$ generates best match ash distribution with observation. That is to say, a maximum height lower than real maximum height is required by Poisson plume shape to distribute ash particles at the same elevation as real ash distribution. This is physically understandable as maximum plume heights are reached due to overshoot.
+Our hypothesis regarding the sources of disparity between "Semiempirical initial cloud +Puff" simulation and observation is confirmed. Since the initial condition has such a dominant effect on VATD simulation, it is critical for the forecast capability of VATD simulation to explore the more accurate and adaptive ways for establishing the initial conditions, especially the method that does not rely on "post event" parameter calibration.
+
+\subsection{Discussion Regarding Vertical Spread ($H_{width}$)}
+In the previous section, the maximum height is adjusted to change vertical ash distribution along the source line. This section investigates another parameter in semi empirical Poisson expression. We vary the ``vertical spread" ($H_{width}$) in range $3 km /~ 10 km$. A set of initial ash clouds created according to different ``vertical spread" is shown in Fig. \ref{fig:poisson-vertical-spread}. Except for ``vertical spread", all other parameters for creating an initial ash cloud are the same as these in Table \ref{tab:input_parameter_Puff_simulation}. Width of the range within which major populations of ash particles locate become narrower when a smaller value for vertical spread is used. But changing $H_{width}$ has no obvious effect on the height at which the majority of ash particles distribute. These ash clouds based on different vertical spread are then used as initial conditions in Puff simulation, whose results are shown in Fig. \ref{fig:Various-vertical-spread-Pinatubo-ash-cloud}.
+
+Adjusting of the vertical spread can change particle distribution in vertical direction and not surprisingly affect VATD simulation results. Unluckily, none of these VATD simulations based on initial ash cloud with vertical spread equals to $3km$, $5km$, and $10 km$ get better results than VATD simulation based on initial condition created by a 3D plume simulation using Plume-SPH (see Fig. \ref{fig:Various-vertical-spread-Pinatubo-ash-cloud}).
+
+The calibrations carried out here are definitely not exhaustive. One might do more comprehensive calibration throughout the multi-dimensional parameter space (for Poisson distribution, the parameter space is two dimensional) and get better matched ash transportation results. With more complicated plume shape expression, one could have more control over plume shape and might be able to get an initial condition that is much closer to the actual initial ash cloud, hence obtaining more accurate ash transportation prediction. But more complicated plume shape expression usually leads to higher dimensional parameter space which requires more effort to do calibration. Even though, the degree of freedom to adjust plume shape is still limited. The new method for creating initial conditions based on 3D plume simulation is more adaptive to various cases and obviates semi empirical expressions regarding plume shape.
+
+\subsection{Horizontal Ash Distribution}
+
+The differences between assumed plume particle distribution and actual (or simulated by 3D plume) model are not only in vertical direction. Dependence on horizontal particle distribution of the initial ash cloud on ash transportation is investigated in this section. Puff uses a uniformly distributed random process to determine the ash particle location in a circle centered on the volcano site. The maximum radius (at top) is given as ``horizontal spread" in Table \ref{tab:input_parameter_Puff_simulation}. The horizontal displacement from a vertical line above the volcano is a random value within a circle of radius, which equals to ``horizontal spread" multiplied by the ratio of the particle height $H$ to maximum $H_{max}$. So the net shape of the plume is an inverted cone where particles are located directly over the volcano at the lowest level and extend out further horizontally with increasing plume height. As for output of Plume-SPH, an effective radius is determined according to a given threshold of ash concentration following \citet {cerminara2016large}. A time averaging and spatial integration of the dynamic 3D flow fields are conducted to get rid of significant fluctuations in time and space. Fig. \ref{fig:radius-comparison} compares radius of initial ash clouds created by 3D plume simulation and assumed plume shape expression adopted in Puff. Obviously, It is impossible for the simple assumed plum shapes to capture the complex and more realistic shapes developed by 3D plume simulation of Plume-SPH. Additional parameterization may generate more reasonable shapes but none are likely to have the fidelity of the 3D simulation.
+
+% for these two radii to be similar. Adjusting the parameter ``horizontal spread" could not make the assumed plume shape to be similar to the ash cloud created by Plume-SPH. That is to say, merely parameter calibration is not enough for such a situation. It would require higher order semiempirical expression that takes more parameters.
+%Plume shape expression and parameters adopted by other VATD models might be different.
+
+Comparison between cross-sectional views of the initial ash clouds is shown in Fig. \ref{fig:initial-cloud-horizontal}. The cross-sectional view of assumed plume shape (last figure in Fig. \ref{fig:initial-cloud-horizontal}) is similar to a cross-sectional view of simulated 3D plumes in general sense. However, for simulated 3D plume, the ash particle distribution on cross section varies along with height. It is hard for semiempirical expressions to have such a distribution. In Puff, particle distribution on cross sections is assumed to be the same.
+
+Assigning different values to ``horizontal spread" has an ignorable effect on VATD simulation results. We use numbers between $50 km$ to $1600 km$ as ``horizontal spread" to create initial ash clouds for VATD, all of them generate very similar results. Figure \ref{fig:ash-distribution-horizontal-compare} shows two different simulation results based on initial ash clouds with ``horizontal spread" equals to $50 km$ and $600 km$ respectively. No visible differences are apparent between them. This implies that horizontal distribution has less significant influence on VATD simulation results than vertical distribution.
+
+\section{Conclusion}
+
+This paper presented, for the first time, VATD simulations using initial source conditions created by a 3D plume model. Traditional VATD simulations use initial conditions created according to a semiempirical plume shape expression. A case study of the 1991 Pinatubo eruption demonstrates that a 3D plume model can create more realistic initial ash cloud and ash parcel positions, and therefore improve the accuracy of ash transport forecasts. Informal sensitivity analyses suggest that initial conditions, as expressed in the disposition of initial ash parcel positions in the vertical, have a more significant effect on a volcanic ash transport forecast than most other parameters. Comparison of initial ash parcel distributions among the 3D plume model, semiempirical expressions, and observations suggests that a major subpopulation of ash parcels should be placed at a much lower elevation than maximum height to obtain a better VATD forecast. For the Pinatubo case study, ``well-matched'' simulation results are observed when using a maximum height of around $30 km$, which is much lower than the observed maximum height of $40 km$. Comparing the effects of the maximum height, vertical spread and horizontal spread shows that ash particle distribution in the vertical direction has the strongest effect on VATD simulation.
+
+To summarize, we have presented a novel method for creating \textit{a priori} initial source conditions for VATD simulations. We have shown that it might be possible to obtain initial positions of ash parcels with deterministic forward modeling of the volcanic plume, obviating the need to attempt to obtain initial positions or a history of release heights via inversion \citep{stohl2011determination}. Although the method now suffers from the high computational cost associated with 3D forward modeling, it not only helps overcome shortcomings of existing methods used to generate \textit{a priori} input parameters, but also overcomes the need to do the thousands of runs associated with inverse modeling. In addition, computational cost will continue to diminish as computing speed increases. As they are forward numerical models based on first principles, 3D plume models need little if any parameterization, and user intervention should not be required to improve forecast power; no assumption about the initial position of ash parcels is needed. Generation of the initial cloud of ash parcels directly by 3D simulation is potentially adaptable to a variety of volcanic and atmospheric scenarios. In contrast, semiempirical expressions used to determine initial conditions require several parameters to control ash particle distribution along a vertical line source or some simplified shape of the initial ash cloud, making it difficult in some cases to generate initial conditions that closely resemble a complex reality.
+
+The full range of research issues raised by numerical forecasting of volcanic clouds is diverse. We described in this paper the effect of initial conditions chosen from the output of a 3D plume model on numerical forecasts of volcanic ash transport simulation. The wind field, another important factor in volcanic ash transportation simulation is not discussed in the present work. Some other aspects, such as small scale physical processes, even though they play lesser roles, might need to be included in VATDs to improve accuracy for a particular eruption. In addition, eruption conditions are subject to change with time, even during the climactic phase of an eruption. In the future, time-dependent initial conditions for VATDs can be created from 3D plume simulations with time-dependent eruption conditions.
+
+\section*{Conflict of Interest Statement}
+%All financial, commercial or other relationships that might be perceived by the academic community as representing a potential conflict of interest must be disclosed. If no such relationship exists, authors will be asked to confirm the following statement: 
+
+The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+
+\section*{Author Contributions}
+The idea of using 3D plume model to start a VATD simulation orginated from a conservation between AP and MB. ZC carried out the Plume-SPH simulations, PUFF simulations, results analysis, and prepared the first draft. All authors worked together for further revisions.  MB carried out the HYSPLIT simulation. QY post processed the PUFF simulation results, overlapped the simulation results with satellite observation. All authors contributed equally to the manuscript wrtiting. AP and MB got fundings to finacially support the work.
+
+\section*{Funding}
+Details of all funding sources should be provided, including grant numbers if applicable. Please ensure to add all necessary funding information, as after publication this is no longer possible.
+
+\section*{Acknowledgments}
+Support for the Twentieth Century Reanalysis Project dataset is provided by the U.S. Department of Energy, Office of Science Innovative and Novel Computational Impact on Theory and Experiment (DOE INCITE) program, and Office of Biological and Environmental Research (BER), and by the National Oceanic and Atmospheric Administration Climate Program Office.
+
+%\section*{Supplemental Data}
+% \href{http://home.frontiersin.org/about/author-guidelines#SupplementaryMaterial}{Supplementary Material} should be uploaded separately on submission, if there are Supplementary Figures, please include the caption in the same file as the figure. LaTeX Supplementary Material templates can be found in the Frontiers LaTeX folder.
+
+%\section*{Data Availability Statement}
+%The datasets [GENERATED/ANALYZED] for this study can be found in the [NAME OF REPOSITORY] [LINK].
+% Please see the availability of data guidelines for more information, at https://www.frontiersin.org/about/author-guidelines#AvailabilityofData
+
+\bibliographystyle{frontiersinSCNS_ENG_HUMS} % for Science, Engineering and Humanities and Social Sciences articles, for Humanities and Social Sciences articles please include page numbers in the in-text citations
+%\bibliographystyle{frontiersinHLTH&FPHY} % for Health, Physics and Mathematics articles
+\bibliography{dissertation}
+
+%%% Make sure to upload the bib file along with the tex file and PDF
+%%% Please see the test.bib file for some examples of references
+
+\section*{Figure captions}
+\begin{figure}
+\center
+\includegraphics[width=0.43\textwidth]{Figures/Creat_initial_Ash}
+\caption{Workflow to create initial condition for Puff based on raw output of Plume-SPH \citep{cao2018plume}. Top: raw output of Plume-SPH. Blue particles are phase 1 (ambient air), red particles are phase 2 (erupted material). Second row: plume after removing SPH particles of phase 1. Left: colored according to mass fraction of erupted material. Third row: volcanic plume above the ``corner'' region after cutting off the lower portion.}
+\label{fig:create-initial-ash-plume-sph}
+\end{figure}
+
+\begin{figure}[!htb]
+\centering
+\begin{minipage}{.325\textwidth}
+\centering
+\includegraphics[width=0.99 \textwidth]{Figures/mssfrc_front-filter-by-phase}
+\end{minipage}%
+\begin{minipage}{.325 \textwidth}
+\centering
+\includegraphics[width=0.99 \textwidth]{Figures/mssfrc_top-with-axis}
+\end{minipage}%
+\begin{minipage}{.325 \textwidth}
+\centering
+\includegraphics[width=0.99 \textwidth]{Figures/mssfrc_front-z15000}
+\end{minipage}%
+\caption{All particles in the pictures are of type phase 2 (phase 1 has been removed in step 1) at $600s$ after eruption, at which time, the plume has already reached the maximum height and started spreading radially. Pictures from left to right are: front view of the whole plume, top view of the plume and front view of the initial ash cloud, which is essentially a portion of the whole plume with elevation higher than a given threshold (in this picture is $15000 m$). Particles are colored according to mass fraction of erupted material. Red represents high mass fraction while blue represents low mass fraction.}
+\label{fig:Plume-SPH-Pinatubo-ash-cloud}
+\end{figure}
+
+\begin{figure}
+\center
+\includegraphics[width=0.90 \textwidth]{Figures/Restart-Puff.pdf}
+\caption{Mimic successive eruption with intermittent pulsed releasing of ash particles. $t_I$ is the period of pulsing release. $t_I$ equals the physical time of 3D plume simulation.}
+\label{fig:Restart-Puff}
+\end{figure}
+
+\begin{figure}[!htb]
+\centering
+\begin{minipage}{.325\textwidth}
+\centering
+\includegraphics[width=0.99 \textwidth]{Figures/199106180441-ash-5hr-cut15000}
+\end{minipage}%
+\begin{minipage}{.325 \textwidth}
+\centering
+\includegraphics[width=0.99 \textwidth]{Figures/199106180441-ash-9hr-cut15000}
+\end{minipage}%
+\begin{minipage}{.325 \textwidth}
+\centering
+\includegraphics[width=0.99 \textwidth]{Figures/199106180441-ash-11hr-cut15000}
+\end{minipage}%
+\caption{Simulated ash cloud distribution corresponding to eruption duration of 4.9 hours, 9 hours and 11.1 hours (from left to right) respectively. Starting and ending time for each case is in Table \ref{tab:VATDs-source-term-determination}. The contours are for ash distribution at 72 hours after eruption.}
+\label{fig:Puff-sensitivity-duration}
+\end{figure}
+
+\begin{figure}[!htb]
+\centering
+\begin{minipage}{.325\textwidth}
+\centering
+\includegraphics[width=0.99 \textwidth]{Figures/199106180441-ash-9hr-cut1500}
+\end{minipage}%
+\begin{minipage}{.325 \textwidth}
+\centering
+\includegraphics[width=0.99 \textwidth]{Figures/199106180441-ash-9hr-cut15000}
+\end{minipage}%
+\caption{Simulated ash distribution taking initial ash clouds obtained using different elevation thresholds ($1500 m$ and $15000$ m) from output of Plume-SPH. The contours correspond to ash concentration at 72 hours after eruption. The starting and ending time are corresponding to 9 hours duration case in Table \ref{tab:Pinatubo-eruption-duration}}
+\label{fig:Puff-sensitivity-elevation-threshold}
+\end{figure}
+
+\begin{figure}[!htb]
+\centering
+\begin{minipage}{.75 \textwidth}
+\centering
+\includegraphics[width=0.99 \textwidth]{Figures/trajplot_test3_10_30K_ok}
+\end{minipage}%
+\caption{Trajectories of particles starting from different heights indicating the wind directions of different evaluations.}
+\label{fig:hysplit-1624-utc}
+\end{figure}
+
 \begin{figure}[!htb]
 \centering
 \begin{minipage}{.325\textwidth}
@@ -358,32 +443,6 @@ The simulation results using different initial conditions are compared with TOMS
 \label{fig:Plume-SPH-Puff-ash-cloud}
 \end{figure}
 
-The differences between simulated ash transportation by ``Semiempirical initial cloud +Puff" and ``Plume-SPH+Puff" are obvious. The simulated ash concentration based on initial condition created from Plume-SPH is much closer to observation than that based on semiempirical plume shape expression. Around 23 hours and 31 hours after the beginning of the climactic phase, ``Plume-SPH + Puff" simulation generates ash images that are generally close to observational images, especially the location where high concentration ash presents. However, these ash at near west to Pinatubo mountain observed in satellite images does not show up in ``Plume-SPH + Puff" simulation results. This disparity is very possible due to the fact that the Mountain Pinatubo continued erupting after the climactic phase while our simulation only simulates the climactic phase. The ash released after the climatic phase is not accounted for in our simulation results. The ``Semiempirical initial cloud + Puff" simulation, however, forecasts an ash distribution faster and narrower than observation. The location, where the high concentration ash presents, is located to the far northwest of observed ash.
-Around 55 hours after the beginning of the climactic phase, the disparity between observation and simulation becomes more obvious. Ash distribution of ``Semiempirical initial cloud + Puff" simulation locates far west to the observed ash. The high concentration area of ``Plume-SPH + Puff" simulation, even though closer to observation than that of ``Semiempirical initial cloud +Puff", is still faster than observation.
-
-Except for the initial condition, both simulations adopt the same parameters and wind field data. That is to say, the only difference between these two simulations is the initial condition. Recall that the initial condition has the most significant influence on ash transportation simulation. It is therefore very likely that the big difference between simulation results by ``Plume-SPH+Puff" and ``Semiempirical initial cloud +Puff" may be attributed to the initial condition and thereby be credited with its added skill.% The ash transportation simulation based on 3D plume simulation results is much more accurate than that based on semiempirical initial cloud.
-
-\subsection{Discussion Regarding Maximum Height ($H_{max}$)}
-
-In this section, we mainly discuss the vertical distribution of ash particles in the initial ash cloud.
-The majority of volcanic ash particles usually present a lower elevation than maximum height. For instance, \citet{holasek1996satellite, holasek1996experiments} reported the maximum Pinatubo plume height as high as around $39 km$ while the cloud heights were estimated at $20 \sim 25 km $, \citet{self1993atmospheric} report the maximum plume height could be $>35 km$ and the plume heights are $23 \sim 28 km$ after $15 \sim 16$ hours. The neutral buoyant regions of the Pinatubo aerosol estimated by different measurements are: $17 \sim 26 km$ (lidar) by \citet{defoor1992early}, $20 \sim 23 km$ (balloon) by \citet{deshler1992balloonborne}, $17 \sim 28 km$ (lidar) by \citet{jager1992pinatubo}, and $17 \sim 25 km$ (lidar) by \citet{avdyushin19931}. Based on comparison between simulated clouds with early infrared satellite images of Pinatubo, \citet{fero2008simulation} reported that the majority of ash was transported between $16 km$ and $18 km$. This is physically understandable as particles are concentrated along the intrusion height of the umbrella cloud, not near the top because the plume top is due to momentum overshoot. However, the empirical expressions for the height-MER relation, which are commonly adopted to create initial conditions for VATD simulation, tend to place the majority of ash particles closer to top if use observed maximum height in the empirical expressions.
-
-Here we check two commonly used plume shapes, the Poisson and Suzuki.
-For Poisson plume shape, the vertical height of ash particles are determined according to Eq. (\ref{eq:Poisson-plume-shape}).
-\begin{equation}
-H=H_{max} - 0.5 H_{width}*P+H_{width}R
-\label{eq:Poisson-plume-shape}
-\end{equation}
-where $P$ is an integral value drawn from a Poisson distribution of unit mean, $R$ is a uniformly distributed random number between 0 and 1, $H_{max}$ is the maximum plume height, $H_{width}$ represents an approximate vertical range over which the ash will be distributed.
-For Suzuki plume shape \citep{suzuki1983theoretical}, volcano ash mass vertical distribution is assumed to follow the Suzuki equation (Eq. (\ref{eq:Suzuki-plume-shape})).
-\begin{equation}
-Q(z)=Q_m* \frac{k^2(1-z/H_{max})exp\left(k(z/H_{max} -1 )\right)}{H_{max}\left[1-(1+k)exp(-k)\right]}
-\label{eq:Suzuki-plume-shape}
-\end{equation}
-Where $Q_m$ is the total mass of erupted material, $k$ is shape factor, which is an adjustable constant that controls ash distribution with height. A low value of $k$ gives a roughly uniform distribution of mass with elevation, while high values of $k$ concentrate mass near the plume top.
-
-Particle distribution (in terms of mass percentage or particle number percentage) in vertical direction in the initial ash cloud are shown in Fig. \ref{fig:Particle-distribution-Plume-SPH-vs-semiempirical}. In that figure, the vertical particle distribution based on Plume-SPH output is compared with vertical particle distribution created based on semiempirical shape expressions. Both Poisson and Suzuki distribution in Fig. \ref{fig:Particle-distribution-Plume-SPH-vs-semiempirical} take $H_{max} = 40000m$, which is close to reported observation of maximum height. When adopting Poisson plume shape, the majority of the particles are between $30 km \sim 40 km$. Obviously, Poisson distributes majority ash at a much higher elevation than observations \citep[e.g.][]{fero2008simulation}. As for Suzuki, the majority of ash particles also distribute in a range that is significantly higher than $25 km$. As for initial ash clouds based on Plume-SPH simulation, the major population of ash particles distribute between $17 km \sim 28 km$, which match well with observations. The maximum height is also consistent with observation. To summarize, using semiempirical plume shape expression generates an unrealistic initial ash cloud even if we use observed plume maximum height.
-
 \begin{figure}[!htb]
 \centering
 \begin{minipage}{.247\textwidth}
@@ -405,8 +464,6 @@ Particle distribution (in terms of mass percentage or particle number percentage
 \caption{Particle distribution of initial ash cloud in vertical direction. The picture to the left is corresponding to the initial ash cloud obtained from Plume-SPH output. The second picture is corresponding to ash distribution truncated by a elevation threshold of $15000 m$. The third picture is for vertical ash distribution based on Poisson distribution with maximum height equals to $40000 m$. Another parameter, the vertical spread, in the expression of Poisson plume shape is $6662 m$. The picture to the right is corresponding to Suzuki distribution with maximum height equals to $40000 m$. Another parameter in Suzuki distribution, the shape factor, is $4$. The $x$ axis is the percentage of particle numbers for Plume-SPH and Poisson. For Suzuki the $x$ axis is the mass percentage of erupted material.}
 \label{fig:Particle-distribution-Plume-SPH-vs-semiempirical}
 \end{figure}
-
-For Poisson and Suzuki plume shape, vertical distribution of ash particles can't be lower down without changing the maximum height. To distribute a major population of ash particles at lower elevation, the maximum height has to be reduced to a value smaller than observed maximum height. Adjusting parameters such as maximum height in the empirical expression is actually the traditional source term calibration method. A set of initial ash clouds using different maximum heights based on Poisson plume shape is shown in Fig. \ref{fig:Particle-distribution-Plume-calibrate-semiempirical}). The maximum heights adopted in plume shape expressions are, by no means, obtained from any plume model or observation. Except for maximum height, all other parameters for creating an initial ash cloud are the same as these in Table \ref{tab:input_parameter_Puff_simulation}. The range, between which major populations of ash particles locate, is lower when using smaller maximum heights. These ash clouds created by Poisson distribution with different maximum heights are then used as initial conditions in Puff simulation, whose results are shown in Fig. \ref{fig:Various-Maximum-height-Pinatubo-ash-cloud}.
 
 \begin{figure}[!htb]
 \centering
@@ -452,14 +509,6 @@ For Poisson and Suzuki plume shape, vertical distribution of ash particles can't
 \label{fig:Various-Maximum-height-Pinatubo-ash-cloud}
 \end{figure}
 
-Figure \ref{fig:Various-Maximum-height-Pinatubo-ash-cloud} shows that the maximum height has significant influence on ash transportation simulation. When the maximum height is $10000 m$ the high concentration area is lag behind observation. While the designated maximum height is $35000 m$, the high concentration area is a little bit faster and much narrower than observation. When using a maximum height of $41343.9 m$, the high concentration area is faster and narrower than both observation and ``Pume-SPH+Puff" simulation results (see Fig. \ref{fig:Plume-SPH-Puff-ash-cloud}). The simulated high concentration area is closest to ``Pume-SPH+Puff" simulation results when assigning a maximum height of $30000 m$. The front of volcano ash, with lower concentration is faster than observation located far west to high concentration areas. A lower concentration tailing area also appears in the simulation results while there is no such tail in the observed image. Puff simulation result based on calibrated maximum height of $30000 m$ shows similar footprint to, even though smaller in terms of covered area than, those of ``Pume-SPH+Puff" simulation. However, the initial ash cloud created by Poisson distribution with maximum height around $20000 m$ generates best match ash distribution with observation. That is to say, a maximum height lower than real maximum height is required by Poisson plume shape to distribute ash particles at the same elevation as real ash distribution. This is physically understandable as maximum plume heights are reached due to overshoot.
-Our hypothesis regarding the sources of disparity between "Semiempirical initial cloud +Puff" simulation and observation is confirmed. Since the initial condition has such a dominant effect on VATD simulation, it is critical for the forecast capability of VATD simulation to explore the more accurate and adaptive ways for establishing the initial conditions, especially the method that does not rely on "post event" parameter calibration.
-
-\subsection{Discussion Regarding Vertical Spread ($H_{width}$)}
-In the previous section, the maximum height is adjusted to change vertical ash distribution along the source line. This section investigates another parameter in semi empirical Poisson expression. We vary the ``vertical spread" ($H_{width}$) in range $3 km /~ 10 km$. A set of initial ash clouds created according to different ``vertical spread" is shown in Fig. \ref{fig:poisson-vertical-spread}. Except for ``vertical spread", all other parameters for creating an initial ash cloud are the same as these in Table \ref{tab:input_parameter_Puff_simulation}. Width of the range within which major populations of ash particles locate become narrower when a smaller value for vertical spread is used. But changing $H_{width}$ has no obvious effect on the height at which the majority of ash particles distribute. These ash clouds based on different vertical spread are then used as initial conditions in Puff simulation, whose results are shown in Fig. \ref{fig:Various-vertical-spread-Pinatubo-ash-cloud}.
-
-Adjusting of the vertical spread can change particle distribution in vertical direction and not surprisingly affect VATD simulation results. Unluckily, none of these VATD simulations based on initial ash cloud with vertical spread equals to $3km$, $5km$, and $10 km$ get better results than VATD simulation based on initial condition created by a 3D plume simulation using Plume-SPH (see Fig. \ref{fig:Various-vertical-spread-Pinatubo-ash-cloud}).
-
 \begin{figure}[!htb]
 \centering
 \begin{minipage}{.325 \textwidth}
@@ -496,23 +545,12 @@ Adjusting of the vertical spread can change particle distribution in vertical di
 \label{fig:Various-vertical-spread-Pinatubo-ash-cloud}
 \end{figure}
 
-The calibrations carried out here are definitely not exhaustive. One might do more comprehensive calibration throughout the multi-dimensional parameter space (for Poisson distribution, the parameter space is two dimensional) and get better matched ash transportation results. With more complicated plume shape expression, one could have more control over plume shape and might be able to get an initial condition that is much closer to the actual initial ash cloud, hence obtaining more accurate ash transportation prediction. But more complicated plume shape expression usually leads to higher dimensional parameter space which requires more effort to do calibration. Even though, the degree of freedom to adjust plume shape is still limited. The new method for creating initial conditions based on 3D plume simulation is more adaptive to various cases and obviates semi empirical expressions regarding plume shape.
-
-\subsection{Horizontal Ash Distribution}
-
-The differences between assumed plume particle distribution and actual (or simulated by 3D plume) model are not only in vertical direction. Dependence on horizontal particle distribution of the initial ash cloud on ash transportation is investigated in this section. Puff uses a uniformly distributed random process to determine the ash particle location in a circle centered on the volcano site. The maximum radius (at top) is given as ``horizontal spread" in Table \ref{tab:input_parameter_Puff_simulation}. The horizontal displacement from a vertical line above the volcano is a random value within a circle of radius, which equals to ``horizontal spread" multiplied by the ratio of the particle height $H$ to maximum $H_{max}$. So the net shape of the plume is an inverted cone where particles are located directly over the volcano at the lowest level and extend out further horizontally with increasing plume height. As for output of Plume-SPH, an effective radius is determined according to a given threshold of ash concentration following \citet {cerminara2016large}. A time averaging and spatial integration of the dynamic 3D flow fields are conducted to get rid of significant fluctuations in time and space. Fig. \ref{fig:radius-comparison} compares radius of initial ash clouds created by 3D plume simulation and assumed plume shape expression adopted in Puff. Obviously, It is impossible for the simple assumed plum shapes to capture the complex and more realistic shapes developed by 3D plume simulation of Plume-SPH. Additional parameterization may generate more reasonable shapes but none are likely to have the fidelity of the 3D simulation.
-
-% for these two radii to be similar. Adjusting the parameter ``horizontal spread" could not make the assumed plume shape to be similar to the ash cloud created by Plume-SPH. That is to say, merely parameter calibration is not enough for such a situation. It would require higher order semiempirical expression that takes more parameters.
-%Plume shape expression and parameters adopted by other VATD models might be different.
-
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=0.50 \textwidth]{Figures/radius-Plume-SPH-And-Assumed}
 \caption{Comparison between radius of initial ash clouds created by 3D plume model (Plume-SPH) and assumed initial ash cloud shape in Puff. The plume shape expression used in Puff defines an inverted cone whose actual shape changes when ``horizontal spread" takes different values. $R=25km$ is corresponding to ``horizontal spread" equals to $50km$. $R=50km$ is corresponding to ``horizontal spread" equals to $100km$}
 \label{fig:radius-comparison}
 \end{figure}
-
-Comparison between cross-sectional views of the initial ash clouds is shown in Fig. \ref{fig:initial-cloud-horizontal}. The cross-sectional view of assumed plume shape (last figure in Fig. \ref{fig:initial-cloud-horizontal}) is similar to a cross-sectional view of simulated 3D plumes in general sense. However, for simulated 3D plume, the ash particle distribution on cross section varies along with height. It is hard for semiempirical expressions to have such a distribution. In Puff, particle distribution on cross sections is assumed to be the same.
 
 \begin{figure}[!htb]
 \centering
@@ -546,8 +584,6 @@ Comparison between cross-sectional views of the initial ash clouds is shown in F
 \end{figure}
 
 
-Assigning different values to ``horizontal spread" has an ignorable effect on VATD simulation results. We use numbers between $50 km$ to $1600 km$ as ``horizontal spread" to create initial ash clouds for VATD, all of them generate very similar results. Figure \ref{fig:ash-distribution-horizontal-compare} shows two different simulation results based on initial ash clouds with ``horizontal spread" equals to $50 km$ and $600 km$ respectively. No visible differences are apparent between them. This implies that horizontal distribution has less significant influence on VATD simulation results than vertical distribution.
-
 \begin{figure}[!htb]
 \centering
 \begin{minipage}{.325 \textwidth}
@@ -561,69 +597,5 @@ Assigning different values to ``horizontal spread" has an ignorable effect on VA
 \caption{Ash transportation simulated by Puff at around 55 hours after eruption (UT 199106171141). Different values for ``horizontal spread" are used to create an initial ash cloud. Pictures to the left are corresponding to ``horizontal spread" equals to $50 km m$. Pictures to the right corresponding to ``horizontal spread" equals to $600 km m$. The observed cloud image is in Fig. \ref{fig:Plume-SPH-Puff-ash-cloud}.}
 \label{fig:ash-distribution-horizontal-compare}
 \end{figure}
-
-\section{Conclusion}
-
-This paper presented, for the first time, VATD simulations using initial source conditions created by a 3D plume model. Traditional VATD simulations use initial conditions created according to a semiempirical plume shape expression. A case study of the 1991 Pinatubo eruption demonstrates that a 3D plume model can create more realistic initial ash cloud and ash parcel positions, and therefore improve the accuracy of ash transport forecasts. Informal sensitivity analyses suggest that initial conditions, as expressed in the disposition of initial ash parcel positions in the vertical, have a more significant effect on a volcanic ash transport forecast than most other parameters. Comparison of initial ash parcel distributions among the 3D plume model, semiempirical expressions, and observations suggests that a major subpopulation of ash parcels should be placed at a much lower elevation than maximum height to obtain a better VATD forecast. For the Pinatubo case study, ``well-matched'' simulation results are observed when using a maximum height of around $30 km$, which is much lower than the observed maximum height of $40 km$. Comparing the effects of the maximum height, vertical spread and horizontal spread shows that ash particle distribution in the vertical direction has the strongest effect on VATD simulation.
-
-To summarize, we have presented a novel method for creating \textit{a priori} initial source conditions for VATD simulations. We have shown that it might be possible to obtain initial positions of ash parcels with deterministic forward modeling of the volcanic plume, obviating the need to attempt to obtain initial positions or a history of release heights via inversion \citep{stohl2011determination}. Although the method now suffers from the high computational cost associated with 3D forward modeling, it not only helps overcome shortcomings of existing methods used to generate \textit{a priori} input parameters, but also overcomes the need to do the thousands of runs associated with inverse modeling. In addition, computational cost will continue to diminish as computing speed increases. As they are forward numerical models based on first principles, 3D plume models need little if any parameterization, and user intervention should not be required to improve forecast power; no assumption about the initial position of ash parcels is needed. Generation of the initial cloud of ash parcels directly by 3D simulation is potentially adaptable to a variety of volcanic and atmospheric scenarios. In contrast, semiempirical expressions used to determine initial conditions require several parameters to control ash particle distribution along a vertical line source or some simplified shape of the initial ash cloud, making it difficult in some cases to generate initial conditions that closely resemble a complex reality.
-
-The full range of research issues raised by numerical forecasting of volcanic clouds is diverse. We described in this paper the effect of initial conditions chosen from the output of a 3D plume model on numerical forecasts of volcanic ash transport simulation. The wind field, another important factor in volcanic ash transportation simulation is not discussed in the present work. Some other aspects, such as small scale physical processes, even though they play lesser roles, might need to be included in VATDs to improve accuracy for a particular eruption. In addition, eruption conditions are subject to change with time, even during the climactic phase of an eruption. In the future, time-dependent initial conditions for VATDs can be created from 3D plume simulations with time-dependent eruption conditions.
-
-\section*{Conflict of Interest Statement}
-%All financial, commercial or other relationships that might be perceived by the academic community as representing a potential conflict of interest must be disclosed. If no such relationship exists, authors will be asked to confirm the following statement: 
-
-The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
-
-\section*{Author Contributions}
-AP took the lead to initialize the project. ZC carried out the Plume-SPH simulations, PUFF simulations, results analysis. MB carried out the HYSPLIT simulation and took the lead to improve the manuscript quality. QY post processed the PUFF simulation results, overlapped the simulation results with satellite observation. All authors contributed equally to the manuscript wrtiting.
-
-\section*{Funding}
-Details of all funding sources should be provided, including grant numbers if applicable. Please ensure to add all necessary funding information, as after publication this is no longer possible.
-
-\section*{Acknowledgments}
-Support for the Twentieth Century Reanalysis Project dataset is provided by the U.S. Department of Energy, Office of Science Innovative and Novel Computational Impact on Theory and Experiment (DOE INCITE) program, and Office of Biological and Environmental Research (BER), and by the National Oceanic and Atmospheric Administration Climate Program Office.
-
-%\section*{Supplemental Data}
-% \href{http://home.frontiersin.org/about/author-guidelines#SupplementaryMaterial}{Supplementary Material} should be uploaded separately on submission, if there are Supplementary Figures, please include the caption in the same file as the figure. LaTeX Supplementary Material templates can be found in the Frontiers LaTeX folder.
-
-%\section*{Data Availability Statement}
-%The datasets [GENERATED/ANALYZED] for this study can be found in the [NAME OF REPOSITORY] [LINK].
-% Please see the availability of data guidelines for more information, at https://www.frontiersin.org/about/author-guidelines#AvailabilityofData
-
-\bibliographystyle{frontiersinSCNS_ENG_HUMS} % for Science, Engineering and Humanities and Social Sciences articles, for Humanities and Social Sciences articles please include page numbers in the in-text citations
-%\bibliographystyle{frontiersinHLTH&FPHY} % for Health, Physics and Mathematics articles
-\bibliography{dissertation}
-
-%%% Make sure to upload the bib file along with the tex file and PDF
-%%% Please see the test.bib file for some examples of references
-
-\section*{Figure captions}
-
-%%% Please be aware that for original research articles we only permit a combined number of 15 figures and tables, one figure with multiple subfigures will count as only one figure.
-%%% Use this if adding the figures directly in the mansucript, if so, please remember to also upload the files when submitting your article
-%%% There is no need for adding the file termination, as long as you indicate where the file is saved. In the examples below the files (logo1.eps and logos.eps) are in the Frontiers LaTeX folder
-%%% If using *.tif files convert them to .jpg or .png
-%%%  NB logo1.eps is required in the path in order to correctly compile front page header %%%
-
-\begin{figure}[h!]
-\begin{center}
-\includegraphics[width=10cm]{logo1}% This is a *.eps file
-\end{center}
-\caption{ Enter the caption for your figure here.  Repeat as  necessary for each of your figures}\label{fig:1}
-\end{figure}
-
-
-\begin{figure}[h!]
-\begin{center}
-\includegraphics[width=15cm]{logos}
-\end{center}
-\caption{This is a figure with sub figures, \textbf{(A)} is one logo, \textbf{(B)} is a different logo.}\label{fig:2}
-\end{figure}
-
-%%% If you are submitting a figure with subfigures please combine these into one image file with part labels integrated.
-%%% If you don't add the figures in the LaTeX files, please upload them when submitting the article.
-%%% Frontiers will add the figures at the end of the provisional pdf automatically
-%%% The use of LaTeX coding to draw Diagrams/Figures/Structures should be avoided. They should be external callouts including graphics.
 
 \end{document}
