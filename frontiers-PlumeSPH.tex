@@ -124,24 +124,6 @@ The features of the volcanic plume and resulting initial ash cloud used in the c
 
 Table \ref{tab:VATDs-source-term-determination} compares three different methods for creating initial conditions for VATD simulation: 1) creating initial condition based on parameter calibration without any plume model (method 1), 2) creating initial condition based on output of 1D plume model (method 2), 3) extracting initial ash cloud from 3D plume simulation (method 3). The first method determines all global descriptors of volcanic plumes based on calibration. Then create an initial line source or ash cloud according to semiempirical plume shape expression. Both other two methods depend on plume models. However 3D plume models can generate initial ash clouds in 3D space while 1D plume models only obtain global descriptors of plume so still need semiempirical expression to create 3D initial ash clouds. In addition, the number of Lagrangian tracers is a free parameter when using semiempirical plume shape expressions while it purely depends on simulation when creating initial conditions from 3D plume simulation results.
 
-\begin{table}
-\centering
-\caption{Three different methods for creating initial conditions (initial ash clouds) for Puff simulation}		
-	 \begin{tabular}{p{26.5mm}p{25.5mm}p{36.5mm}p{34.5mm}}
-	 \hline
-	 		 & No model & 1D model & 3D model \\
-	 		 \hline 		
-	 Maximum height & Calibration & Semiempirical & 1st principle \\
-	 Average height & Calibration & Conservation laws (1D) & 1st principle \\
-	 Vertical spread & Calibration & Semiempirical & 1st principle \\
-	 Column radius & Calibration & Conservation laws (1D) & 1st principle \\
-	 Plume shape & Semiempirical & Semiempirical & 1st principle \\
-	 Tracers number & Free parameter & Free Parameter & Based on simulation\\
-	 \hline
-	 \end{tabular}
-	 \label{tab:VATDs-source-term-determination}
-\end{table}
-
 \subsection{Puff Restart}
 
 The plume and ash transport models are run at different time scales and length scales. The spatial and temporal resolutions of the plume simulations are much finer than those of the ash transport model. It takes tens of minutes ($600 s$ in this case) for the Pinatubo plume to reach a steady height. However the eruption persisted for a few hours (9 hours for the climactic phase of Pinatubo eruption), and it may be necessary to track ash transport for days following an eruption. At present, it is too expensive computationally to do 3D plume simulations of several hours in real time. In order to handle the difference in time scale, we mimic a continuing eruption with intermittent pulsed releasing of ash particles. Particularly, we restart Puff at an interval of $600 s$, i.e., the physical time of the plume simulation to reach steady height. At every Puff restart, we integrate the output of the last Puff simulation and Plume-SPH into a new ash cloud. This new ash cloud serves as a new initial condition with which to restart a Puff simulation. The interval of the pulsed releases is the simulation time of Plume-SPH, i.e., $600 s$ in our case study. A sketch demonstrating the overall restart process is shown in Fig. (\ref{fig:Restart-Puff}). The total number of Lagrangian tracer particles used in Puff thus equals the summed number of particles in all releases. So the total number of tracer particles is no longer a user-selected parameter.
@@ -152,23 +134,6 @@ The plume and ash transport models are run at different time scales and length s
 Besides the positions of particles in the initial ash cloud, other parameters for Puff simulations are: horizontal diffusivity, vertical diffusivity, mean grain size, grain size standard deviation and total number of tracers. We present in this subsection systematic sensitivity studies on these parameters. We also investigate the influence of eruption duration. The sensitivity analyses will serve as the basis for identifying possible sources of disparities between simulation and observation.
 
 The sensitivity analyses illustrate that adjustment of other parameters produces negligible visual differences in VATD simulation results. Using different vertical diffusivities in range of $[100, 100000] m^2s^{-1} $ and different horizontal diffusivities in range of $[1, 20] m^2s^{-1}$ produces visually negligible differences. The simulation eruption duration should depend on the total observed duration or the duration of the climactic phase. We conducted several simulations with eruption duration varying in range of $[5, 11] hours$ with slightly different starting time of climactic phase. Table \ref{tab:Pinatubo-eruption-duration} lists all these simulations. However, only tiny visible differences are observed among the simulated ash transportation. The mean of grain size also has visually ignorable effects on long-term ash transportation according to our sensitivity tests varying the log mean (base 10) grain radius in a range of $[-7.3, -3.5] m$. The standard deviation, when varying in range of $[0.1, 10]$, generates an ignorable difference on long-term ash transportation as well. Similar conclusion on parameter sensitivity is reported by \citet[e.g.][]{fero2008simulation, daniele2009applications}. Among these parameters, the eruption duration and beginning time shows, even though tiny, the most obvious influence on simulated ash distribution. In order to show such differences in an intuitive way, Fig. \ref{fig:Puff-sensitivity-duration} shows simulated ash distribution corresponding to 4.9 hours duration, 9 hours duration and 11 hours duration respectively. After 72 hours, relative to the simulation starting time, these three cases generate generally similar results, with high concentration ash covering almost the same region. The difference of lower concentration distribution is relatively more obvious. Ash cloud covers the broadest area when the eruption duration is 11.1 hours. To summarize, all these parameters have either tiny or ignorable effects on long-term ash distribution simulation.
-
-\begin{table}[htp]
-\centering
-\caption{The starting and ending time (UT) for simulating the climactic phase of Pinatubo eruption on June 15 1991. Observed plume height \citep{holasek1996satellite} at different time are also listed in the table.}		
-	 \begin{tabular}{p{35mm}p{20mm}p{20mm}p{20mm}p{20mm}}
-	 \hline
-Eruption duration & 4.9 hours & 9 hours & 10 hours & 11.1 hours \\
-	 \hline
-	 Start time & 0441 & 0441 & 0441 & 0334 \\
-	 Height at start time & 37.5 km & 37.5 km & 37.5 km & 24.5 km \\
-	
-	 End time & 0934 & 1341 & 1441 & 1441 \\
-	 	Height at end time & 35 km & 26.5 km & 22.5 & 22.5 km \\
-	 \hline
-	 \end{tabular}
-	 \label{tab:Pinatubo-eruption-duration}
-\end{table}
 
 The new methodology for generating initial ash clouds introduces another new parameter: elevation threshold. We also carry out sensitivity analysis on this parameter by varying the elevation threshold from $1500 m$ (the height of the vent) to $25000 m$. The simulated ash distributions show obviously visible differences. Such influence is especially obvious when the elevation threshold is either very large or very small. However, varying the elevation threshold in the range of $[12000, 18000] m$ generates relatively small differences in ash transportation simulation results. Figure \ref{fig:Puff-sensitivity-elevation-threshold} compares the simulated ash distribution corresponding to elevation thresholds of $1500 m$ and $15000 m$. Compared with ash distribution for threshold of $15000 m$, an extra long tail appears when using elevation threshold of $1500 m$. Adopting smaller elevation thresholds essentially adds more tracers at lower elevation. As the wind at different elevations are different, these tracers at lower elevation would transpose to different directions. The HYSPLIT \citep{stein2015noaa, rolph2017real} forward trajectories tracking, which starting at June 15 1624 UTC, indicates that the wind between evaluation 10000 m to 15000 m blows from north-east to south-west while wind of higher evaluation blows from east to west (see Fig. \ref{fig:hysplit-1624-utc}).
 
@@ -182,58 +147,9 @@ In this paper, we do not carry out any investigation with respect to wind field 
 Transportation of volcanic ash resulting from the Pinatubo eruption on June 15th 1991 is simulated using two different initial conditions.
 The first type of initial condition is created in a traditional way according to key global descriptors and semiempirical plume shape expression. The second type of initial condition is created by the new method proposed in this paper. Simulated ash transportation results are compared against observations.
 
-\begin{table}[htp]
-	\centering
-\caption{List of eruption condition and material properties for plume simulation}		
-	 \begin{tabular}{lrr}
-	 \hline
-	 Parameters & Units & Plume \\
-	 \hline
-	 Vent velocity & $m\cdot s^{-1}$ & 275 \\
-	 Vent gas mass fraction & & 0.05 \\
-	 Vent Temperature & $K$ & 1053 \\
-	 Vent height & $m$ & 1500 \\
-	 Mass discharge rate & $kg\cdot s^{-1}$ & $1.5 \times 10^9$\\
-	 	Specific heat of gas at constant volume & $J \cdot kg^{-1}\cdot K^{-1}$ & 717 \\
-	 Specific heat of air at constant volume & $J \cdot kg^{-1}\cdot K^{-1}$ & 1340 \\
-	 	Specific heat of solid & $J \cdot kg^{-1}\cdot K^{-1}$ & 1100 \\
-	 	Specific heat of gas at constant pressure & $J \cdot kg^{-1}\cdot K^{-1}$ & 1000 \\
-	 	Specific heat of air at constant pressure & $J \cdot kg^{-1}\cdot K^{-1}$ & 1810 \\
-	 	Density of air at vent height & $kg \cdot m^{-3}$ & 1.104 \\
-	 Pressure at vent height & $Pa$ & 84363.4 \\
-	 \hline
-	 \end{tabular}
-	 \label{tab:input_parameters_plume_simulation}
-\end{table}
-
 To create initial conditions using the new method described in this paper, the plume rise is simulated first by Plume-SPH. The eruption parameters, material properties and atmosphere for the strong plume no wind case in a comparison study on eruptive column models \citep {costa2016results} are adopted. Eruption conditions and material properties are listed in Table \ref{tab:input_parameters_plume_simulation}. Note that the density of erupted material at the vent and radius of the vent can be computed from the given parameters. The eruption pressure is assumed to be the same as the pressure of ambient at the vent and hence is not given in the table. The vertical profiles of atmospheric properties were obtained based on the reanalysis data from ECMWF (European Centre for Medium-Range Weather Forecasts) for the period corresponding to the climactic phase of the Pinatubo eruption. The initial ash cloud is obtained by processing the raw output of Plume-SPH following steps described in Sec. \ref{sec:Methodology}.
 
 Another set of initial conditions is created based on observed top height ($40 km$) and several other parameters assigned semiempirically \citep{bursik2012estimation}. These parameters, namely, the global descriptors of volcanic plume, are used as parameters of semiempirical expression to get ash clouds in 3D space. See details in Table \ref{tab:input_parameter_Puff_simulation}. Except for initial conditions, the simulation parameters that control VATD simulation are the same for both simulations. As has been shown in the sensitivity analyses section, these parameters have less influence on simulation results than initial condition.
-\begin{table}[htp]
-\centering
-\caption{Parameters used in VATD simulation of the climactic phase of Pinatubo eruption on June 15 1991. The first six parameters are used by semiempirical expression to create an initial ash cloud. When creating an initial condition based on the Plume-SPH model, these parameters are extracted from output of Plume-SPH model.}
-	 \begin{tabular}{lrrr}
-	 \hline
-	 Parameters & Unit & Semiempirical & Plume-SPH \\
-	 \hline
-	 Maximum Height ($H_{max}$) & $m$ & 40000 & 41800 \\
-	 Horizontal Spread ($R_{max}$) & $km$ & 103.808 & -\\
-	 Vertical Spread ($H_{width}$) & $km$ & 6.662 & - \\
-	 Plume Shape & - & Poisson & - \\
-	 Total Ash Particles & - & 1768500 & 1768500 \\
-	 Elevation Threshold & $m$ & - & 15000 \\
-	 Horizontal Diffusivity & $m^2/s$ &10000 & 10000\\
-	 Vertical Diffusivity & $m^2/s$ & 10 & 10 \\
-	 Grain Size Distribution & - & Gaussian & Gaussian \\
-	 Mean of Grain Size (Radius) & $mm$ & $3.5 \times 10 ^-2$ & $3.5 \times 10 ^-2$ \\
-	 Standard Deviation of Grain Size & - & 1.0 & 1.0 \\
-	 	Start Time & UT & 0441 & 0441 \\
-	 End time & UT & 1341 & 1341 \\
-	 Simulation Duration & hour & 72 & 72 \\
-	 \hline
-	 \end{tabular}
-	 \label{tab:input_parameter_Puff_simulation}
-\end{table}
 
 \subsection{``Plume-SPH + Puff" and ``Semiempirical Initial Cloud + Puff"}
 
@@ -371,7 +287,7 @@ Support for the Twentieth Century Reanalysis Project dataset is provided by the 
 \centering
 \includegraphics[width=0.99 \textwidth]{Figures/199106180441-ash-11hr-cut15000}
 \end{minipage}%
-\caption{Simulated ash cloud distribution corresponding to eruption duration of 4.9 hours, 9 hours and 11.1 hours (from left to right) respectively. Starting and ending time for each case is in Table \ref{tab:VATDs-source-term-determination}. The contours are for ash distribution at 72 hours after eruption.}
+\caption{Simulated ash cloud distribution corresponding to eruption duration of 4.9 hours, 9 hours and 11.1 hours (from left to right) respectively. Starting and ending time for each case is in Table \ref{tab:Pinatubo-eruption-duration}. The contours are for ash distribution at 72 hours after eruption.}
 \label{fig:Puff-sensitivity-duration}
 \end{figure}
 
@@ -401,44 +317,7 @@ Support for the Twentieth Century Reanalysis Project dataset is provided by the 
 
 \begin{figure}[!htb]
 \centering
-\begin{minipage}{.325\textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/bent-23hr-ash}
-\end{minipage}%
-\begin{minipage}{.325 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/SPH-Plume-23hr-ash}
-\end{minipage}%
-\begin{minipage}{.325 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/OB-ash-23hr-ash}
-\end{minipage}%
-\\
-\begin{minipage}{.325\textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/bent-31hr-ash}
-\end{minipage}%
-\begin{minipage}{.325 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/SPH-Plume-31hr-ash}
-\end{minipage}%
-\begin{minipage}{.325 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/OB-ash-31hr-ash}
-\end{minipage}%
-\\
-\begin{minipage}{.325\textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/bent-55hr-ash}
-\end{minipage}%
-\begin{minipage}{.325 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/SPH-Plume-55hr-ash}
-\end{minipage}%
-\begin{minipage}{.325 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/OB-ash-55hr-ash}
-\end{minipage}%
+\includegraphics[width=0.99 \textwidth]{Figures/bent_plume}
 \caption{Comparison between ``Semiempirical initial cloud + Puff" and ``Plume-SPH + Puff". Pictures from left to right are: Puff simulation based on initial condition created according to semiempirical plume shape expression, Puff simulation based on initial condition generated by Plume-SPH, TOMS or AVHRR image of Pinatubo ash cloud. Ash clouds at different hours after eruption are on different rows. From top to bottom, the images are corresponding to around 23 hours after eruption (UT 199106160341), 31 hours after eruption (UT 199106161141), 55 hours after eruption (UT 199106171141). The observation data on the first row are TOMS ash and ice map. The observation data on the second and third row are AVHRR BTD ash cloud map with atmospheric correction method applied \citep{guo2004particles}.}
 \label{fig:Plume-SPH-Puff-ash-cloud}
 \end{figure}
@@ -598,4 +477,89 @@ Support for the Twentieth Century Reanalysis Project dataset is provided by the 
 \label{fig:ash-distribution-horizontal-compare}
 \end{figure}
 
+\begin{table}
+\centering
+\caption{Three different methods for creating initial conditions (initial ash clouds) for Puff simulation}		
+	 \begin{tabular}{p{26.5mm}p{25.5mm}p{36.5mm}p{34.5mm}}
+	 \hline
+	 		 & No model & 1D model & 3D model \\
+	 		 \hline 		
+	 Maximum height & Calibration & Semiempirical & 1st principle \\
+	 Average height & Calibration & Conservation laws (1D) & 1st principle \\
+	 Vertical spread & Calibration & Semiempirical & 1st principle \\
+	 Column radius & Calibration & Conservation laws (1D) & 1st principle \\
+	 Plume shape & Semiempirical & Semiempirical & 1st principle \\
+	 Tracers number & Free parameter & Free Parameter & Based on simulation\\
+	 \hline
+	 \end{tabular}
+	 \label{tab:VATDs-source-term-determination}
+\end{table}
+
+\begin{table}[htp]
+\centering
+\caption{The starting and ending time (UT) for simulating the climactic phase of Pinatubo eruption on June 15 1991. Observed plume height \citep{holasek1996satellite} at different time are also listed in the table.}		
+	 \begin{tabular}{p{35mm}p{20mm}p{20mm}p{20mm}p{20mm}}
+	 \hline
+Eruption duration & 4.9 hours & 9 hours & 10 hours & 11.1 hours \\
+	 \hline
+	 Start time & 0441 & 0441 & 0441 & 0334 \\
+	 Height at start time & 37.5 km & 37.5 km & 37.5 km & 24.5 km \\
+	
+	 End time & 0934 & 1341 & 1441 & 1441 \\
+	 	Height at end time & 35 km & 26.5 km & 22.5 & 22.5 km \\
+	 \hline
+	 \end{tabular}
+	 \label{tab:Pinatubo-eruption-duration}
+\end{table}
+
+
+\begin{table}[htp]
+	\centering
+\caption{List of eruption condition and material properties for plume simulation}		
+	 \begin{tabular}{lrr}
+	 \hline
+	 Parameters & Units & Plume \\
+	 \hline
+	 Vent velocity & $m\cdot s^{-1}$ & 275 \\
+	 Vent gas mass fraction & & 0.05 \\
+	 Vent Temperature & $K$ & 1053 \\
+	 Vent height & $m$ & 1500 \\
+	 Mass discharge rate & $kg\cdot s^{-1}$ & $1.5 \times 10^9$\\
+	 	Specific heat of gas at constant volume & $J \cdot kg^{-1}\cdot K^{-1}$ & 717 \\
+	 Specific heat of air at constant volume & $J \cdot kg^{-1}\cdot K^{-1}$ & 1340 \\
+	 	Specific heat of solid & $J \cdot kg^{-1}\cdot K^{-1}$ & 1100 \\
+	 	Specific heat of gas at constant pressure & $J \cdot kg^{-1}\cdot K^{-1}$ & 1000 \\
+	 	Specific heat of air at constant pressure & $J \cdot kg^{-1}\cdot K^{-1}$ & 1810 \\
+	 	Density of air at vent height & $kg \cdot m^{-3}$ & 1.104 \\
+	 Pressure at vent height & $Pa$ & 84363.4 \\
+	 \hline
+	 \end{tabular}
+	 \label{tab:input_parameters_plume_simulation}
+\end{table}
+
+\begin{table}[htp]
+\centering
+\caption{Parameters used in VATD simulation of the climactic phase of Pinatubo eruption on June 15 1991. The first six parameters are used by semiempirical expression to create an initial ash cloud. When creating an initial condition based on the Plume-SPH model, these parameters are extracted from output of Plume-SPH model.}
+	 \begin{tabular}{lrrr}
+	 \hline
+	 Parameters & Unit & Semiempirical & Plume-SPH \\
+	 \hline
+	 Maximum Height ($H_{max}$) & $m$ & 40000 & 41800 \\
+	 Horizontal Spread ($R_{max}$) & $km$ & 103.808 & -\\
+	 Vertical Spread ($H_{width}$) & $km$ & 6.662 & - \\
+	 Plume Shape & - & Poisson & - \\
+	 Total Ash Particles & - & 1768500 & 1768500 \\
+	 Elevation Threshold & $m$ & - & 15000 \\
+	 Horizontal Diffusivity & $m^2/s$ &10000 & 10000\\
+	 Vertical Diffusivity & $m^2/s$ & 10 & 10 \\
+	 Grain Size Distribution & - & Gaussian & Gaussian \\
+	 Mean of Grain Size (Radius) & $mm$ & $3.5 \times 10 ^-2$ & $3.5 \times 10 ^-2$ \\
+	 Standard Deviation of Grain Size & - & 1.0 & 1.0 \\
+	 	Start Time & UT & 0441 & 0441 \\
+	 End time & UT & 1341 & 1341 \\
+	 Simulation Duration & hour & 72 & 72 \\
+	 \hline
+	 \end{tabular}
+	 \label{tab:input_parameter_Puff_simulation}
+\end{table}
 \end{document}
