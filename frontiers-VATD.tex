@@ -234,25 +234,14 @@ This work was supported by National Science Foundation awards 1521855, 1621853, 
 
 \begin{figure}[!htb]
 \centering
-\begin{minipage}{.325\textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/mssfrc_front-filter-by-phase}
-\end{minipage}%
-\begin{minipage}{.325 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/mssfrc_top-with-axis}
-\end{minipage}%
-\begin{minipage}{.325 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/mssfrc_front-z15000}
-\end{minipage}%
+\includegraphics[width=1.0\textwidth]{Figures/Plume-SPH-Results}
 \caption{Volcano plume from 3D plume model. All particles in the pictures are of  phase 2 (particle of phase 1 has been removed) at $600s$ after eruption, at which time, the plume has already reached the maximum height and started spreading radially. (a) is front view of the whole plume. (b) top view of the plume. (c) is front view of the initial ash cloud, which is essentially a portion of the whole plume with elevation higher than a given threshold (in this picture is $15000 m$). Particles are colored according to mass fraction of erupted material. Red represents high mass fraction while blue represents low mass fraction.}
 \label{fig:Plume-SPH-Pinatubo-ash-cloud}
 \end{figure}
 
 \begin{figure}
 \center
-\includegraphics[width=0.90 \textwidth]{Figures/Restart-Puff.pdf}
+\includegraphics[width=0.90 \textwidth]{Figures/Restart-Puff}
 \caption{Mimic successive eruption with intermittent pulsed releasing of ash particles. $t_I$ is the period of pulsing release. $t_I$ equals the physical time of 3D plume simulation.}
 \label{fig:Restart-Puff}
 \end{figure}
@@ -283,58 +272,14 @@ This work was supported by National Science Foundation awards 1521855, 1621853, 
 
 \begin{figure}[!htb]
 \centering
-\begin{minipage}{.247\textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/Plume-SPH-ParticleDis-NoTrucation-z}
-\end{minipage}%
-\begin{minipage}{.247 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/Plume-SPH-ParticleDis-z}
-\end{minipage}%
-\begin{minipage}{.247 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/Possion-Hmax40k-ParticleDis-z}
-\end{minipage}%
-\begin{minipage}{.247 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/Suzuki-Hmax40k-ParticleDis-z}
-\end{minipage}%
+\includegraphics[width=1.0\textwidth]{Figures/particle_distribution_vertical_compare}
 \caption{Particle distribution of initial ash cloud in vertical direction. (a) is corresponding to the initial ash cloud obtained from Plume-SPH output. (b) is corresponding to ash distribution of Plume-SPH output truncated by a elevation threshold of $15000 m$. (c) is for vertical ash distribution based on Poisson distribution with maximum height equals to $40000 m$. Another parameter, the vertical spread, in the expression of Poisson plume shape is $6662 m$. (d) is corresponding to Suzuki distribution with maximum height equals to $40000 m$. Another parameter in Suzuki distribution, the shape factor, is $4$. The $x$ axis is the percentage of particle numbers for Plume-SPH and Poisson. For Suzuki the $x$ axis is the mass percentage of erupted material.}
 \label{fig:Particle-distribution-Plume-SPH-vs-semiempirical}
 \end{figure}
 
 \begin{figure}[!htb]
 \centering
-\begin{minipage}{.247 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/Possion-Hmax10k-ParticleDis-z}
-\end{minipage}%
-\begin{minipage}{.247 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/Possion-Hmax20k-ParticleDis-z}
-\end{minipage}%
-\begin{minipage}{.247 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/Possion-Hmax30k-ParticleDis-z}
-\end{minipage}%
-\begin{minipage}{.247 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/Possion-Hmax35k-ParticleDis-z}
-\end{minipage}%
-\\
-\centering
-\begin{minipage}{.247 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/Possion-Hwidth3k-ParticleDis-z}
-\end{minipage}%
-\begin{minipage}{.247 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/Possion-Hwidth5k-ParticleDis-z}
-\end{minipage}%
-\begin{minipage}{.247 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/Possion-Hwidth10k-ParticleDis-z}
-\end{minipage}%
+\includegraphics[width=1.0\textwidth]{Figures/particle_distribution_vertical_calibration}
 \caption{Initial particle distribution in vertical direction based on Poisson plume shape. The first row varies maximum heights. (a) to (d) are corresponding to maximum height of $10000 m$, $20000 m$, $30000 m$, $35000 m$. Another parameter, the vertical spread, in the expression of Poisson plume shape is $6662 m$ for all four figures in the first row. The second row varies ``vertical spread". (e) to (g) are corresponding to vertical spread of $3km$, $5km$ and $10 km$. The maximum height in the expression of Poisson plume shape is $40000 m$ for all three figures. The $x$ axis is the percentage of particle numbers. See Fig. \ref{fig:Particle-distribution-Plume-SPH-vs-semiempirical} for vertical ash distribution of Plume-SPH output.}
 \label{fig:Particle-distribution-Plume-calibrate-semiempirical}
 \end{figure}
@@ -348,31 +293,7 @@ This work was supported by National Science Foundation awards 1521855, 1621853, 
 
 \begin{figure}[!htb]
 \centering
-\begin{minipage}{.325 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/Possion-H9km-ParticleDis-h}
-\end{minipage}%
-\begin{minipage}{.325 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/Possion-H14km-ParticleDis-h}
-\end{minipage}%
-\begin{minipage}{.325 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/Possion-H19km-ParticleDis-h}
-\end{minipage}%
-\\
-\begin{minipage}{.325 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/Possion-H24km-ParticleDis-h}
-\end{minipage}%
-\begin{minipage}{.325 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/Possion-H29km-ParticleDis-h}
-\end{minipage}%
-\begin{minipage}{.325 \textwidth}
-\centering
-\includegraphics[width=0.99 \textwidth]{Figures/Possion-RDU-ParticleDis-h}
-\end{minipage}%
+\includegraphics[width=1.0\textwidth]{Figures/particle_horizontal_distribution}
 \caption{Horizontal distribution of ash particles (tracers) on a cross section of initial ash cloud. Puff assumes a randomly uniform distribution of ash particles within a circle, as shown by blue dots in (f). All other figures show the ash particle distribution of initial ash clouds created by Plume-SPH at different elevations.}
 \label{fig:initial-cloud-horizontal}
 \end{figure}
