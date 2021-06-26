@@ -69,11 +69,11 @@ We present here for the first time the use of a 3D (three-dimensional) plume mod
 To date, no VATD simulation adopts initial conditions created from first principles based on a 3D plume simulation. We use our recently developed volcanic plume model based on a 3D smoothed-particle hydrodynamic Lagrangian method, and couple the output to a standard Lagrangian VATD model.  We apply the coupled model to historical eruptions to illustrate the effectiveness of the approach. The importance of the source model is shown in sensitivity analyses, which show that the simulation of volcanic ash transport and dispersion is much more sensitive to the source geometry than it is to all other input parameters. Further investigation reveals that initial particle distribution in the vertical direction has more impact on transport of ash clouds than does the horizontal distribution. Comparison with satellite data indicates that ash particles are concentrated through the depth of the volcanic umbrella cloud, and much lower than observed maximum plume height.
 
 \tiny
- \keyFont{ \section{Keywords:}VATD, Volcano, 3D plume model, initial conditions, numerical simulation, SPH, Pinatubo, ash transport, ash dispersal} %All article types: you may provide up to 8 keywords; at least 5 are mandatory.
+ \keyFont{ \section{Keywords:}VATD, volcano, 3D plume model, initial conditions, numerical simulation, SPH, Pinatubo, ash transport, ash dispersal} %All article types: you may provide up to 8 keywords; at least 5 are mandatory.
 \end{abstract}
 
 \section{Introduction}
-Volcanic ash, the fine-grained fraction of tephra can be widely dispersed to synoptic and global scales, and can lead to a degradation of air quality and pose threats to aviation \citep{tupper2007facing}. Identification, tracking and modeling the future movement of volcanic ash help route and schedule flights to avoid ash clouds. Numerical estimation of ash distribution using known and forecast wind fields is necessary if we are to accurately predict ash cloud propagation and spread. Numerous VATD (volcanic ash transport and dispersion) models have been developed by both civil and military aviation, and meteorological agencies to provide forecasts of ash cloud motion \citep{witham2007comparison}. New techniques have been integrated into VATDs to satisfy increasing demands for different types of output, model accuracy and forecast reliability. This contribution explores a method for creating initial conditions for VATD simulations, which promises to improve prediction capability and accuracy.
+Volcanic ash, the fine-grained fraction of tephra can be widely dispersed to synoptic and global scales, and can lead to a degradation of air quality and pose threats to aviation \citep{tupper2007facing}. Identification, tracking and modeling the future movement of volcanic ash help route and schedule flights to avoid ash clouds. Numerical estimation of ash distribution using known and forecast wind fields is necessary if we are to accurately predict ash cloud propagation and spread. Numerous VATD (volcanic ash transport and dispersion) models have been developed by both civil and military aviation, and meteorological agencies to provide forecasts of ash cloud motion \citep{witham2007comparison}. New techniques have been integrated into VATDs to satisfy increasing demands for different types of output, model accuracy and forecast reliability. This contribution explores a method for creating initial conditions for VATD simulations, which promises to improve prediction capability.
 
 \citet{fero2009simulating} and \citet{stohl2011determination} showed that initial source conditions have significant effects on simulation of volcanic ash transport. Traditional VATD simulation requires key global descriptors of the volcanic plume, especially plume height, grain size, eruption duration and mass loading, or alternatively, a mass eruption rate (MER). No matter how these global descriptors are obtained, they are used to furnish the initial conditions for VATDs in the form of a line-source term of a spatio-temporal distribution of particle mass. It is a common practice to pick values for these global descriptors using an empirical expression for the height-MER relation. The empirical expression is written as a function of several parameters, including the key global descriptors. The values for the descriptors can also be found by parameter calibration \citep[e.g.][]{fero2008simulation,fero2009simulating, stohl2011determination, zidikheri2017estimation}. One-dimensional (1D) plume models serve as an alternative option to provide values. For example, \citet{bursik2012estimation} used the 1D model puffin \citep{bursik2001effect} to generate estimates of mass eruption rate and grain size. In some cases, an extra step is adopted to spread ash particles from the line source horizontally, resulting in an initial ash cloud in 3D space. The horizontal spreading depends on an empirical expression. For example, the VATD model Puff spreads particles from the line source uniformly in the horizontal direction within a given radius using an empirical expression generated from the output of puffin. Considering the complexities of volcanic eruptions, the actual ash distribution in the initial ash cloud should vary from case to case and with time, making it difficult to find one general expression that is suitable for all cases. It is useful therefore to investigate alternative ways for creating initial ash clouds without assumptions regarding plume geometry, or numerical inversion. This provides the major motivation of this paper.
 
@@ -86,6 +86,55 @@ Besides parameter calibration, 1D plume models have been used to obtain global d
 The 1991 eruption of Pinatubo volcano is used as a case study. Pinatubo erupted between June 12 and 16, 1991, after weeks of precursory activity. The climactic phase started on June 15 at 0441 UTC and ended around 1341 UTC \citep{holasek1996satellite}. The climactic phase generated voluminous pyroclastic flows, and sent Plinian and co-ignimbrite ash and gas columns to great altitudes \citep{scott1996pyroclastic}. The evolution of the Pinatubo ash and $SO_2$ clouds was tracked using visible \citep{holasek1996satellite}, ultraviolet (Total Ozone Mapping Spectrometer; TOMS) \citep{guo2004re} and infrared sensors, including the Advanced Very High-Resolution Radiometer (AVHRR) \citep{guo2004particles}. There is sufficient observational data to estimate the eruption conditions for the climactic phase of the eruption \citep{suzuki2009three}. The availability of calibrated eruption conditions and extensive observational data regarding ash cloud transport make the Pinatubo eruption an ideal case study.
 
 \section{Materials and Methods} \label{sec:Methodology}
+
+\subsection {Plume-SPH Model} \label{sec:plume-sph}
+Plume-SPH  \citep{cao2018plume} is designed to describe an injection of well mixed solid and volcanic gas from a circular vent above a flat surface into a stratified stationary atmosphere. The basic assumptions of the model are: 
+\begin{enumerate}
+\item Molecular viscosity and heat conduction is neglected since turbulent energy and momentum exchange are dominant.
+\item Erupted material consisting of solid with different size and mixture of gases is assumed to be well mixed and behave like a single phase fluid (phase 2) which is valid for eruptions with fine particles and ash.
+\item Air,which  is assumed to be well mixed mixture of different gases,  is assumed to be another phase (phase 1).
+\item Assume thermodynamic equilibrium and dynamic equilibrium between the two phases. As a result, both phases share the common energy equation and momentum equations.
+\item All other microphysical processes (such as the phase changes of \texorpdfstring{H\textsubscript{2}O}, aggregation, disaggregation, absorption of gas on the surface of solids, solution of gas into a liquid) and chemical processes are not considered in this model.
+\item The effect of wind, is also not yet considered in this model. 
+\end{enumerate}
+
+Based on above assumptions, the governing equations of our model are given as:
+\begin{align}
+\dfrac{\partial \rho}{\partial t} + \nabla \cdot \left(\rho \textbf{v}\right) = 0 \label{eq:gov-cs-rho} \\
+\dfrac{\partial \rho \xi}{\partial t} + \nabla \cdot \left(\rho \xi \textbf{v}\right) = 0 \label{eq:gov-cs-ks}\\
+\dfrac{\partial \rho \textbf{v}}{\partial t} + \nabla \cdot \left(\rho \textbf{v} \textbf{v} + p\textbf{I}\right) = \rho \textbf{g} \label{eq:gov-cs-v} \\
+\dfrac{\partial \rho E}{\partial t} + \nabla \cdot \left[\left(\rho E + p \right)\textbf{v}\right] = \rho \textbf{g} \cdot\textbf{v} \label{eq:gov-cs-e}
+\end{align}
+where $\rho$ is the density, $\textbf{v}$ is the velocity, $\xi$ is the mass fraction of ejected material, $\textbf{g}$ is the gravitational acceleration, $\textbf{I}$ is a unit tensor.
+$E = e + K $ is the total energy which is a summation of kinetic energy $K$ and internal energy $e$.
+An additional equation is required to close the system. In this model, the equation for closing the system is the following EOS (equation of state).
+\begin{equation}
+p = \left(\gamma_m - 1\right)\rho e \label{eq:EOS}
+\end{equation}
+where
+\begin{equation}
+\gamma_m = R_m/C_{vm} + 1 \label{eq:gov-gm}
+\end{equation}
+\begin{equation}
+R_m = \xi_g R_g + \xi_a R_a  \label{eq:gov-Rm}
+\end{equation}
+\begin{equation}
+C_{vm} = \xi_s C_{vs} + \xi_g C_{vg} + \xi_a C_{va} \label{eq:gov-Cvm}
+\end{equation}
+\begin{equation}
+\xi_a = 1 - \xi \label{eq:gov-na}
+\end{equation}
+\begin{equation}
+\xi_g = \xi \cdot \xi_{g0} \label{eq:gov-ng}
+\end{equation}
+\begin{equation}
+\xi_s = \xi - \xi_g \label{eq:gov-ns}
+\end{equation}
+where, $C_v$ is the specific heat with constant volume, $R$ is the gas constant. $\xi$ is the mass fraction of erupted material. The subscript $m$ represents mixture of ejected material and air, $s$ represents solid portion in the ejected material, $g$ represents gas portion in the ejected material, $a$ represents air, $0$ represents phyiscal properties of erupted material. $\xi_{g0}$ is the mass fraction of vapor in the erupted material.
+
+Three different boundary conditions are applied in this model. At the vent, temperature of erupted material $T$, eruption velocity $\textbf{v}$, the mass fraction of vapor in erupted material $\xi_{g0}$ and mass discharge rate $\dot M$ are given. The pressure of erupted material $p$ is assumed to be the same as ambient pressure for pressure-balanced eruption. The radius of vent is determined from $\rho$, $\dot M$ and $\textbf{v}$.  Non-slip wall boundary condition is applied to the flat ground, where we enforce the velocity to be zero. With further assumption that the ground is adiabatic, internal energy flux, which consists of heat flux and energy flux carried by mass flux, vanishes on the wall boundary. Pressure outlet boundary condition is applied to the surrounding atmosphere where the pressure is given. Except for the pressure,  boundary values for density, velocity, and energy are determined by numerical calculation naturely. 
+
+The governing equations together with boundary conditions establish a complete mathematic model. The model is then discretized using smoothed particle hydrodynamics (SPH) method. The discretized model is then converted into computational software (Plume-SPH) based on a parallel data management framework \citep{cao2017data}.
 
 \subsection{Creation of Initial Ash Cloud} \label{sec:create-initial-condition}
 The steps to create an initial ash cloud based on the raw output of Plume-SPH are shown in Fig. \ref{fig:create-initial-ash-plume-sph}.
@@ -207,8 +256,8 @@ This work was supported by National Science Foundation awards 1521855, 1621853, 
 %Details of all funding sources should be provided, including grant numbers if applicable. Please ensure to add all necessary funding information, as after publication this is no longer possible.
 
 %>>>>>>> b7aa35c1e036e640e065986ad14bac921c6d5bd6
-%\section*{Acknowledgments}
-%Support for the Twentieth Century Reanalysis Project dataset is provided by the U.S. Department of Energy, Office of Science Innovative and Novel Computational Impact on Theory and Experiment (DOE INCITE) program, and Office of Biological and Environmental Research (BER), and by the National Oceanic and Atmospheric Administration Climate Program Office.
+\section*{Acknowledgments}
+Support for the Twentieth Century Reanalysis Project dataset is provided by the U.S. Department of Energy, Office of Science Innovative and Novel Computational Impact on Theory and Experiment (DOE INCITE) program, and Office of Biological and Environmental Research (BER), and by the National Oceanic and Atmospheric Administration Climate Program Office. We are grateful to the two anonymous reviewers of the paper for their constructive comments and suggestions that improved the paper.
 
 %\section*{Supplemental Data}
 % \href{http://home.frontiersin.org/about/author-guidelines#SupplementaryMaterial}{Supplementary Material} should be uploaded separately on submission, if there are Supplementary Figures, please include the caption in the same file as the figure. LaTeX Supplementary Material templates can be found in the Frontiers LaTeX folder.
